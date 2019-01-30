@@ -9,7 +9,7 @@ import random
 print('\nM11')
 from tensorflow.examples.tutorials.mnist import input_data
 tf.set_random_seed(777)  # reproducibility
-mnist = input_data.read_data_sets('/data/project/Learn/TF/TF-UST/Data/', one_hot=True)
+mnist = input_data.read_data_sets('/data/project/Learn/TF/TF-HKUST/Data/', one_hot=True)
 # parameters
 learning_rate = 0.001
 training_epochs = 100

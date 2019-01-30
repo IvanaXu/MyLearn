@@ -9,7 +9,7 @@ import tensorflow as tf
 import random
 from tensorflow.examples.tutorials.mnist import input_data
 tf.set_random_seed(777)
-mnist = input_data.read_data_sets('/data/project/Learn/TF/TF-UST/Data/', one_hot=True)
+mnist = input_data.read_data_sets('/data/project/Learn/TF/TF-HKUST/Data/', one_hot=True)
 # Check out https://www.tensorflow.org/get_started/mnist/beginners for
 # more information about the mnist dataset
 # parameters

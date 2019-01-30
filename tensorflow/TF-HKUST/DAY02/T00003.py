@@ -8,8 +8,8 @@ from tensorflow.examples.tutorials.mnist import input_data
 import random
 tf.set_random_seed(777)
 import os
-os.system('rm -rf /data/project/Learn/TF/TF-UST/DAY01.5/Log2')
-mnist = input_data.read_data_sets('/data/project/Learn/TF/TF-UST/Data/', one_hot=True)
+os.system('rm -rf /data/project/Learn/TF/TF-HKUST/DAY01.5/Log2')
+mnist = input_data.read_data_sets('/data/project/Learn/TF/TF-HKUST/Data/', one_hot=True)
 # parameters
 learning_rate = 0.001
 training_epochs = 20
@@ -64,7 +64,7 @@ accuracy_summ = tf.summary.scalar("accuracy", accuracy)
 # Launch graph
 with tf.Session() as sess:
     merged_summary = tf.summary.merge_all()
-    writer = tf.summary.FileWriter("/data/project/Learn/TF/TF-UST/DAY01.5/Log2")
+    writer = tf.summary.FileWriter("/data/project/Learn/TF/TF-HKUST/DAY01.5/Log2")
     writer.add_graph(sess.graph)
     sess.run(tf.global_variables_initializer())
 
