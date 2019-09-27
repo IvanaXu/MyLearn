@@ -63,7 +63,7 @@ accuracy_summ = tf.summary.scalar("accuracy", accuracy)
 # Launch graph
 with tf.Session() as sess:
     merged_summary = tf.summary.merge_all()
-    writer = tf.summary.FileWriter("/data/project/Learn/TF/TF-HKUST/DAY01.5/Log1")
+    writer = tf.summary.FileWriter("/data/project/Learn/TF/01.TF-HKUST/DAY01.5/Log1")
     writer.add_graph(sess.graph)
 
     sess.run(tf.global_variables_initializer())

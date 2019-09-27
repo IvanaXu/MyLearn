@@ -1,3 +1,8 @@
+# -*-coding:utf-8-*-
+# @auth ivan
+# @time 2019-09-28 00:08:00
+# @goal c004
+
 import pycuda.autoinit
 import pycuda.driver as drv
 import numpy as np
@@ -33,7 +38,7 @@ def test(N):
   # copy a to aa
   aa = np.empty_like(a)
   aa[:] = a
-  # GPU run
+  # 00.GPU run
   nTheads = 256 * 4
   nBlocks = int( ( N + nTheads - 1 ) / nTheads )
   start = timer()

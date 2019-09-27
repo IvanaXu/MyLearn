@@ -7,7 +7,7 @@ import tensorflow as tf
 import numpy as np
 from tensorflow.examples.tutorials.mnist import input_data
 tf.set_random_seed(777)
-mnist = input_data.read_data_sets("/data/Proj/Learn/TF/TF-HKUST/Data/", one_hot=True)
+mnist = input_data.read_data_sets("/data/Proj/Learn/TF/01.TF-HKUST/Data/", one_hot=True)
 
 
 # hyper parameters

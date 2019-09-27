@@ -1,3 +1,8 @@
+# -*-coding:utf-8-*-
+# @auth ivan
+# @time 2019-09-28 00:08:00
+# @goal c005
+
 import torch
 from torch.autograd import Variable
 import torch.nn as nn

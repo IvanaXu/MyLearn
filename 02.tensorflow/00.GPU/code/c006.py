@@ -1,3 +1,8 @@
+# -*-coding:utf-8-*-
+# @auth ivan
+# @time 2019-09-28 00:08:00
+# @goal c006
+
 import torch
 import torch.nn.functional as F
 import matplotlib.pyplot as plt

@@ -1,3 +1,8 @@
+# -*-coding:utf-8-*-
+# @auth ivan
+# @time 2019-09-28 00:08:00
+# @goal c003
+
 import pycuda.autoinit
 import pycuda.driver as drv
 import numpy
