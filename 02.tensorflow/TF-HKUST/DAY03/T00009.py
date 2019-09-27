@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 20180720
-# @goal test
+# @goal tPatterns
 import tensorflow as tf
 import numpy as np
 import matplotlib
@@ -43,7 +43,7 @@ for i in range(0, len(y) - seq_length):
     dataX.append(_x)
     dataY.append(_y)
 
-# train/test split
+# train/tPatterns split
 train_size = int(len(dataY) * 0.7)
 print('TRAIN_SIZE', train_size)
 test_size = len(dataY) - train_size

@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2018-07-19 16:24
-# @goal test the T
+# @goal tPatterns the T
 
 import tensorflow as tf
 import random

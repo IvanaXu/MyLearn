@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @auth ivan
 # @time 2019-09-02 18:56:30
-# @goal test
+# @goal tPatterns
 
 
 def l_point(p1: list, p2: list) -> (float, float):

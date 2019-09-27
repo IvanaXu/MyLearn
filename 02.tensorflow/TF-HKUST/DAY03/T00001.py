@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 20180720 11:48
-# @goal test the rnn base
+# @goal tPatterns the rnn base
 import tensorflow as tf
 import numpy as np
 import pprint

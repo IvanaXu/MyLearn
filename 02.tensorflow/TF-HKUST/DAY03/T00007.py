@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 20180720
-# @goal test the rnn
+# @goal tPatterns the rnn
 
 import tensorflow as tf
 import numpy as np

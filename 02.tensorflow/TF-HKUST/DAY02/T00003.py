@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 20180719 11:24
-# @goal test the easy run in tensor board
+# @goal tPatterns the easy run in tensor board
 
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data

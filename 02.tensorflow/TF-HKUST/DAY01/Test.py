@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 20180717
-# @goal test the tf
+# @goal tPatterns the tf
 import tensorflow as tf
 import numpy as np
 import random
@@ -227,7 +227,7 @@ import random
 # from 02.tensorflow.examples.tutorials.mnist import input_data
 # mnist = input_data.read_data_sets('/data/project/Learn/TF/TF-HKUST/Data/', one_hot=True)
 # # http://yann.lecun.com/exdb/mnist/
-# print('Train: ', mnist.train.num_examples, 'Test: ', mnist.test.num_examples)
+# print('Train: ', mnist.train.num_examples, 'Test: ', mnist.tPatterns.num_examples)
 # nb_classes = 10
 # # MNIST data image of shape 28 * 28 = 784
 # X = tf.placeholder(tf.float32, [None, 784])
@@ -270,26 +270,26 @@ import random
 #
 #         print('Epoch:', '%04d' % (epoch + 1), 'cost =', '{:.9f}'.format(avg_cost))
 #     print("Learning finished")
-#     # Test the model using test sets
+#     # Test the model using tPatterns sets
 #     print(
 #         "Accuracy: ",
 #         accuracy.eval(
 #             session=sess,
-#             feed_dict={X: mnist.test.images, Y: mnist.test.labels}
+#             feed_dict={X: mnist.tPatterns.images, Y: mnist.tPatterns.labels}
 #         )
 #     )
 #     # Get one and predict
-#     r = random.randint(0, mnist.test.num_examples - 1)
+#     r = random.randint(0, mnist.tPatterns.num_examples - 1)
 #     print('Choose: %d' % r)
 #     print(
 #         "Label: ",
-#         sess.run(tf.argmax(mnist.test.labels[r:r + 1], 1))
+#         sess.run(tf.argmax(mnist.tPatterns.labels[r:r + 1], 1))
 #     )
 #     print(
 #         "Prediction: ",
 #         sess.run(
 #             tf.argmax(hypothesis, 1),
-#             feed_dict={X: mnist.test.images[r:r + 1]}
+#             feed_dict={X: mnist.tPatterns.images[r:r + 1]}
 #         )
 #     )
 
@@ -300,7 +300,7 @@ import random
 # from 02.tensorflow.examples.tutorials.mnist import input_data
 # mnist = input_data.read_data_sets('/data/project/Learn/TF/TF-HKUST/Data/', one_hot=True)
 # # http://yann.lecun.com/exdb/mnist/
-# print('Train: ', mnist.train.num_examples, 'Test: ', mnist.test.num_examples)
+# print('Train: ', mnist.train.num_examples, 'Test: ', mnist.tPatterns.num_examples)
 # # parameters
 # nb_classes = 10
 # learning_rate = 0.001
@@ -344,26 +344,26 @@ import random
 #
 #         print('Epoch:', '%04d' % (epoch + 1), 'cost =', '{:.9f}'.format(avg_cost))
 #     print("Learning finished")
-#     # Test the model using test sets
+#     # Test the model using tPatterns sets
 #     print(
 #         "Accuracy: ",
 #         accuracy.eval(
 #             session=sess,
-#             feed_dict={X: mnist.test.images, Y: mnist.test.labels}
+#             feed_dict={X: mnist.tPatterns.images, Y: mnist.tPatterns.labels}
 #         )
 #     )
 #     # Get one and predict
-#     r = random.randint(0, mnist.test.num_examples - 1)
+#     r = random.randint(0, mnist.tPatterns.num_examples - 1)
 #     print('Choose: %d' % r)
 #     print(
 #         "Label: ",
-#         sess.run(tf.argmax(mnist.test.labels[r:r + 1], 1))
+#         sess.run(tf.argmax(mnist.tPatterns.labels[r:r + 1], 1))
 #     )
 #     print(
 #         "Prediction: ",
 #         sess.run(
 #             tf.argmax(hypothesis, 1),
-#             feed_dict={X: mnist.test.images[r:r + 1]}
+#             feed_dict={X: mnist.tPatterns.images[r:r + 1]}
 #         )
 #     )
 

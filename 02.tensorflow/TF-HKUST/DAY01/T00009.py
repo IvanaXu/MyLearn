@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 20180717
-# @goal test the tf
+# @goal tPatterns the tf
 import tensorflow as tf
 import numpy as np
 import random
@@ -56,7 +56,7 @@ with tf.Session() as sess:
 
         print('Epoch:', '%04d' % (epoch + 1), 'cost =', '{:.9f}'.format(avg_cost))
     print("Learning finished")
-    # Test the model using test sets
+    # Test the model using tPatterns sets
     print(
         "Accuracy: ",
         accuracy.eval(
