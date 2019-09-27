@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 20180720
-# @goal tPatterns
+# @goal test
 import tensorflow as tf
 import numpy as np
 import matplotlib

@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 20180719 10:43
-# @goal tPatterns dropout
+# @goal test dropout
 
 
 # Lab 10 MNIST and Dropout
