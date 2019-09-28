@@ -224,7 +224,7 @@ import random
 # print('\nM09')
 # # for reproducibility
 # tf.set_random_seed(777)
-# from 02.tensorflow.examples.tutorials.mnist import input_data
+# from tensorflow.examples.tutorials.mnist import input_data
 # mnist = input_data.read_data_sets('/data/project/Learn/TF/01.TF-HKUST/Data/', one_hot=True)
 # # http://yann.lecun.com/exdb/mnist/
 # print('Train: ', mnist.train.num_examples, 'Test: ', mnist.tPatterns.num_examples)
@@ -297,7 +297,7 @@ import random
 # print('\nM10')
 # # for reproducibility
 # tf.set_random_seed(777)
-# from 02.tensorflow.examples.tutorials.mnist import input_data
+# from tensorflow.examples.tutorials.mnist import input_data
 # mnist = input_data.read_data_sets('/data/project/Learn/TF/01.TF-HKUST/Data/', one_hot=True)
 # # http://yann.lecun.com/exdb/mnist/
 # print('Train: ', mnist.train.num_examples, 'Test: ', mnist.tPatterns.num_examples)
