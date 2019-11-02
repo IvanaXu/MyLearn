@@ -2,12 +2,5 @@
 
 ```
 Where There Is A Will, There Is A Way.
-```
-
-```
 ...
-```
-
-```
-˚
 ```
