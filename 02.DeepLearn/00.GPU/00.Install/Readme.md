@@ -234,9 +234,7 @@ boltctl authorize cb010000-0000-7508-23e0-7d0b04805120
 
 #### 05.驱动安装
 
-> 根据https://gfe.nvidia.com/mac-update，选择对应系统版本。
->
-> 并通过https://github.com/mayankk2308/purge-wrangler安装purge-wrangler。
+> 根据[显卡驱动](https://gfe.nvidia.com/mac-update)，选择对应系统版本，并安装[purge-wrangler](https://github.com/mayankk2308/purge-wrangler)。
 
 ```shell
 $ curl -qLs $(curl -qLs https://bit.ly/2WtIESm | grep '"browser_download_url":' | cut -d'"' -f4) > purge-wrangler.sh; bash purge-wrangler.sh; rm purge-wrangler.sh
