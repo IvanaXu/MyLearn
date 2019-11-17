@@ -95,7 +95,7 @@ drwxr-xr-x@ 3 jely  staff  102 11 16 12:44 usr
 
 如果提示安装有误，疑是版本过期。可**断网**并启用终端**修改时间**至20190101，并退出返回。
 
-```shell
+``` shell
 # date 月日时分年.秒
 
 # date 010100002018.00
@@ -213,7 +213,7 @@ AMD Radeon™ R9 285
 
 随即通过连接进行设备检测。
 
-```shell
+```
 ## Linux
 # 设备检测
 lspci
@@ -236,7 +236,7 @@ boltctl authorize cb010000-0000-7508-23e0-7d0b04805120
 
 > 根据[显卡驱动](https://gfe.nvidia.com/mac-update)，选择对应系统版本，并安装[purge-wrangler](https://github.com/mayankk2308/purge-wrangler)。
 
-```shell
+```
 $ curl -qLs $(curl -qLs https://bit.ly/2WtIESm | grep '"browser_download_url":' | cut -d'"' -f4) > purge-wrangler.sh; bash purge-wrangler.sh; rm purge-wrangler.sh
 Password:
 >> PurgeWrangler (6.2.0)
