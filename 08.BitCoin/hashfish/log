@@ -1,0 +1,29 @@
+[36mINFO[0m[0000] ##-##  欢迎使用哈鱼矿工                              
+[36mINFO[0m[0000] ##-##  版本: 4 | OS:darwin-Darwin-19.3.0 x86_64 CPU: 12 
+[36mINFO[0m[0000] 初始化Miner                                     
+[36mINFO[0m[0000] 初始化完成                                        
+[36mINFO[0m[0000] 当前用户:ph_r1RwFVGARU51fB4=                     
+[36mINFO[0m[0000] 开始运行                                         
+[36mINFO[0m[0000]  * ABOUT        XMRig/2.14.1 clang/9.0.0     
+[36mINFO[0m[0000]  * LIBS         libuv/1.20.3 OpenSSL/1.0.2p microhttpd/0.9.63  
+[36mINFO[0m[0000]  * CPU          Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz (1) x64 AES AVX2 
+[36mINFO[0m[0000]  * CPU L2/L3    1.5 MB/9.0 MB                
+[36mINFO[0m[0000]  * THREADS      1, cryptonight, av=0, donate=0%!(NOVERB) 
+[36mINFO[0m[0000]  * ASSEMBLY     auto:intel                   
+[36mINFO[0m[0000]  * POOL #1      cn4.hfsvr.com:19891 variant=auto  
+[36mINFO[0m[0000]  * COMMANDS     'h' hashrate, 'p' pause, 'r' resume 
+[36mINFO[0m[0000] [2020-02-12 01:53:26] [cn4.hfsvr.com:19891] error: "Please update your miner", code: -1 
+[36mINFO[0m[0000] [2020-02-12 01:53:26] [cn4.hfsvr.com:19891] read error: "end of file" 
+[36mINFO[0m[0000] [2020-02-12 01:53:26] READY (CPU) threads 1(1) huge pages 1/1 100%!m(MISSING)emory 2048 KB 
+[36mINFO[0m[0006] [2020-02-12 01:53:32] [cn4.hfsvr.com:19891] error: "Please update your miner", code: -1 
+[36mINFO[0m[0006] [2020-02-12 01:53:32] [cn4.hfsvr.com:19891] read error: "end of file" 
+[36mINFO[0m[0013] [2020-02-12 01:53:38] [cn4.hfsvr.com:19891] error: "Please update your miner", code: -1 
+[36mINFO[0m[0013] [2020-02-12 01:53:38] [cn4.hfsvr.com:19891] read error: "end of file" 
+[36mINFO[0m[0018] [2020-02-12 01:53:44] [cn4.hfsvr.com:19891] error: "Please update your miner", code: -1 
+[36mINFO[0m[0018] [2020-02-12 01:53:44] [cn4.hfsvr.com:19891] read error: "end of file" 
+[36mINFO[0m[0024] [2020-02-12 01:53:50] [cn4.hfsvr.com:19891] error: "Please update your miner", code: -1 
+[36mINFO[0m[0024] [2020-02-12 01:53:50] [cn4.hfsvr.com:19891] read error: "end of file" 
+[36mINFO[0m[0380] [daemon]signal received, exiting             
+[36mINFO[0m[0380] 停止运行                                         
+[36mINFO[0m[0380] 停止进程 - pid:33976, duration:380.555963 seconds 
+[36mINFO[0m[0380] [2020-02-12 01:59:46] SIGTERM received, exiting 
