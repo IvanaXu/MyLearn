@@ -3,7 +3,7 @@
 
 首先需要安装对应的python包，这里我们用的cv需要**opencv-python**
 
-```shell
+``` shell
 pip install opencv-python
 # Collecting opencv-python
 #   Downloading 
@@ -18,7 +18,7 @@ pip install opencv-python
 
 #### 二、导入包
 
-```python
+``` python
 import cv2 as cv
 import numpy as np
 from IPython.display import Image
@@ -34,14 +34,14 @@ from IPython.display import Image
 >
 > yelp.jpg
 
-<img src="./pict/view.jpg" alt="img001" height="200"/>
+![img001](./pict/view.jpg)
 
-<img src="./pict/yelp.jpg" alt="img001" height="200"/>
+![img001](./pict/yelp.jpg)
 
 
 * 图片读取
 
-```python
+``` python
 fname = "view"
 ftype = ".jpg"
 
@@ -50,14 +50,14 @@ img = cv.imread(f"{fname}{ftype}")
 
 * 图片保存并查看
 
-```python
+``` python
 cv.imwrite(f"{fname}_img0{ftype}", img0)
 Image(f"{fname}_img0{ftype}", height=300, width=300)
 ```
 
 这里我们可以查看图片的*形状*
 
-```python
+``` python
 img.shape
 # (500, 500, 3)
 ```
@@ -86,25 +86,25 @@ img.shape
 
 
 * 灰度处理
-```python
+``` python
 img0 = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 ```
 <img src="./pict/view_img0.jpg" alt="img001" height="200" />
 
 * 尺寸调整
-```python
+``` python
 img1 = cv.resize(img, (200, 300))
 ```
 <img src="./pict/view_img1.jpg" alt="img001" height="200" />
 
 * 图片截取
-```python
+``` python
 img2 = img[200:300, 200:800]
 ```
 <img src="./pict/view_img2.jpg" alt="img001" height="200" />
 
 * 置换图片
-```python
+``` python
 img3 = img.copy()
 for i in range(400, 800):
     for j in range(400, 800):
@@ -113,7 +113,7 @@ for i in range(400, 800):
 <img src="./pict/view_img3.jpg" alt="img001" height="200" />
 
 * 元素绘制
-```python
+``` python
 img4 = img.copy()
 img4 = cv.line(img4, (1000,1000), (200,200), (255,0,255), 5)
 img4 = cv.rectangle(img4, (1000,1000), (200,200), (0,255,0), 4)
@@ -124,14 +124,14 @@ img4 = cv.polylines(img4, [pts], True, (255,255,255), 2)
 <img src="./pict/view_img4.jpg" alt="img001" height="200" />
 
 * 颜色取反
-```python
+``` python
 img5 = img.copy()
 img5 = 255 - img5
 ```
 <img src="./pict/view_img5.jpg" alt="img001" height="200" />
 
 * 灰度二值处理
-```python
+``` python
 img6 = img0.copy()
 ret, im_fixed = cv.threshold(img6, 50, 255, cv.THRESH_BINARY)
 img6 = im_fixed.copy()
@@ -139,7 +139,7 @@ img6 = im_fixed.copy()
 <img src="./pict/view_img6.jpg" alt="img001" height="200" />
 
 * 灰度gamma处理
-```python
+``` python
 import copy
 img7 = copy.deepcopy(img0)
 rows, cols = img7.shape
@@ -151,7 +151,7 @@ for i in range(rows):
 <img src="./pict/view_img7.jpg" alt="img001" height="200" />
 
 * 图片轮廓
-```python
+``` python
 imgA = img.copy()
 imgray = cv.cvtColor(imgA, cv.COLOR_BGR2GRAY)
 ret, thresh = cv.threshold(imgray, 127, 255, cv.THRESH_BINARY)
@@ -162,14 +162,14 @@ cv.drawContours(imgA, contours, -1, (0,0,255), 1)
 <img src="./pict/view_imgA.jpg" alt="img001" height="200" />
 
 * 图片简单融合
-```python
+``` python
 img8_1 = img.copy()
 img8_2 = cv.imread(f"yelp{ftype}")
 img8_1 = cv.add(img8_1,img8_2)
 ```
 <img src="./pict/view_img8_1.jpg" alt="img001" height="200" />
 
-```python
+``` python
 img8_1 = img.copy()
 img8_2 = cv.imread(f"yelp{ftype}")
 img8_2 = img8_1 + img8_2
@@ -177,14 +177,14 @@ img8_2 = img8_1 + img8_2
 <img src="./pict/view_img8_2.jpg" alt="img001" height="200" />
 
 * 图片条件融合
-```python
+``` python
 img9_1 = img.copy()
 img9_2 = cv.imread(f"yelp{ftype}")
 img9_1 = img9_1 * 0.75 + img9_2 * 1.25
 ```
 <img src="./pict/view_img9_1.jpg" alt="img001" height="200" />
 
-```python
+``` python
 img9_1 = img.copy()
 img9_2 = cv.imread(f"yelp{ftype}")
 img9_2 = cv.addWeighted(img9_1, 0.75, img9_2, 1.25, 0)
@@ -192,7 +192,7 @@ img9_2 = cv.addWeighted(img9_1, 0.75, img9_2, 1.25, 0)
 <img src="./pict/view_img9_2.jpg" alt="img001" height="200" />
 
 * 图片颜色分割
-```python
+``` python
 imgC = img.copy()
 imgCb, imgCg, imgCr = cv.split(imgC)
 ```
@@ -204,7 +204,7 @@ imgCb, imgCg, imgCr = cv.split(imgC)
 <img src="./pict/view_imgCr.jpg" alt="img001" height="200" />
 
 * 图片颜色融合
-```python
+``` python
 imgD_1 = img.copy()
 imgD1b, imgD1g, imgD1r = cv.split(imgD_1)
 
@@ -217,14 +217,14 @@ imgD = cv.merge((imgD1b, imgD2g, imgD1r))
 <img src="./pict/view_imgD.jpg" alt="img001" height="200" />
 
 * 图片翻转
-```python
+``` python
 imgE = img.copy()
 imgE = cv.flip(imgE, 1)
 ```
 <img src="./pict/view_imgE.jpg" alt="img001" height="200" />
 
 * 图片平移
-```python
+``` python
 imgF = img.copy()
 rows, cols = imgF.shape[:2]
 
@@ -234,7 +234,7 @@ imgF = cv.warpAffine(imgF, M, (cols, rows))
 <img src="./pict/view_imgF.jpg" alt="img001" height="200" />
 
 * 图片旋转
-```python
+``` python
 imgG = img.copy()
 rows, cols = imgG.shape[:2]
 
@@ -244,35 +244,35 @@ imgG = cv.warpAffine(imgG, M, (cols, rows))
 <img src="./pict/view_imgG.jpg" alt="img001" height="200" />
 
 * 图片平滑
-```python
+``` python
 # 均值滤波
 imgH1 = img.copy()
 imgH1 = cv.blur(imgH1, (20, 20))
 ```
 <img src="./pict/view_imgH1.jpg" alt="img001" height="200" />
 
-```python
+``` python
 # 方框滤波
 imgH2 = img.copy()
 imgH2 = cv.boxFilter(imgH2, -1, (20, 20), normalize=True)
 ```
 <img src="./pict/view_imgH2.jpg" alt="img001" height="200" />
 
-```python
+``` python
 # 高斯滤波
 imgH3 = img.copy()
 imgH3 = cv.GaussianBlur(imgH3, (21, 21), 1)
 ```
 <img src="./pict/view_imgH3.jpg" alt="img001" height="200" />
 
-```python
+``` python
 # 中值滤波
 imgH4 = img.copy()
 imgH4 = cv.medianBlur(imgH4, 21)
 ```
 <img src="./pict/view_imgH4.jpg" alt="img001" height="200" />
 
-```python
+``` python
 # 双边滤波
 imgH5 = img.copy()
 imgH5 = cv.bilateralFilter(imgH5, 9, 75, 75) 
@@ -280,4 +280,3 @@ imgH5 = cv.bilateralFilter(imgH5, 9, 75, 75)
 <img src="./pict/view_imgH5.jpg" alt="img001" height="200" />
 
 **Nice！**
-
