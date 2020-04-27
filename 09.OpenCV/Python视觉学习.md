@@ -34,9 +34,9 @@ from IPython.display import Image
 >
 > yelp.jpg
 
-![img001](./pict/view.jpg)
+<img src="./pict/view.jpg" alt="img001" height="200"/>
 
-![img001](./pict/yelp.jpg)
+<img src="./pict/yelp.jpg" alt="img001" height="200"/>
 
 
 * 图片读取
