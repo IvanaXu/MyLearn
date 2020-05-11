@@ -1,0 +1,32 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "HC112")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 023R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "HC112")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT Q_1\[2\]/CLK  Q_1\[2\]/Q  Q_1_RNO_0\[2\]/S  Q_1_RNO_0\[2\]/Y  Q_1\[2\]/D  	(8.0:8.0:8.0) )
+
+    (PATHCONSTRAINT Q_1\[1\]/CLK  Q_1\[1\]/Q  Q_1_RNO_0\[1\]/S  Q_1_RNO_0\[1\]/Y  Q_1\[1\]/D  	(8.0:8.0:8.0) )
+
+    (PATHCONSTRAINT Q_1\[2\]/CLK  Q_1\[2\]/Q  Q_pad\[2\]/D  Q_pad\[2\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Q_1\[2\]/CLK  Q_1\[2\]/Q  QN_pad_RNO\[2\]/A  QN_pad_RNO\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Q_1\[1\]/CLK  Q_1\[1\]/Q  Q_pad\[1\]/D  Q_pad\[1\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Q_1\[1\]/CLK  Q_1\[1\]/Q  QN_pad_RNO\[1\]/A  QN_pad_RNO\[1\]/Y  	(10.0:10.0:10.0) )
+
+  )
+)
+)

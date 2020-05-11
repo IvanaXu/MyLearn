@@ -1,0 +1,17 @@
+----------------------------------------------------------------------
+Report for cell HC161.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                             CLKBUF         1       0.0        0.0
+                               DFN1         5       1.0        5.0
+                                GND         1       0.0        0.0
+                              INBUF         8       0.0        0.0
+                                MX2         4       1.0        4.0
+                              NOR2B         8       1.0        8.0
+                              NOR3C         1       1.0        1.0
+                             OUTBUF         5       0.0        0.0
+                                VCC         1       0.0        0.0
+                               XOR2         4       1.0        4.0
+                            
+                         TOTAL             39                 23.0

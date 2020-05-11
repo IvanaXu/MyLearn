@@ -1,0 +1,17 @@
+#add_file options
+add_file -verilog "D:/Actelprj/1128/5932_74HC138/hdl/5932_74HC138.v"
+set_option -top_module HC138
+
+#device options
+set_option -technology ProASIC3
+set_option -part A3P030
+
+#compilation/mapping options
+set_option -symbolic_fsm_compiler true
+
+#compilation/mapping options
+set_option -frequency 100.000
+
+#simulation options
+impl -active "synthesis"
+project -result_file "D:/Actelprj/1128/5932_74HC138/synthesis/HC138.edn"

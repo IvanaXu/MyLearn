@@ -1,0 +1,71 @@
+%%% protect protected_file
+@E
+@ 
+#
+#
+#
+# Created by Synplify Verilog HDL Compiler version comp520rcp1, Build 028R from Synplicity, Inc.
+# Copyright 1994-2010 Synopsys, Inc. , All rights reserved.
+# Synthesis Netlist written on Tue Dec 10 15:09:09 2013
+#
+#
+#OPTIONS:"|-top|HC194|-nram|-fixsmult|-I|D:\\Actelprj\\1209\\5932_74HC194\\synthesis\\|-I|D:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib|-v95|-devicelib|D:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\proasic\\proasic3.v|-encrypt|-pro|-ll|2000|-ui|-fid2|-ram|-sharing|on|-autosm|-lib|work"
+#CUR:"D:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\bin\\c_ver.exe":1286419880
+#CUR:"D:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\proasic\\proasic3.v":1286419904
+#CUR:"D:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\vlog\\hypermods.v":1286419906
+#CUR:"D:\\Actelprj\\1209\\5932_74HC194\\hdl\\5932_74HC194.v":1386659193
+f "D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v"; # file 0
+af .is_verilog 1;
+f "D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vlog\hypermods.v"; # file 1
+af .is_verilog 1;
+f "D:\Actelprj\1209\5932_74HC194\hdl\5932_74HC194.v"; # file 2
+af .is_verilog 1;
+@E
+@ 
+ftell;
+@E@MR@..::.(::R44I	FsR4]BgPcRCDsHF
+o;N3PRHC#PsFHDo;R4
+RNP3_H#PHCsDRFo4N;
+PFR3shHoNRlC"4]Bg;c"
+@HR@d.::dn::v(R))Rv;H
+NR03sDs_FHNoMl"CRv;)"
+@HR@c.:::4jcj:4R41r:Rj91:r4j
+9;N3HRs_0DFosHMCNlR""1;
+
+
+
+@HR@d.::dg::R4jBBuRuN;
+HsR30FD_sMHoNRlC""Bu;
+
+
+
+@HR@d.:::4.dc:4R)71R)71;H
+NR03sDs_FHNoMl"CR7"1);
+
+
+
+@HR@d.:::4ndU:4Rp71Rp71;H
+NR03sDs_FHNoMl"CR7"1p;
+
+
+
+@HR@c.:::..c.:.Rj7r:Rd97:rjd
+9;N3HRs_0DFosHMCNlR""7;
+
+
+
+@FR@6.:::4.6.:4RjTr:Rd9TXqzrdj:9N;
+HsR30FD_sMHoNRlC";T"
+@bR@4.:j::n4Uj:RPHMRzTqXR4gTXqz4vgR)b;
+R.@@::4c44j:cU:4RPHMR4kM_41r:Rj9k_M41:r4j19Rrj4:9b;
+Rj@@:44::.4:Rk0sCsR0k0CRs;kC
+@bR@4j::44::V.RNCD#RDVN#VCRNCD#;R
+b@:@.444:jc:4:R4UNPM8RzTqXR46TXqz416RrRj919r4;R
+b@:@.444:j4:4:R4UNPM8RzTqXR4.TXqz4k.RM14_rRj9k_M419r4;R
+b@:@.4.j:::4jdMRHPMRk4q_Tz.X4R4kM_zTqXR4.TXqz4
+.;b@R@.j:4:4.:jR:dbGlkRzTqXr_6j9:dRzTqXr_6j9:dR)71,zTqX:r4dk9,M14_rR49TXqzr.j:91,7pM,k4r_1jR9
+R7RRrdj:9q,Tz6X4;R
+b@:@.U::jUR:68sVVCqRTzjXr:Rd9TXqzrdj:9qRTz6X_rdj:9uRBRzTqXR4gk_M4TXqz4
+.;N3HRs_0DFosHMCNlRq"Tz;X"
+
+C;

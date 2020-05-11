@@ -1,0 +1,73 @@
+%%% protect protected_file
+@E
+@ 
+#
+#
+#
+# Created by Synplify Verilog HDL Compiler version comp520rcp1, Build 028R from Synplicity, Inc.
+# Copyright 1994-2010 Synopsys, Inc. , All rights reserved.
+# Synthesis Netlist written on Fri Nov 29 13:05:09 2013
+#
+#
+#OPTIONS:"|-top|HC283|-nram|-fixsmult|-I|D:\\Actelprj\\1128\\5932_74HC283\\synthesis\\|-I|D:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib|-v95|-devicelib|D:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\proasic\\proasic3.v|-encrypt|-pro|-ll|2000|-ui|-fid2|-ram|-sharing|on|-autosm|-lib|work"
+#CUR:"D:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\bin\\c_ver.exe":1286419880
+#CUR:"D:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\proasic\\proasic3.v":1286419904
+#CUR:"D:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\vlog\\hypermods.v":1286419906
+#CUR:"D:\\Actelprj\\1128\\5932_74HC283\\hdl\\5932_74HC283.v":1385700333
+f "D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v"; # file 0
+af .is_verilog 1;
+f "D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vlog\hypermods.v"; # file 1
+af .is_verilog 1;
+f "D:\Actelprj\1128\5932_74HC283\hdl\5932_74HC283.v"; # file 2
+af .is_verilog 1;
+@E
+@ 
+ftell;
+@E@MR@..::.(::R44I	FsR.]BUPdRCDsHF
+o;N3PRHC#PsFHDo;R4
+RNP3_H#PHCsDRFo4N;
+PFR3shHoNRlC".]BU;d"
+@FR@d.:::44dd:4Rl#krjd:9kR#l:rdj
+9;N3HRs_0DFosHMCNlRk"#l
+";
+@FR@6.::6(::R4jO0FkRsONsE$ONrHMd
+9;N3HRs_0DFosHMCNlRF"Ok;0"
+@HR@n.:::4jnj:4RdNr:Rj9N:rdj
+9;N3HRs_0DFosHMCNlR""N;
+
+
+
+@HR@n.:::4.n.:4RdLr:Rj9L:rdj
+9;N3HRs_0DFosHMCNlR""L;
+
+
+
+@HR@(.::(n::OURHOMRH
+M;N3HRs_0DFosHMCNlRH"OM
+";
+@FR@c.:::44c.:.RH#EV80COsNs$:rcjO9RN$ssOHENM9rd,sONso$_CsMCNF0HMO\3N$ssOHENMr_c.O9,N$ss_MoCC0sNH\FM3sONsE$ON_HMd9r4,sONso$_CsMCNF0HMO\3N$ssOHENMr_.jO9,H
+M;N3HRs_0DFosHMCNlRE"#HCV08sONs;$"
+@bR@4j::44::0.RsRkC0CskRk0sCb;
+Rj@@:44::.4:RDVN#VCRNCD#RDVN#
+C;b@R@.::g4g4::R4cNPM8Rdor:Rj9o:rdjN9Rrjd:9rRLd9:j;R
+b@:@.44j:4j:4:R4cGPFsRdbr:Rj9b:rdjN9Rrjd:9rRLd9:j;R
+b@:@.4.6:.6:4:RdjNPM8RsONso$_CsMCNF0HMk\3MO._N$ssOHENMNROs_s$oCCMsHN0F3M\k_M.OsNs$NOEHRM
+RORRHbMRr;j9
+@bR@4.:6n:4::46dN4R8O8RN$ss_MoCC0sNH\FM3sONsE$ON_HM.9rjRsONso$_CsMCNF0HMO\3N$ssOHENMr_.jR9
+RoRRrRj9OsNs$C_oMNCs0MHF\M3k.N_OsOs$EMNH;R
+b@:@.4.(:d(:4:RcdNPM8RsONso$_CsMCNF0HMj_D\M3kgN_OsOs$EMNHRsONso$_CsMCNF0HMj_D\M3kgN_OsOs$EMNH
+RRRR4br9NROs_s$oCCMsHN0F3M\OsNs$NOEH.M_r;j9
+@bR@4.:((:4::4(cFcRsOPRN$ss_MoCC0sNH\FM3sONsE$ON_HMd9r4RsONso$_CsMCNF0HMO\3N$ssOHENMr_d4R9
+RoRRrR49OsNs$C_oMNCs0MHF_\Dj3gkM_sONsE$ON;HM
+@bR@4.:(d:.::4(cNdRMR8POsNs$C_oMNCs0MHF_\D434kMnN_OsOs$EMNHRsONso$_CsMCNF0HM4_D\M3k4On_N$ssOHENMR
+RRrRb.O9RN$ss_MoCC0sNH\FM3sONsE$ON_HMd9r4;R
+b@:@.44(:((:4:RccFRsPOsNs$C_oMNCs0MHF\N3OsOs$EMNH_.cr9NROs_s$oCCMsHN0F3M\OsNs$NOEHcM_r
+.9RRRRo9r.RsONso$_CsMCNF0HM4_D\M3k4On_N$ssOHENMb;
+R.@@::4(.4d:(d:cR8NMPNROs_s$oCCMsHN0FDM_.k\3M_.dOsNs$NOEHOMRN$ss_MoCC0sNH_FMD3.\kdM._sONsE$ON
+HMRRRRb9rdRsONso$_CsMCNF0HMO\3N$ssOHENMr_c.
+9;b@R@.j:.::4d..j:(FRGs#PRkdlr:Rj9#rkld9:jRsONso$_CsMCNF0HMO\3N$ssOHENMr_c.O9,N$ss_MoCC0sNH\FM3sONsE$ON_HMd9r4,sONso$_CsMCNF0HMO\3N$ssOHENMr_.jO9,HRM
+RbRRrjd:9b;
+R.@@::4(44(:(c:cRPFsRsONsE$ONrHMdO9RN$ssOHENM9rdRdor9NROs_s$oCCMsHN0FDM_.k\3M_.dOsNs$NOEH
+M;C
+;
+
