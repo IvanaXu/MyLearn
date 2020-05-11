@@ -1,0 +1,177 @@
+#Build: Synplify Pro E-2010.09A-1, Build 006R, Oct  6 2010
+#install: D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1
+#OS:  6.1
+#Hostname: IDEAPAD
+
+#Implementation: synthesis
+
+#Fri Nov 29 13:30:22 2013
+
+$ Start of Compile
+#Fri Nov 29 13:30:22 2013
+
+Synopsys Verilog Compiler, version comp520rcp1, Build 028R, built Sep 23 2010
+@N|Running in 32-bit mode
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+
+@I::"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v"
+@I::"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vlog\hypermods.v"
+@I::"D:\Actelprj\1128\5932_74HC4511\hdl\5932_74HC4511.v"
+Verilog syntax check successful!
+Selecting top level module HC4511
+@N: CG364 :"D:\Actelprj\1128\5932_74HC4511\hdl\5932_74HC4511.v":2:7:2:12|Synthesizing module HC4511
+
+@N: CG179 :"D:\Actelprj\1128\5932_74HC4511\hdl\5932_74HC4511.v":13:19:13:23|Removing redundant assignment
+@W: CL118 :"D:\Actelprj\1128\5932_74HC4511\hdl\5932_74HC4511.v":11:2:11:3|Latch generated from always block for signal SM_8S[7:0], probably caused by a missing assignment in an if or case stmt
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Nov 29 13:30:22 2013
+
+###########################################################]
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 53MB peak: 55MB)
+
+@N: MO106 :"d:\actelprj\1128\5932_74hc4511\hdl\5932_74hc4511.v":11:2:11:3|Found ROM, 'SM_8S_1[6:0]', 16 words by 7 bits 
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+@N: FP130 |Promoting Net LE_c on CLKBUF  LE_pad 
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Writing Analyst data base D:\Actelprj\1128\5932_74HC4511\synthesis\HC4511.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+@W: MT420 |Found inferred clock HC4511|LE with period 10.00ns. A user-defined clock should be declared on object "p:LE"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Nov 29 13:30:23 2013
+#
+
+
+Top view:               HC4511
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.42, P = 1.30, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: A3P030_QFN68_-2
+Report for cell HC4511.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AO1B     1      1.0        1.0
+              AOI1     1      1.0        1.0
+               GND     1      0.0        0.0
+               INV     2      1.0        2.0
+              NOR2     4      1.0        4.0
+             NOR2A     4      1.0        4.0
+              NOR3     2      1.0        2.0
+             NOR3A     1      1.0        1.0
+             NOR3B     2      1.0        2.0
+             NOR3C     3      1.0        3.0
+              OAI1     3      1.0        3.0
+              OR2B     2      1.0        2.0
+              OR3C     1      1.0        1.0
+               VCC     1      0.0        0.0
+               XA1     1      1.0        1.0
+             XNOR2     1      1.0        1.0
+              XOR2     1      1.0        1.0
+
+
+          DLN0P1C1     7      2.0       14.0
+          DLN1P1C1     1      2.0        2.0
+                   -----          ----------
+             TOTAL    39                45.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     6
+            OUTBUF     8
+                   -----
+             TOTAL    15
+
+
+Core Cells         : 45 of 768 (6%)
+IO Cells           : 15
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Nov 29 13:30:23 2013
+
+###########################################################]
