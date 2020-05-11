@@ -1,0 +1,11 @@
+----------------------------------------------------------------------
+Report for cell HC02.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                              INBUF         8       0.0        0.0
+                               NOR2         4       1.0        4.0
+                             OUTBUF         4       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             18                  4.0

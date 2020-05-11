@@ -1,0 +1,37 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Actelprj\TRY\5932_74HC04\simulation
+vHC04
+Z1 IC<Q?C@MG;ZCo?kXoGOli]2
+Z2 VeM9IFmEAEiia0:F^?]dI^3
+Z3 dD:\Actelprj\TRY\5932_74HC04\simulation
+Z4 w1384606114
+Z5 8D:/Actelprj/TRY/5932_74HC04/hdl/5932_74HC04.v
+Z6 FD:/Actelprj/TRY/5932_74HC04/hdl/5932_74HC04.v
+L0 2
+Z7 OW;L;6.6d;45
+r1
+31
+Z8 o-work presynth -O0
+Z9 n@h@c04
+Z10 !s100 WFe]40N:L>Ge?^OLgAbI33
+!s85 0
+!s101 -O0
+vtestbench
+Z11 !s100 Fdi6`?Fo3<k4@MHni9oio0
+Z12 IHek=?YOcd>I_OICY2L<o80
+Z13 VhGfW:390DM[oDMzegDH9`2
+R3
+Z14 w1384603893
+Z15 8D:/Actelprj/TRY/5932_74HC04/stimulus/testbench04.v
+Z16 FD:/Actelprj/TRY/5932_74HC04/stimulus/testbench04.v
+L0 3
+R7
+r1
+!s85 0
+31
+!s101 -O0
+R8
+Z17 !s92 +incdir+D:/Actelprj/TRY/5932_74HC04/stimulus -work presynth -O0

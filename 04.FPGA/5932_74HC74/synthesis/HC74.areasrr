@@ -1,0 +1,13 @@
+----------------------------------------------------------------------
+Report for cell HC74.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                           DFN1P1C1         2       1.0        2.0
+                                GND         1       0.0        0.0
+                              INBUF         8       0.0        0.0
+                                INV         4       1.0        4.0
+                              NOR2A         2       1.0        2.0
+                             OUTBUF         4       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             22                  8.0
