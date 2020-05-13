@@ -125,7 +125,7 @@ img4 = cv.circle(img4, (600,150), 100, (0,0,255), 3)
 pts = np.array([[1520,620],[1020,830],[1400,920],[650,910]])
 img4 = cv.polylines(img4, [pts], True, (255,255,255), 2)
 ```
-![/](./pict/view_img4-squashed.jpg)
+
 <img src="./pict/view_img4-squashed.jpg" alt="img001" height="200" />
 
 * 颜色取反
@@ -202,10 +202,15 @@ imgC = img.copy()
 imgCb, imgCg, imgCr = cv.split(imgC)
 ```
 #### 颜色B
+
 <img src="./pict/view_imgCb.jpg" alt="img001" height="200" />
+
 #### 颜色G
+
 <img src="./pict/view_imgCg.jpg" alt="img001" height="200" />
+
 #### 颜色R
+
 <img src="./pict/view_imgCr.jpg" alt="img001" height="200" />
 
 * 图片颜色融合
