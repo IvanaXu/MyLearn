@@ -1,0 +1,16 @@
+
+fsm_encoding {3350351} onehot
+
+fsm_state_encoding {3350351} S0 {000001}
+
+fsm_state_encoding {3350351} S1 {000010}
+
+fsm_state_encoding {3350351} S2 {000100}
+
+fsm_state_encoding {3350351} S3 {001000}
+
+fsm_state_encoding {3350351} S4 {010000}
+
+fsm_state_encoding {3350351} S5 {100000}
+
+fsm_registers {3350351} {current_state[5]}  {current_state[4]}  {current_state[3]}  {current_state[2]}  {current_state[1]}  {current_state[0]} 
