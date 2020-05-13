@@ -34,10 +34,6 @@ from IPython.display import Image
 >
 > yelp.jpg
 
-![/](./pict/view-squashed.jpg)
-
-![/](./pict/yelp-squashed.jpg)
-
 <img src="./pict/view.jpg" alt="img001" height="200"/>
 
 <img src="./pict/yelp.jpg" alt="img001" height="200"/>
@@ -126,7 +122,7 @@ pts = np.array([[1520,620],[1020,830],[1400,920],[650,910]])
 img4 = cv.polylines(img4, [pts], True, (255,255,255), 2)
 ```
 
-<img src="./pict/view_img4-squashed.jpg" alt="img001" height="200" />
+<img src="./pict/view_img4.jpg" alt="img001" height="200" />
 
 * 颜色取反
 ``` python
