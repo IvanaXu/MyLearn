@@ -1,0 +1,13 @@
+Selecting top level module XYF
+@N: CG364 :"D:\Actelprj\try\5932_ lights\hdl\lights.v":2:7:2:15|Synthesizing module paomadeng
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1864:7:1864:9|Synthesizing module VCC
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1163:7:1163:9|Synthesizing module GND
+
+@N: CG364 :"D:\Actelprj\try\5932_ lights\component\work\XYF\XYF.v":5:7:5:9|Synthesizing module XYF
+
+@W: CL168 :"D:\Actelprj\try\5932_ lights\component\work\XYF\XYF.v":36:8:36:10|Pruning instance GND - not in use ...
+
+@W: CL168 :"D:\Actelprj\try\5932_ lights\component\work\XYF\XYF.v":29:8:29:10|Pruning instance VCC - not in use ...
+
