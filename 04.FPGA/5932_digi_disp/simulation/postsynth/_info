@@ -1,0 +1,36 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Actelprj\1401\5932_digi_disp\simulation
+vdymamic_led
+Z1 I><Xg]H@f8jEToUG6RKRQd1
+Z2 V_=UPMUY:0McB4?089VzVQ1
+Z3 dD:\Actelprj\1401\5932_digi_disp\simulation
+Z4 w1388799119
+Z5 8D:/Actelprj/1401/5932_digi_disp/synthesis/dymamic_led.v
+Z6 FD:/Actelprj/1401/5932_digi_disp/synthesis/dymamic_led.v
+L0 5
+Z7 OW;L;6.6d;45
+r1
+31
+Z8 o-work postsynth -O0
+Z9 !s100 J@Tb74:Ji6^hL9h6]hchC3
+!s85 0
+!s101 -O0
+vtestbench
+!s100 35KNGncD>>UMGlE5hFZzm1
+IP<oczhIkYP1VCQnlXIHMG3
+V4L]m4k5a>K1=33b^[mcZ>0
+R3
+w1388728052
+8D:/Actelprj/1401/5932_digi_disp/stimulus/textbench.v
+FD:/Actelprj/1401/5932_digi_disp/stimulus/textbench.v
+L0 3
+R7
+r1
+!s85 0
+31
+!s101 -O0
+R8
+!s92 +incdir+D:/Actelprj/1401/5932_digi_disp/stimulus -work postsynth -O0

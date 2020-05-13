@@ -1,0 +1,208 @@
+KEY LIBERO "9.1"
+KEY CAPTURE "9.1.0.18"
+KEY DEFAULT_IMPORT_LOC "D:\Actelprj\1128\5932_74HC4511\hdl"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "bb067b61-0728-4025-acd3-b5ed0ec78368"
+KEY HDLTechnology "VERILOG"
+KEY VendorTechnology_Family "ProASIC3"
+KEY VendorTechnology_Die "IQ2X1M0"
+KEY VendorTechnology_Package "vq100"
+KEY ProjectLocation "C:\Users\Administrator\Desktop\Êý×ÖÂß¼­ÊµÑé\5\project\5932_digi_disp"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "dymamic_led::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\designer\impl1\dymamic_led.adb,adb"
+STATE="utd"
+TIME="1388799768"
+SIZE="45056"
+ENDFILE
+VALUE "<project>\designer\impl1\dymamic_led.pdb,pdb"
+STATE="utd"
+TIME="1388799764"
+SIZE="17408"
+ENDFILE
+VALUE "<project>\designer\impl1\dymamic_led.stp,stp"
+STATE="utd"
+TIME="1388799764"
+SIZE="48951"
+ENDFILE
+VALUE "<project>\designer\impl1\dymamic_led_ba.sdf,ba_sdf"
+STATE="utd"
+TIME="1388799755"
+SIZE="14998"
+ENDFILE
+VALUE "<project>\designer\impl1\dymamic_led_ba.v,ba_hdl"
+STATE="utd"
+TIME="1388799755"
+SIZE="5494"
+ENDFILE
+VALUE "<project>\hdl\5932_74HC4511.v,hdl"
+STATE="utd"
+TIME="1388798039"
+SIZE="820"
+ENDFILE
+VALUE "<project>\hdl\5932_digi_disp.v,hdl"
+STATE="utd"
+TIME="1388798014"
+SIZE="778"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1388799120"
+SIZE="594"
+ENDFILE
+VALUE "<project>\stimulus\textbench.v,tb_hdl"
+STATE="utd"
+TIME="1388728052"
+SIZE="325"
+ENDFILE
+VALUE "<project>\synthesis\dymamic_led.edn,syn_edn"
+STATE="utd"
+TIME="1388799093"
+SIZE="13510"
+ENDFILE
+VALUE "<project>\synthesis\dymamic_led.v,syn_hdl"
+STATE="utd"
+TIME="1388799119"
+SIZE="2203"
+ENDFILE
+VALUE "<project>\synthesis\dymamic_led_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1388799093"
+SIZE="376"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "dymamic_led::work"
+FILE "<project>\hdl\5932_digi_disp.v,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\textbench.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideSTIMULUS=StateSuccess
+ideDESIGNER(<project>\designer\impl1\dymamic_led.adb,adb)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\dymamic_led.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST dymamic_led
+VALUE "<project>\stimulus\textbench.v,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=HC4511_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DumpVCD=false
+VCDFileName=power.vcd
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=D:/Actel/Libero_v9.1/Designer/lib/modelsim/precompiled/vlog/proasic3
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateViewDrawIni=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+GenerateHDLFromSchematic=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="Synplify AE"
+FUNCTION="Synthesis"
+TOOL="Synplify"
+LOCATION="D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+EndProfile
+NAME="ModelSim AE"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="D:\Actel\Libero_v9.1\Model\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+EndProfile
+NAME="WFL"
+FUNCTION="Stimulus"
+TOOL="WFL"
+LOCATION="syncad.exe"
+PARAM="-pwflite"
+BATCH=0
+EndProfile
+NAME="FlashPro"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="D:\Actel\Libero_v9.1\Designer\bin\FlashPro.exe"
+PARAM=""
+BATCH=0
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "dymamic_led::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideSTIMULUS=StateSuccess
+ideDESIGNER(<project>\designer\impl1\dymamic_led.adb,adb)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\dymamic_led.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+DESIGNFLOW:
+FILE:<project>\hdl\5932_digi_disp.v,hdl
+FILE:<project>\stimulus\textbench.v,tb_hdl
+FILE:<project>\hdl\5932_74HC4511.v,hdl
+ACTIVE_VIEW:0
+ENDLIST

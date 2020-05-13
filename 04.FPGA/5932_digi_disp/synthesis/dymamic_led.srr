@@ -1,0 +1,251 @@
+#Build: Synplify Pro E-2010.09A-1, Build 006R, Oct  6 2010
+#install: D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1
+#OS:  6.1
+#Hostname: IDEAPAD
+
+#Implementation: synthesis
+
+#Sat Jan 04 09:31:31 2014
+
+$ Start of Compile
+#Sat Jan 04 09:31:31 2014
+
+Synopsys Verilog Compiler, version comp520rcp1, Build 028R, built Sep 23 2010
+@N|Running in 32-bit mode
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+
+@I::"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v"
+@I::"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vlog\hypermods.v"
+@I::"D:\Actelprj\1401\5932_digi_disp\hdl\5932_74HC4511.v"
+@I::"D:\Actelprj\1401\5932_digi_disp\hdl\5932_digi_disp.v"
+Verilog syntax check successful!
+Selecting top level module dymamic_led
+@N: CG364 :"D:\Actelprj\1401\5932_digi_disp\hdl\5932_74HC4511.v":2:7:2:12|Synthesizing module HC4511
+
+@N: CG179 :"D:\Actelprj\1401\5932_digi_disp\hdl\5932_74HC4511.v":13:19:13:23|Removing redundant assignment
+@W: CL118 :"D:\Actelprj\1401\5932_digi_disp\hdl\5932_74HC4511.v":11:2:11:3|Latch generated from always block for signal SM_8S[7:0], probably caused by a missing assignment in an if or case stmt
+@N: CG364 :"D:\Actelprj\1401\5932_digi_disp\hdl\5932_digi_disp.v":2:7:2:17|Synthesizing module dymamic_led
+
+@W: CG133 :"D:\Actelprj\1401\5932_digi_disp\hdl\5932_digi_disp.v":6:8:6:14|No assignment to Seg_reg
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Jan 04 09:31:31 2014
+
+###########################################################]
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+@W: MO171 :"d:\actelprj\1401\5932_digi_disp\hdl\5932_74hc4511.v":11:2:11:3|Sequential instance HC4511_0.SM_8S[7] has been reduced to a combinational gate by constant propagation 
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 53MB peak: 55MB)
+
+@N: MO106 :"d:\actelprj\1401\5932_digi_disp\hdl\5932_74hc4511.v":11:2:11:3|Found ROM, 'SM_8S_1[6:0]', 16 words by 7 bits 
+@W: MO129 :"d:\actelprj\1401\5932_digi_disp\hdl\5932_74hc4511.v":11:2:11:3|Sequential instance HC4511_0.SM_8S[0] has been reduced to a combinational gate by constant propagation
+@W: MO129 :"d:\actelprj\1401\5932_digi_disp\hdl\5932_74hc4511.v":11:2:11:3|Sequential instance HC4511_0.SM_8S[1] has been reduced to a combinational gate by constant propagation
+@W: MO129 :"d:\actelprj\1401\5932_digi_disp\hdl\5932_74hc4511.v":11:2:11:3|Sequential instance HC4511_0.SM_8S[2] has been reduced to a combinational gate by constant propagation
+@W: MO129 :"d:\actelprj\1401\5932_digi_disp\hdl\5932_74hc4511.v":11:2:11:3|Sequential instance HC4511_0.SM_8S[3] has been reduced to a combinational gate by constant propagation
+@W: MO129 :"d:\actelprj\1401\5932_digi_disp\hdl\5932_74hc4511.v":11:2:11:3|Sequential instance HC4511_0.SM_8S[4] has been reduced to a combinational gate by constant propagation
+@W: MO129 :"d:\actelprj\1401\5932_digi_disp\hdl\5932_74hc4511.v":11:2:11:3|Sequential instance HC4511_0.SM_8S[5] has been reduced to a combinational gate by constant propagation
+@W: MO129 :"d:\actelprj\1401\5932_digi_disp\hdl\5932_74hc4511.v":11:2:11:3|Sequential instance HC4511_0.SM_8S[6] has been reduced to a combinational gate by constant propagation
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+@N: FP130 |Promoting Net Clk_c on CLKBUF  Clk_pad 
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Writing Analyst data base D:\Actelprj\1401\5932_digi_disp\synthesis\dymamic_led.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+@W: MT420 |Found inferred clock dymamic_led|Clk with period 10.00ns. A user-defined clock should be declared on object "p:Clk"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Jan 04 09:31:33 2014
+#
+
+
+Top view:               dymamic_led
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.42, P = 1.30, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 7.045
+
+                    Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock      Frequency     Frequency     Period        Period        Slack     Type         Group              
+----------------------------------------------------------------------------------------------------------------------
+dymamic_led|Clk     100.0 MHz     338.4 MHz     10.000        2.955         7.045     inferred     Inferred_clkgroup_0
+======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------
+Starting         Ending           |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------
+dymamic_led|Clk  dymamic_led|Clk  |  10.000      7.045  |  No paths    -      |  No paths    -      |  No paths    -    
+========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: dymamic_led|Clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                            Arrival          
+Instance     Reference           Type       Pin     Net          Time        Slack
+             Clock                                                                
+----------------------------------------------------------------------------------
+count[0]     dymamic_led|Clk     DFN1C1     Q       count[0]     0.550       7.045
+count[1]     dymamic_led|Clk     DFN1C1     Q       count[1]     0.550       7.380
+==================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                              Required          
+Instance     Reference           Type       Pin     Net            Time         Slack
+             Clock                                                                   
+-------------------------------------------------------------------------------------
+count[1]     dymamic_led|Clk     DFN1C1     D       SUM1_0         9.598        7.045
+count[0]     dymamic_led|Clk     DFN1C1     D       count_i[0]     9.598        7.365
+=====================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.402
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.598
+
+    - Propagation time:                      2.553
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     7.045
+
+    Number of logic level(s):                1
+    Starting point:                          count[0] / Q
+    Ending point:                            count[1] / D
+    The start point is clocked by            dymamic_led|Clk [rising] on pin CLK
+    The end   point is clocked by            dymamic_led|Clk [rising] on pin CLK
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name                   Type       Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+count[0]               DFN1C1     Q        Out     0.550     0.550       -         
+count[0]               Net        -        -       1.063     -           6         
+un3_count_1.SUM1_0     XOR2       B        In      -         1.613       -         
+un3_count_1.SUM1_0     XOR2       Y        Out     0.700     2.313       -         
+SUM1_0                 Net        -        -       0.240     -           1         
+count[1]               DFN1C1     D        In      -         2.553       -         
+===================================================================================
+Total path delay (propagation time + setup) of 2.955 is 1.652(55.9%) logic and 1.303(44.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: A3P030_QFN68_-2
+Report for cell dymamic_led.verilog
+  Core Cell usage:
+              cell count     area count*area
+               GND     1      0.0        0.0
+               INV     3      1.0        3.0
+              NOR2     1      1.0        1.0
+              OR2A     2      1.0        2.0
+              OR2B     1      1.0        1.0
+               VCC     1      0.0        0.0
+              XOR2     1      1.0        1.0
+
+
+            DFN1C1     2      1.0        2.0
+                   -----          ----------
+             TOTAL    12                10.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     1
+            OUTBUF    12
+                   -----
+             TOTAL    14
+
+
+Core Cells         : 10 of 768 (1%)
+IO Cells           : 14
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Jan 04 09:31:33 2014
+
+###########################################################]

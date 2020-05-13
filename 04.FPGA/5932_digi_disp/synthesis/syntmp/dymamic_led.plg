@@ -1,0 +1,15 @@
+@P:  Worst Slack : 7.045
+@P:  dymamic_led|Clk - Estimated Frequency : 338.4 MHz
+@P:  dymamic_led|Clk - Requested Frequency : 100.0 MHz
+@P:  dymamic_led|Clk - Estimated Period : 2.955
+@P:  dymamic_led|Clk - Requested Period : 10.000
+@P:  dymamic_led|Clk - Slack : 7.045
+@P:  Worst Slack(min analysis) : NA
+@P:  dymamic_led|Clk - Estimated Frequency(min analysis) : 338.4 MHz
+@P:  dymamic_led|Clk - Requested Frequency(min analysis) : 100.0 MHz
+@P:  dymamic_led|Clk - Estimated Period(min analysis) : 2.955
+@P:  dymamic_led|Clk - Requested Period(min analysis) : 10.000
+@P:  dymamic_led|Clk - Slack(min analysis) : 7.045
+@P:  Total Area : 10.0
+@P:  Total Area : 10.0
+@P:  CPU Time : 0h:00m:01s
