@@ -1,0 +1,50 @@
+%%% protect protected_file
+@E
+@ 
+#
+#
+#
+# Created by Synplify Verilog HDL Compiler version comp520rcp1, Build 028R from Synplicity, Inc.
+# Copyright 1994-2010 Synopsys, Inc. , All rights reserved.
+# Synthesis Netlist written on Sat Nov 16 21:39:49 2013
+#
+#
+#OPTIONS:"|-top|HC86|-nram|-fixsmult|-I|D:\\Actelprj\\TRY\\5932_74HC86.v\\synthesis\\|-I|D:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib|-v95|-devicelib|D:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\proasic\\proasic3.v|-encrypt|-pro|-ll|2000|-ui|-fid2|-ram|-sharing|on|-autosm|-lib|work"
+#CUR:"D:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\bin\\c_ver.exe":1286419880
+#CUR:"D:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\proasic\\proasic3.v":1286419904
+#CUR:"D:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\vlog\\hypermods.v":1286419906
+#CUR:"D:\\Actelprj\\TRY\\5932_74HC86.v\\hdl\\5932_74HC86.v":1384609067
+f "D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v"; # file 0
+af .is_verilog 1;
+f "D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vlog\hypermods.v"; # file 1
+af .is_verilog 1;
+f "D:\Actelprj\TRY\5932_74HC86.v\hdl\5932_74HC86.v"; # file 2
+af .is_verilog 1;
+@E
+@ 
+ftell;
+@E@MR@..::.(::R4jI	FsRU]BnCRPsFHDoN;
+PHR3#sPCHoDFR
+4;N3PRHP#_CDsHF4oR;P
+NRs3FHNohl"CR]nBU"
+;
+
+@HR@d.:::44d4:4Rcqr:R49q:rc4
+9;N3HRs_0DFosHMCNlR""q;
+
+
+
+@HR@d.:::4ddd:4RcAr:R49A:rc4
+9;N3HRs_0DFosHMCNlR""A;
+
+
+
+@FR@6.::6g::YgRr4c:9rRYc9:4;H
+NR03sDs_FHNoMl"CRY
+";b@R@j::44::4.sR0k0CRsRkC0Csk;R
+b@:@j4::44R:.V#NDCNRVDR#CV#NDCb;
+R.@@:c(::((:RsGFPrRYc9:4RcYr:R49q:rc4A9Rr4c:9C;
+;
+
+
+

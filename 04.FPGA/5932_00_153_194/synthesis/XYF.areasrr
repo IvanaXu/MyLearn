@@ -1,0 +1,50 @@
+----------------------------------------------------------------------
+Report for cell XYF.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKBUF         1       0.0        0.0
+                                GND         1       0.0        0.0
+                               HC00         1       4.0        4.0
+                              HC153         1       8.0        8.0
+                              HC194         1      10.0       10.0
+                              INBUF        29       0.0        0.0
+                             OUTBUF        10       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             45                 22.0
+----------------------------------------------------------------------
+Report for cell HC00.netlist
+     Instance path:  HC00_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                               OR2B         4       1.0        4.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              6                  4.0
+----------------------------------------------------------------------
+Report for cell HC153.netlist
+     Instance path:  HC153_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         2       1.0        2.0
+                                GND         1       0.0        0.0
+                                MX2         4       1.0        4.0
+                               OA1B         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             10                  8.0
+----------------------------------------------------------------------
+Report for cell HC194.netlist
+     Instance path:  HC194_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1C0         1       1.0        1.0
+                           DFN1E0C0         3       1.0        3.0
+                                GND         1       0.0        0.0
+                                MX2         4       1.0        4.0
+                               NOR2         1       1.0        1.0
+                               OR2B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             12                 10.0

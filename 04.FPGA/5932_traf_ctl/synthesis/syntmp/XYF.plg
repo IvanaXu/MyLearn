@@ -1,0 +1,23 @@
+@P:  Worst Slack : -2.239
+@P:  XYF|Clk - Estimated Frequency : 81.7 MHz
+@P:  XYF|Clk - Requested Frequency : 100.0 MHz
+@P:  XYF|Clk - Estimated Period : 12.239
+@P:  XYF|Clk - Requested Period : 10.000
+@P:  XYF|Clk - Slack : -2.239
+@P:  Worst Slack(min analysis) : NA
+@P:  XYF|Clk - Estimated Frequency(min analysis) : 81.7 MHz
+@P:  XYF|Clk - Requested Frequency(min analysis) : 100.0 MHz
+@P:  XYF|Clk - Estimated Period(min analysis) : 12.239
+@P:  XYF|Clk - Requested Period(min analysis) : 10.000
+@P:  XYF|Clk - Slack(min analysis) : -2.239
+@P:  Total Area : 275.0
+@P:  Total Area : 13.0
+@P:  Total Area : 37.0
+@P:  Total Area : 53.0
+@P:  Total Area : 67.0
+@P:  Total Area : 36.0
+@P:  Total Area : 35.0
+@P:  Total Area : 15.0
+@P:  Total Area : 34.0
+@P:  Total Area : 275.0
+@P:  CPU Time : 0h:00m:02s

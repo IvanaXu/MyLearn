@@ -1,0 +1,1064 @@
+(DELAYFILE
+ (SDFVERSION "2.1")
+ (DESIGN "XYF")
+ (DATE "Thu Jan 02 22:39:17 2014")
+ (VENDOR "ACTEL")
+ (PROGRAM "Actel Designer Software, Release v9.1 Copyright (C) 1989-2010 Actel Corp. ")
+ (VERSION "9.1.0.18")
+ (DIVIDER /)
+ (VOLTAGE 1.58:1.50:1.43)
+ (PROCESS "best:nom:worst")
+ (TEMPERATURE 0:25:70)
+ (TIMESCALE 100ps)
+
+//Data source: Silicon verified
+
+ (CELL
+ (CELLTYPE "AO1")
+ (INSTANCE cmp_2_0\/AND_AO21)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (1.89:2.29:2.50) (1.81:2.19:2.40))
+     (IOPATH A Y (2.80:3.44:3.88) (2.50:3.07:3.47))
+     (PORT B (1.98:2.40:2.62) (1.91:2.32:2.53))
+     (IOPATH B Y (3.58:4.40:4.97) (3.43:4.21:4.75))
+     (PORT C (1.96:2.38:2.60) (1.90:2.30:2.51))
+     (IOPATH C Y (4.13:5.07:5.72) (3.80:4.67:5.27))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_IN")
+ (INSTANCE DataB_pad\[7\]\/U0\/U0)
+ (DELAY
+  (ABSOLUTE
+     (PORT PAD (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH PAD Y (4.84:6.17:7.46) (3.38:4.27:5.07))
+  )
+  (PATHPULSE PAD Y (2.00:2.00:2.00) (2.00:2.00:2.00))
+ )
+ (TIMINGCHECK 
+     (WIDTH (posedge PAD) (27.78:27.78:27.78))
+     (WIDTH (negedge PAD) (27.78:27.78:27.78))
+ )
+ )
+ (CELL
+ (CELLTYPE "IOTRI_OB_EB")
+ (INSTANCE AGEB_pad\/U0\/U1)
+ (DELAY
+  (ABSOLUTE
+     (PORT D (4.17:5.06:5.52) (3.93:4.77:5.21))
+     (IOPATH D DOUT (3.51:4.31:4.87) (3.55:4.36:4.92))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "OR2")
+ (INSTANCE Com_2C_1\/DataOut_1_1_ANC3)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (7.10:8.61:9.40) (6.74:8.18:8.93))
+     (IOPATH A Y (2.51:3.08:3.48) (2.89:3.55:4.01))
+     (PORT B (2.41:2.93:3.20) (2.29:2.78:3.03))
+     (IOPATH B Y (3.18:3.91:4.41) (3.50:4.30:4.85))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "AX1C")
+ (INSTANCE Com_2C_0\/DataOut_2\[6\])
+ (DELAY
+  (ABSOLUTE
+     (PORT A (2.41:2.93:3.20) (2.29:2.78:3.03))
+     (IOPATH A Y (3.47:4.74:5.35) (4.03:6.57:7.41))
+     (PORT B (8.19:9.94:10.85) (7.83:9.50:10.37))
+     (IOPATH B Y (3.68:4.98:5.62) (4.05:6.61:7.46))
+     (PORT C (6.96:8.44:9.21) (6.48:7.85:8.57))
+     (IOPATH C Y (2.62:3.47:3.92) (2.45:3.46:3.91))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOIN_IB")
+ (INSTANCE DataB_pad\[7\]\/U0\/U1)
+ (DELAY
+  (ABSOLUTE
+     (PORT YIN (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH YIN Y (0.23:0.29:0.32) (0.22:0.26:0.30))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "AO1C")
+ (INSTANCE cmp_2_0\/AO1C_2)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (2.72:3.30:3.60) (2.54:3.08:3.36))
+     (IOPATH A Y (2.08:2.55:2.88) (1.98:2.44:2.75))
+     (PORT B (13.71:16.63:18.15) (12.99:15.76:17.20))
+     (IOPATH B Y (2.44:3.00:3.39) (3.21:3.94:4.45))
+     (PORT C (1.98:2.40:2.62) (1.90:2.30:2.51))
+     (IOPATH C Y (3.79:4.66:5.26) (4.13:5.07:5.72))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "NAND3A")
+ (INSTANCE cmp_2_0\/NAND3A_0)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (1.98:2.40:2.62) (1.90:2.30:2.51))
+     (IOPATH A Y (3.67:4.51:5.09) (4.04:4.97:5.61))
+     (PORT B (1.87:2.27:2.48) (1.81:2.19:2.40))
+     (IOPATH B Y (1.94:2.38:2.69) (2.63:3.23:3.65))
+     (PORT C (1.98:2.40:2.62) (1.91:2.32:2.53))
+     (IOPATH C Y (3.45:4.24:4.79) (3.85:4.73:5.34))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "AX1C")
+ (INSTANCE Com_2C_1\/DataOut_2\[4\])
+ (DELAY
+  (ABSOLUTE
+     (PORT A (2.36:2.86:3.12) (2.23:2.71:2.96))
+     (IOPATH A Y (3.47:4.74:5.35) (4.03:6.57:7.41))
+     (PORT B (8.93:10.83:11.82) (8.43:10.22:11.16))
+     (IOPATH B Y (3.68:4.98:5.62) (4.05:6.61:7.46))
+     (PORT C (1.85:2.25:2.46) (1.79:2.17:2.37))
+     (IOPATH C Y (2.62:3.47:3.92) (2.45:3.46:3.91))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "AX1C")
+ (INSTANCE Com_2C_0\/DataOut_2\[4\])
+ (DELAY
+  (ABSOLUTE
+     (PORT A (2.40:2.91:3.18) (2.30:2.78:3.04))
+     (IOPATH A Y (3.47:4.74:5.35) (4.03:6.57:7.41))
+     (PORT B (7.99:9.70:10.59) (7.64:9.27:10.12))
+     (IOPATH B Y (3.68:4.98:5.62) (4.05:6.61:7.46))
+     (PORT C (12.64:15.34:16.74) (11.73:14.23:15.53))
+     (IOPATH C Y (2.62:3.47:3.92) (2.45:3.46:3.91))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_IN")
+ (INSTANCE DataA_pad\[5\]\/U0\/U0)
+ (DELAY
+  (ABSOLUTE
+     (PORT PAD (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH PAD Y (4.84:6.17:7.46) (3.38:4.27:5.07))
+  )
+  (PATHPULSE PAD Y (2.00:2.00:2.00) (2.00:2.00:2.00))
+ )
+ (TIMINGCHECK 
+     (WIDTH (posedge PAD) (27.78:27.78:27.78))
+     (WIDTH (negedge PAD) (27.78:27.78:27.78))
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_IN")
+ (INSTANCE DataA_pad\[2\]\/U0\/U0)
+ (DELAY
+  (ABSOLUTE
+     (PORT PAD (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH PAD Y (4.84:6.17:7.46) (3.38:4.27:5.07))
+  )
+  (PATHPULSE PAD Y (2.00:2.00:2.00) (2.00:2.00:2.00))
+ )
+ (TIMINGCHECK 
+     (WIDTH (posedge PAD) (27.78:27.78:27.78))
+     (WIDTH (negedge PAD) (27.78:27.78:27.78))
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_IN")
+ (INSTANCE DataA_pad\[0\]\/U0\/U0)
+ (DELAY
+  (ABSOLUTE
+     (PORT PAD (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH PAD Y (4.84:6.17:7.46) (3.38:4.27:5.07))
+  )
+  (PATHPULSE PAD Y (2.00:2.00:2.00) (2.00:2.00:2.00))
+ )
+ (TIMINGCHECK 
+     (WIDTH (posedge PAD) (27.78:27.78:27.78))
+     (WIDTH (negedge PAD) (27.78:27.78:27.78))
+ )
+ )
+ (CELL
+ (CELLTYPE "XNOR2")
+ (INSTANCE cmp_2_0\/XNOR2_1)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (6.07:7.37:8.04) (5.82:7.05:7.70))
+     (IOPATH A Y (1.85:3.23:3.65) (2.13:2.70:3.05))
+     (PORT B (9.93:12.05:13.15) (9.33:11.31:12.35))
+     (IOPATH B Y (3.58:6.20:7.00) (3.25:4.15:4.69))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "OR2A")
+ (INSTANCE cmp_2_0\/OR2A_0)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (2.31:2.80:3.05) (2.17:2.63:2.87))
+     (IOPATH A Y (2.51:3.08:3.48) (2.89:3.55:4.01))
+     (PORT B (11.76:14.26:15.57) (11.11:13.47:14.71))
+     (IOPATH B Y (2.77:3.40:3.84) (3.48:4.28:4.83))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "NOR2A")
+ (INSTANCE cmp_2_0\/NOR2A_0)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (8.57:10.39:11.34) (7.91:9.60:10.48))
+     (IOPATH A Y (2.78:3.42:3.86) (3.38:4.15:4.69))
+     (PORT B (2.29:2.78:3.03) (2.17:2.63:2.87))
+     (IOPATH B Y (2.19:2.69:3.04) (2.08:2.55:2.88))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOIN_IB")
+ (INSTANCE DataA_pad\[5\]\/U0\/U1)
+ (DELAY
+  (ABSOLUTE
+     (PORT YIN (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH YIN Y (0.23:0.29:0.32) (0.22:0.26:0.30))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOIN_IB")
+ (INSTANCE DataA_pad\[2\]\/U0\/U1)
+ (DELAY
+  (ABSOLUTE
+     (PORT YIN (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH YIN Y (0.23:0.29:0.32) (0.22:0.26:0.30))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "AOI1")
+ (INSTANCE cmp_2_0\/AOI1_le_OUT)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (1.96:2.38:2.60) (1.90:2.30:2.51))
+     (IOPATH A Y (4.90:6.03:6.80) (3.27:4.01:4.53))
+     (PORT B (1.98:2.40:2.62) (1.91:2.32:2.53))
+     (IOPATH B Y (5.02:6.16:6.96) (3.43:4.21:4.75))
+     (PORT C (5.68:6.88:7.52) (5.33:6.47:7.06))
+     (IOPATH C Y (2.14:2.63:2.97) (2.18:2.68:3.02))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "AX1C")
+ (INSTANCE Com_2C_1\/DataOut_2\[5\])
+ (DELAY
+  (ABSOLUTE
+     (PORT A (2.36:2.87:3.13) (2.24:2.72:2.97))
+     (IOPATH A Y (3.47:4.74:5.35) (4.03:6.57:7.41))
+     (PORT B (11.31:13.72:14.98) (10.68:12.96:14.15))
+     (IOPATH B Y (3.68:4.98:5.62) (4.05:6.61:7.46))
+     (PORT C (2.24:2.72:2.97) (2.13:2.58:2.82))
+     (IOPATH C Y (2.62:3.47:3.92) (2.45:3.46:3.91))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOIN_IB")
+ (INSTANCE DataA_pad\[0\]\/U0\/U1)
+ (DELAY
+  (ABSOLUTE
+     (PORT YIN (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH YIN Y (0.23:0.29:0.32) (0.22:0.26:0.30))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "XNOR2")
+ (INSTANCE cmp_2_0\/XNOR2_2)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (10.34:12.55:13.70) (9.70:11.77:12.85))
+     (IOPATH A Y (1.85:3.23:3.65) (2.13:2.70:3.05))
+     (PORT B (12.88:15.62:17.05) (12.12:14.70:16.05))
+     (IOPATH B Y (3.58:6.20:7.00) (3.25:4.15:4.69))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "OR2A")
+ (INSTANCE cmp_2_0\/OR2A_3)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (5.84:7.09:7.74) (5.65:6.85:7.48))
+     (IOPATH A Y (2.51:3.08:3.48) (2.89:3.55:4.01))
+     (PORT B (14.71:17.84:19.48) (13.64:16.54:18.06))
+     (IOPATH B Y (2.77:3.40:3.84) (3.48:4.28:4.83))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "NAND3A")
+ (INSTANCE cmp_2_0\/NAND3A_1)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (9.47:11.49:12.54) (9.06:10.98:11.99))
+     (IOPATH A Y (3.67:4.51:5.09) (4.04:4.97:5.61))
+     (PORT B (8.51:10.32:11.27) (8.07:9.79:10.68))
+     (IOPATH B Y (2.50:3.07:3.47) (2.83:3.47:3.92))
+     (PORT C (2.36:2.87:3.13) (2.23:2.71:2.96))
+     (IOPATH C Y (3.45:4.24:4.79) (3.85:4.73:5.34))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_IN")
+ (INSTANCE DataB_pad\[2\]\/U0\/U0)
+ (DELAY
+  (ABSOLUTE
+     (PORT PAD (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH PAD Y (4.84:6.17:7.46) (3.38:4.27:5.07))
+  )
+  (PATHPULSE PAD Y (2.00:2.00:2.00) (2.00:2.00:2.00))
+ )
+ (TIMINGCHECK 
+     (WIDTH (posedge PAD) (27.78:27.78:27.78))
+     (WIDTH (negedge PAD) (27.78:27.78:27.78))
+ )
+ )
+ (CELL
+ (CELLTYPE "OR2")
+ (INSTANCE Com_2C_1\/DataOut_1_1_ANC1)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (9.18:11.13:12.15) (8.60:10.43:11.39))
+     (IOPATH A Y (2.51:3.08:3.48) (2.89:3.55:4.01))
+     (PORT B (7.05:8.55:9.34) (6.74:8.18:8.93))
+     (IOPATH B Y (3.18:3.91:4.41) (3.50:4.30:4.85))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_IN")
+ (INSTANCE DataB_pad\[6\]\/U0\/U0)
+ (DELAY
+  (ABSOLUTE
+     (PORT PAD (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH PAD Y (4.84:6.17:7.46) (3.38:4.27:5.07))
+  )
+  (PATHPULSE PAD Y (2.00:2.00:2.00) (2.00:2.00:2.00))
+ )
+ (TIMINGCHECK 
+     (WIDTH (posedge PAD) (27.78:27.78:27.78))
+     (WIDTH (negedge PAD) (27.78:27.78:27.78))
+ )
+ )
+ (CELL
+ (CELLTYPE "OR2")
+ (INSTANCE Com_2C_0\/DataOut_1_1_ANC5)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (7.35:8.91:9.73) (7.12:8.63:9.43))
+     (IOPATH A Y (2.51:3.08:3.48) (2.89:3.55:4.01))
+     (PORT B (2.36:2.87:3.13) (2.24:2.72:2.97))
+     (IOPATH B Y (3.18:3.91:4.41) (3.50:4.30:4.85))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "AX1C")
+ (INSTANCE Com_2C_0\/DataOut_2\[5\])
+ (DELAY
+  (ABSOLUTE
+     (PORT A (2.36:2.87:3.13) (2.24:2.72:2.97))
+     (IOPATH A Y (3.47:4.74:5.35) (4.03:6.57:7.41))
+     (PORT B (5.40:6.55:7.15) (5.21:6.32:6.90))
+     (IOPATH B Y (3.68:4.98:5.62) (4.05:6.61:7.46))
+     (PORT C (8.65:10.49:11.45) (8.29:10.05:10.98))
+     (IOPATH C Y (2.62:3.47:3.92) (2.45:3.46:3.91))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "XNOR2")
+ (INSTANCE cmp_2_0\/XNOR2_0)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (7.07:8.58:9.36) (6.77:8.21:8.96))
+     (IOPATH A Y (1.85:3.23:3.65) (2.13:2.70:3.05))
+     (PORT B (12.76:15.47:16.89) (12.15:14.73:16.08))
+     (IOPATH B Y (3.58:6.20:7.00) (3.25:4.15:4.69))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "OR2")
+ (INSTANCE Com_2C_1\/DataOut_1_1_ANC2)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (9.33:11.31:12.35) (8.73:10.59:11.56))
+     (IOPATH A Y (2.51:3.08:3.48) (2.89:3.55:4.01))
+     (PORT B (2.41:2.93:3.20) (2.29:2.78:3.03))
+     (IOPATH B Y (3.18:3.91:4.41) (3.50:4.30:4.85))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOIN_IB")
+ (INSTANCE DataB_pad\[2\]\/U0\/U1)
+ (DELAY
+  (ABSOLUTE
+     (PORT YIN (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH YIN Y (0.23:0.29:0.32) (0.22:0.26:0.30))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOIN_IB")
+ (INSTANCE DataB_pad\[6\]\/U0\/U1)
+ (DELAY
+  (ABSOLUTE
+     (PORT YIN (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH YIN Y (0.23:0.29:0.32) (0.22:0.26:0.30))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "AX1C")
+ (INSTANCE Com_2C_0\/DataOut_2\[3\])
+ (DELAY
+  (ABSOLUTE
+     (PORT A (1.98:2.40:2.62) (1.91:2.32:2.53))
+     (IOPATH A Y (3.47:4.74:5.35) (4.03:6.57:7.41))
+     (PORT B (19.17:23.25:25.39) (17.87:21.67:23.66))
+     (IOPATH B Y (3.68:4.98:5.62) (4.05:6.61:7.46))
+     (PORT C (4.47:5.42:5.92) (4.28:5.19:5.66))
+     (IOPATH C Y (2.62:3.47:3.92) (2.45:3.46:3.91))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "OR2")
+ (INSTANCE Com_2C_1\/DataOut_1_1_ANC4)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (5.59:6.78:7.40) (5.27:6.40:6.98))
+     (IOPATH A Y (2.51:3.08:3.48) (2.89:3.55:4.01))
+     (PORT B (2.40:2.91:3.18) (2.30:2.78:3.04))
+     (IOPATH B Y (3.18:3.91:4.41) (3.50:4.30:4.85))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "AO1C")
+ (INSTANCE cmp_2_0\/AO1C_1)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (7.89:9.57:10.45) (7.61:9.23:10.07))
+     (IOPATH A Y (2.08:2.55:2.88) (1.98:2.44:2.75))
+     (PORT B (2.83:3.43:3.75) (2.64:3.21:3.50))
+     (IOPATH B Y (2.44:3.00:3.39) (3.21:3.94:4.45))
+     (PORT C (1.98:2.40:2.62) (1.90:2.30:2.51))
+     (IOPATH C Y (3.79:4.66:5.26) (4.13:5.07:5.72))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_TRI")
+ (INSTANCE AGEB_pad\/U0\/U0)
+ (DELAY
+  (ABSOLUTE
+     (PORT D (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH D PAD (9.93:12.66:15.32) (12.82:16.17:19.21))
+     (PORT E (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH E PAD (9.93:15.05:17.88) (12.68:16.90:20.08))
+  )
+  (PATHPULSE D PAD (2.00:2.00:2.00) (2.00:2.00:2.00))
+  (PATHPULSE E PAD (2.00:2.00:2.00) (2.00:2.00:2.00))
+ )
+ (TIMINGCHECK 
+     (WIDTH (posedge D) (27.78:27.78:27.78))
+     (WIDTH (negedge D) (27.78:27.78:27.78))
+     (WIDTH (posedge E) (27.78:27.78:27.78))
+     (WIDTH (negedge E) (27.78:27.78:27.78))
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_IN")
+ (INSTANCE DataA_pad\[1\]\/U0\/U0)
+ (DELAY
+  (ABSOLUTE
+     (PORT PAD (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH PAD Y (4.84:6.17:7.46) (3.38:4.27:5.07))
+  )
+  (PATHPULSE PAD Y (2.00:2.00:2.00) (2.00:2.00:2.00))
+ )
+ (TIMINGCHECK 
+     (WIDTH (posedge PAD) (27.78:27.78:27.78))
+     (WIDTH (negedge PAD) (27.78:27.78:27.78))
+ )
+ )
+ (CELL
+ (CELLTYPE "OA1")
+ (INSTANCE Com_2C_0\/DataOut_2\[7\])
+ (DELAY
+  (ABSOLUTE
+     (PORT A (2.41:2.93:3.20) (2.29:2.78:3.03))
+     (IOPATH A Y (5.03:6.18:6.97) (3.43:4.21:4.75))
+     (PORT B (7.03:8.53:9.31) (6.53:7.92:8.65))
+     (IOPATH B Y (4.90:6.03:6.80) (3.27:4.01:4.53))
+     (PORT C (10.18:12.35:13.48) (9.75:11.83:12.92))
+     (IOPATH C Y (2.83:3.47:3.92) (2.62:3.22:3.63))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "NOR3A")
+ (INSTANCE cmp_2_0\/NOR3A_0)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (2.36:2.87:3.13) (2.22:2.70:2.94))
+     (IOPATH A Y (4.04:4.97:5.61) (3.68:4.52:5.10))
+     (PORT B (1.85:2.25:2.46) (1.79:2.17:2.37))
+     (IOPATH B Y (2.83:3.47:3.92) (2.50:3.07:3.47))
+     (PORT C (11.46:13.90:15.18) (10.69:12.97:14.16))
+     (IOPATH C Y (3.86:4.74:5.35) (3.45:4.24:4.79))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "AX1C")
+ (INSTANCE Com_2C_1\/DataOut_2\[3\])
+ (DELAY
+  (ABSOLUTE
+     (PORT A (2.41:2.93:3.20) (2.29:2.78:3.03))
+     (IOPATH A Y (3.47:4.74:5.35) (4.03:6.57:7.41))
+     (PORT B (6.98:8.47:9.25) (6.68:8.10:8.84))
+     (IOPATH B Y (3.68:4.98:5.62) (4.05:6.61:7.46))
+     (PORT C (7.72:9.36:10.22) (7.28:8.83:9.64))
+     (IOPATH C Y (2.62:3.47:3.92) (2.45:3.46:3.91))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "OA1")
+ (INSTANCE Com_2C_1\/DataOut_2\[7\])
+ (DELAY
+  (ABSOLUTE
+     (PORT A (4.09:4.96:5.41) (3.93:4.77:5.21))
+     (IOPATH A Y (5.03:6.18:6.97) (3.43:4.21:4.75))
+     (PORT B (2.35:2.85:3.11) (2.21:2.68:2.92))
+     (IOPATH B Y (4.90:6.03:6.80) (3.27:4.01:4.53))
+     (PORT C (2.26:2.74:2.99) (2.14:2.59:2.83))
+     (IOPATH C Y (2.83:3.47:3.92) (2.62:3.22:3.63))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_IN")
+ (INSTANCE DataB_pad\[4\]\/U0\/U0)
+ (DELAY
+  (ABSOLUTE
+     (PORT PAD (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH PAD Y (4.84:6.17:7.46) (3.38:4.27:5.07))
+  )
+  (PATHPULSE PAD Y (2.00:2.00:2.00) (2.00:2.00:2.00))
+ )
+ (TIMINGCHECK 
+     (WIDTH (posedge PAD) (27.78:27.78:27.78))
+     (WIDTH (negedge PAD) (27.78:27.78:27.78))
+ )
+ )
+ (CELL
+ (CELLTYPE "AX1C")
+ (INSTANCE Com_2C_0\/DataOut_2\[1\])
+ (DELAY
+  (ABSOLUTE
+     (PORT A (12.49:15.15:16.54) (11.66:14.14:15.44))
+     (IOPATH A Y (3.47:4.74:5.35) (4.03:6.57:7.41))
+     (PORT B (16.58:20.11:21.96) (15.67:19.01:20.75))
+     (IOPATH B Y (3.68:4.98:5.62) (4.05:6.61:7.46))
+     (PORT C (15.36:18.63:20.34) (14.43:17.50:19.10))
+     (IOPATH C Y (2.62:3.47:3.92) (2.45:3.46:3.91))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "OR2")
+ (INSTANCE Com_2C_0\/DataOut_1_1_ANC3)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (8.95:10.86:11.85) (8.38:10.17:11.10))
+     (IOPATH A Y (2.51:3.08:3.48) (2.89:3.55:4.01))
+     (PORT B (9.62:11.67:12.74) (9.05:10.98:11.98))
+     (IOPATH B Y (3.18:3.91:4.41) (3.50:4.30:4.85))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOIN_IB")
+ (INSTANCE DataA_pad\[1\]\/U0\/U1)
+ (DELAY
+  (ABSOLUTE
+     (PORT YIN (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH YIN Y (0.23:0.29:0.32) (0.22:0.26:0.30))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_IN")
+ (INSTANCE DataA_pad\[3\]\/U0\/U0)
+ (DELAY
+  (ABSOLUTE
+     (PORT PAD (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH PAD Y (4.84:6.17:7.46) (3.38:4.27:5.07))
+  )
+  (PATHPULSE PAD Y (2.00:2.00:2.00) (2.00:2.00:2.00))
+ )
+ (TIMINGCHECK 
+     (WIDTH (posedge PAD) (27.78:27.78:27.78))
+     (WIDTH (negedge PAD) (27.78:27.78:27.78))
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_IN")
+ (INSTANCE DataA_pad\[4\]\/U0\/U0)
+ (DELAY
+  (ABSOLUTE
+     (PORT PAD (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH PAD Y (4.84:6.17:7.46) (3.38:4.27:5.07))
+  )
+  (PATHPULSE PAD Y (2.00:2.00:2.00) (2.00:2.00:2.00))
+ )
+ (TIMINGCHECK 
+     (WIDTH (posedge PAD) (27.78:27.78:27.78))
+     (WIDTH (negedge PAD) (27.78:27.78:27.78))
+ )
+ )
+ (CELL
+ (CELLTYPE "AND2A")
+ (INSTANCE cmp_2_0\/AND_SIGN)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (9.28:11.25:12.29) (8.71:10.56:11.53))
+     (IOPATH A Y (2.19:2.69:3.04) (2.08:2.55:2.88))
+     (PORT B (9.97:12.09:13.20) (9.48:11.49:12.55))
+     (IOPATH B Y (2.78:3.42:3.86) (3.38:4.15:4.69))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "AO1D")
+ (INSTANCE cmp_2_0\/AO1D_0)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (1.87:2.27:2.48) (1.81:2.19:2.40))
+     (IOPATH A Y (2.80:3.44:3.88) (2.50:3.07:3.47))
+     (PORT B (1.98:2.40:2.62) (1.91:2.32:2.53))
+     (IOPATH B Y (3.05:3.75:4.23) (3.22:3.96:4.47))
+     (PORT C (1.98:2.40:2.62) (1.90:2.30:2.51))
+     (IOPATH C Y (4.14:5.08:5.74) (3.80:4.67:5.27))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOIN_IB")
+ (INSTANCE DataB_pad\[4\]\/U0\/U1)
+ (DELAY
+  (ABSOLUTE
+     (PORT YIN (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH YIN Y (0.23:0.29:0.32) (0.22:0.26:0.30))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_IN")
+ (INSTANCE DataB_pad\[3\]\/U0\/U0)
+ (DELAY
+  (ABSOLUTE
+     (PORT PAD (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH PAD Y (4.84:6.17:7.46) (3.38:4.27:5.07))
+  )
+  (PATHPULSE PAD Y (2.00:2.00:2.00) (2.00:2.00:2.00))
+ )
+ (TIMINGCHECK 
+     (WIDTH (posedge PAD) (27.78:27.78:27.78))
+     (WIDTH (negedge PAD) (27.78:27.78:27.78))
+ )
+ )
+ (CELL
+ (CELLTYPE "AO1C")
+ (INSTANCE cmp_2_0\/AO1C_0)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (14.87:18.03:19.69) (13.90:16.86:18.41))
+     (IOPATH A Y (2.53:3.10:3.50) (2.70:3.32:3.75))
+     (PORT B (10.91:13.23:14.44) (10.31:12.50:13.65))
+     (IOPATH B Y (2.99:3.67:4.14) (3.28:4.02:4.54))
+     (PORT C (1.98:2.40:2.62) (1.90:2.30:2.51))
+     (IOPATH C Y (3.79:4.66:5.26) (4.13:5.07:5.72))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOIN_IB")
+ (INSTANCE DataA_pad\[3\]\/U0\/U1)
+ (DELAY
+  (ABSOLUTE
+     (PORT YIN (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH YIN Y (0.23:0.29:0.32) (0.22:0.26:0.30))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_IN")
+ (INSTANCE DataA_pad\[6\]\/U0\/U0)
+ (DELAY
+  (ABSOLUTE
+     (PORT PAD (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH PAD Y (4.84:6.17:7.46) (3.38:4.27:5.07))
+  )
+  (PATHPULSE PAD Y (2.00:2.00:2.00) (2.00:2.00:2.00))
+ )
+ (TIMINGCHECK 
+     (WIDTH (posedge PAD) (27.78:27.78:27.78))
+     (WIDTH (negedge PAD) (27.78:27.78:27.78))
+ )
+ )
+ (CELL
+ (CELLTYPE "IOIN_IB")
+ (INSTANCE DataA_pad\[4\]\/U0\/U1)
+ (DELAY
+  (ABSOLUTE
+     (PORT YIN (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH YIN Y (0.23:0.29:0.32) (0.22:0.26:0.30))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "AND3")
+ (INSTANCE cmp_2_0\/AND3_0)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (1.87:2.27:2.48) (1.81:2.19:2.40))
+     (IOPATH A Y (2.63:3.23:3.65) (1.94:2.38:2.69))
+     (PORT B (1.98:2.40:2.62) (1.91:2.32:2.53))
+     (IOPATH B Y (3.86:4.74:5.35) (3.45:4.24:4.79))
+     (PORT C (1.98:2.40:2.62) (1.90:2.30:2.51))
+     (IOPATH C Y (4.04:4.97:5.61) (3.67:4.51:5.09))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "OR2A")
+ (INSTANCE cmp_2_0\/OR2A_2)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (11.81:14.33:15.64) (11.03:13.37:14.60))
+     (IOPATH A Y (2.51:3.08:3.48) (2.89:3.55:4.01))
+     (PORT B (8.74:10.60:11.58) (8.40:10.19:11.13))
+     (IOPATH B Y (2.77:3.40:3.84) (3.48:4.28:4.83))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "AO1C")
+ (INSTANCE cmp_2_0\/AO1C_4)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (8.50:10.31:11.26) (7.84:9.51:10.38))
+     (IOPATH A Y (2.08:2.55:2.88) (1.98:2.44:2.75))
+     (PORT B (2.39:2.90:3.16) (2.27:2.75:3.00))
+     (IOPATH B Y (2.44:3.00:3.39) (3.21:3.94:4.45))
+     (PORT C (1.96:2.38:2.60) (1.90:2.30:2.51))
+     (IOPATH C Y (3.79:4.66:5.26) (4.13:5.07:5.72))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOIN_IB")
+ (INSTANCE DataB_pad\[3\]\/U0\/U1)
+ (DELAY
+  (ABSOLUTE
+     (PORT YIN (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH YIN Y (0.23:0.29:0.32) (0.22:0.26:0.30))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_IN")
+ (INSTANCE DataB_pad\[1\]\/U0\/U0)
+ (DELAY
+  (ABSOLUTE
+     (PORT PAD (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH PAD Y (4.84:6.17:7.46) (3.38:4.27:5.07))
+  )
+  (PATHPULSE PAD Y (2.00:2.00:2.00) (2.00:2.00:2.00))
+ )
+ (TIMINGCHECK 
+     (WIDTH (posedge PAD) (27.78:27.78:27.78))
+     (WIDTH (negedge PAD) (27.78:27.78:27.78))
+ )
+ )
+ (CELL
+ (CELLTYPE "AX1C")
+ (INSTANCE Com_2C_0\/DataOut_2\[2\])
+ (DELAY
+  (ABSOLUTE
+     (PORT A (2.41:2.93:3.20) (2.29:2.78:3.03))
+     (IOPATH A Y (3.47:4.74:5.35) (4.03:6.57:7.41))
+     (PORT B (14.63:17.75:19.38) (13.80:16.73:18.27))
+     (IOPATH B Y (3.68:4.98:5.62) (4.05:6.61:7.46))
+     (PORT C (11.52:13.97:15.25) (10.92:13.24:14.45))
+     (IOPATH C Y (2.62:3.47:3.92) (2.45:3.46:3.91))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOIN_IB")
+ (INSTANCE DataA_pad\[6\]\/U0\/U1)
+ (DELAY
+  (ABSOLUTE
+     (PORT YIN (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH YIN Y (0.23:0.29:0.32) (0.22:0.26:0.30))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_IN")
+ (INSTANCE DataB_pad\[0\]\/U0\/U0)
+ (DELAY
+  (ABSOLUTE
+     (PORT PAD (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH PAD Y (4.84:6.17:7.46) (3.38:4.27:5.07))
+  )
+  (PATHPULSE PAD Y (2.00:2.00:2.00) (2.00:2.00:2.00))
+ )
+ (TIMINGCHECK 
+     (WIDTH (posedge PAD) (27.78:27.78:27.78))
+     (WIDTH (negedge PAD) (27.78:27.78:27.78))
+ )
+ )
+ (CELL
+ (CELLTYPE "AX1C")
+ (INSTANCE Com_2C_1\/DataOut_2\[2\])
+ (DELAY
+  (ABSOLUTE
+     (PORT A (2.41:2.93:3.20) (2.29:2.78:3.03))
+     (IOPATH A Y (3.47:4.74:5.35) (4.03:6.57:7.41))
+     (PORT B (11.32:13.73:14.99) (10.73:13.01:14.21))
+     (IOPATH B Y (3.68:4.98:5.62) (4.05:6.61:7.46))
+     (PORT C (12.62:15.31:16.71) (11.66:14.14:15.44))
+     (IOPATH C Y (2.62:3.47:3.92) (2.45:3.46:3.91))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOIN_IB")
+ (INSTANCE DataB_pad\[1\]\/U0\/U1)
+ (DELAY
+  (ABSOLUTE
+     (PORT YIN (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH YIN Y (0.23:0.29:0.32) (0.22:0.26:0.30))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_IN")
+ (INSTANCE DataA_pad\[7\]\/U0\/U0)
+ (DELAY
+  (ABSOLUTE
+     (PORT PAD (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH PAD Y (4.84:6.17:7.46) (3.38:4.27:5.07))
+  )
+  (PATHPULSE PAD Y (2.00:2.00:2.00) (2.00:2.00:2.00))
+ )
+ (TIMINGCHECK 
+     (WIDTH (posedge PAD) (27.78:27.78:27.78))
+     (WIDTH (negedge PAD) (27.78:27.78:27.78))
+ )
+ )
+ (CELL
+ (CELLTYPE "OR2")
+ (INSTANCE Com_2C_0\/DataOut_1_1_ANC1)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (11.15:13.52:14.77) (10.50:12.74:13.91))
+     (IOPATH A Y (2.51:3.08:3.48) (2.89:3.55:4.01))
+     (PORT B (14.10:17.10:18.67) (13.12:15.91:17.37))
+     (IOPATH B Y (3.18:3.91:4.41) (3.50:4.30:4.85))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_IN")
+ (INSTANCE DataB_pad\[5\]\/U0\/U0)
+ (DELAY
+  (ABSOLUTE
+     (PORT PAD (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH PAD Y (4.84:6.17:7.46) (3.38:4.27:5.07))
+  )
+  (PATHPULSE PAD Y (2.00:2.00:2.00) (2.00:2.00:2.00))
+ )
+ (TIMINGCHECK 
+     (WIDTH (posedge PAD) (27.78:27.78:27.78))
+     (WIDTH (negedge PAD) (27.78:27.78:27.78))
+ )
+ )
+ (CELL
+ (CELLTYPE "OR2A")
+ (INSTANCE cmp_2_0\/OR_SIGN)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (12.77:15.49:16.91) (11.84:14.36:15.68))
+     (IOPATH A Y (2.51:3.08:3.48) (2.89:3.55:4.01))
+     (PORT B (9.97:12.09:13.20) (9.48:11.49:12.55))
+     (IOPATH B Y (2.77:3.40:3.84) (3.48:4.28:4.83))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "AO1C")
+ (INSTANCE cmp_2_0\/AO1C_3)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (12.24:14.84:16.20) (11.65:14.13:15.43))
+     (IOPATH A Y (2.08:2.55:2.88) (1.98:2.44:2.75))
+     (PORT B (2.83:3.43:3.75) (2.64:3.21:3.50))
+     (IOPATH B Y (2.44:3.00:3.39) (3.21:3.94:4.45))
+     (PORT C (1.96:2.38:2.60) (1.90:2.30:2.51))
+     (IOPATH C Y (3.79:4.66:5.26) (4.13:5.07:5.72))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOIN_IB")
+ (INSTANCE DataB_pad\[0\]\/U0\/U1)
+ (DELAY
+  (ABSOLUTE
+     (PORT YIN (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH YIN Y (0.23:0.29:0.32) (0.22:0.26:0.30))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "OR2")
+ (INSTANCE Com_2C_1\/DataOut_1_1_ANC5)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (2.24:2.72:2.97) (2.13:2.58:2.82))
+     (IOPATH A Y (2.51:3.08:3.48) (2.89:3.55:4.01))
+     (PORT B (2.36:2.87:3.13) (2.24:2.72:2.97))
+     (IOPATH B Y (3.18:3.91:4.41) (3.50:4.30:4.85))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "AO1C")
+ (INSTANCE cmp_2_0\/AO1C_5)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (11.03:13.38:14.60) (10.33:12.53:13.68))
+     (IOPATH A Y (2.08:2.55:2.88) (1.98:2.44:2.75))
+     (PORT B (10.83:13.14:14.34) (10.29:12.48:13.63))
+     (IOPATH B Y (2.44:3.00:3.39) (3.21:3.94:4.45))
+     (PORT C (6.18:7.50:8.18) (5.90:7.16:7.82))
+     (IOPATH C Y (3.41:4.19:4.72) (3.53:4.34:4.89))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOIN_IB")
+ (INSTANCE DataA_pad\[7\]\/U0\/U1)
+ (DELAY
+  (ABSOLUTE
+     (PORT YIN (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH YIN Y (0.23:0.29:0.32) (0.22:0.26:0.30))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "AX1C")
+ (INSTANCE Com_2C_1\/DataOut_2\[1\])
+ (DELAY
+  (ABSOLUTE
+     (PORT A (5.46:6.62:7.23) (5.26:6.38:6.96))
+     (IOPATH A Y (3.47:4.74:5.35) (4.03:6.57:7.41))
+     (PORT B (2.35:2.85:3.11) (2.21:2.69:2.93))
+     (IOPATH B Y (3.68:4.98:5.62) (4.05:6.61:7.46))
+     (PORT C (6.22:7.54:8.23) (5.96:7.23:7.89))
+     (IOPATH C Y (2.62:3.47:3.92) (2.45:3.46:3.91))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "OR2A")
+ (INSTANCE cmp_2_0\/OR2A_1)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (9.76:11.84:12.93) (9.29:11.27:12.31))
+     (IOPATH A Y (2.51:3.08:3.48) (2.89:3.55:4.01))
+     (PORT B (2.40:2.91:3.18) (2.27:2.75:3.00))
+     (IOPATH B Y (2.77:3.40:3.84) (3.48:4.28:4.83))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "OR2")
+ (INSTANCE Com_2C_0\/DataOut_1_1_ANC2)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (10.03:12.16:13.28) (9.57:11.61:12.68))
+     (IOPATH A Y (2.51:3.08:3.48) (2.89:3.55:4.01))
+     (PORT B (2.41:2.93:3.20) (2.29:2.78:3.03))
+     (IOPATH B Y (3.18:3.91:4.41) (3.50:4.30:4.85))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "AX1C")
+ (INSTANCE Com_2C_1\/DataOut_2\[6\])
+ (DELAY
+  (ABSOLUTE
+     (PORT A (1.94:2.36:2.57) (1.88:2.28:2.49))
+     (IOPATH A Y (3.47:4.74:5.35) (4.03:6.57:7.41))
+     (PORT B (8.93:10.83:11.82) (8.43:10.22:11.16))
+     (IOPATH B Y (3.68:4.98:5.62) (4.05:6.61:7.46))
+     (PORT C (2.26:2.74:2.99) (2.13:2.58:2.82))
+     (IOPATH C Y (2.62:3.47:3.92) (2.45:3.46:3.91))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOIN_IB")
+ (INSTANCE DataB_pad\[5\]\/U0\/U1)
+ (DELAY
+  (ABSOLUTE
+     (PORT YIN (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH YIN Y (0.23:0.29:0.32) (0.22:0.26:0.30))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "OR2")
+ (INSTANCE Com_2C_0\/DataOut_1_1_ANC4)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (10.31:12.50:13.65) (9.64:11.69:12.77))
+     (IOPATH A Y (2.51:3.08:3.48) (2.89:3.55:4.01))
+     (PORT B (2.36:2.86:3.12) (2.23:2.71:2.96))
+     (IOPATH B Y (3.18:3.91:4.41) (3.50:4.30:4.85))
+  )
+ )
+ )
+)

@@ -1,0 +1,53 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Actelprj\1209\5932_74HC161\simulation
+vHC161
+Z1 !s100 H8zR53jal<gQ7JzLl@h4;2
+Z2 INIg;NNBP@[ZzLF^j4jT3b2
+Z3 V<gNOb7V@P0?>YSQDJNd>l2
+Z4 dD:\Actelprj\1209\5932_74HC161\simulation
+Z5 w1386672838
+Z6 8D:/Actelprj/1209/5932_74HC161/hdl/5932_74HC161.v
+Z7 FD:/Actelprj/1209/5932_74HC161/hdl/5932_74HC161.v
+L0 2
+Z8 OW;L;6.6d;45
+r1
+31
+Z9 o-work presynth -O0
+Z10 n@h@c161
+!s85 0
+!s101 -O0
+vtestbench
+!s100 @[_4h]dDk>H[a0BV^<c[n3
+ILmc5lJERjY9bglF3GR=l>3
+Vce>2VUh1MZi:YK>?PKgR71
+R4
+w1386672835
+Z11 8D:/Actelprj/1209/5932_74HC161/stimulus/textbench161.v
+Z12 FD:/Actelprj/1209/5932_74HC161/stimulus/textbench161.v
+L0 3
+R8
+r1
+!s85 0
+31
+!s101 -O0
+R9
+Z13 !s92 +incdir+D:/Actelprj/1209/5932_74HC161/stimulus -work presynth -O0
+vtestbench161
+Z14 !s100 T0LIO;SlBoEC<T5CBWNCQ0
+Z15 Ii9fdGnoRb25HgZVP8Gj[A0
+Z16 V_Y][6[JmSDica5lKNh:;E3
+R4
+Z17 w1386661832
+R11
+R12
+L0 3
+R8
+r1
+31
+R9
+R13
+!s85 0
+!s101 -O0

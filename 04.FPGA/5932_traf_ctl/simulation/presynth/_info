@@ -1,0 +1,178 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Actelprj\1401\5932_ traf_ctl\simulation
+vBIN_to_BCD
+Z1 !s100 Xe==h@LTaLf[;>lgzH<WJ0
+Z2 IG[`oZ^EV1R5j=1`>[m18P3
+Z3 V]=UkGGJDCALCiS<0d<oOJ2
+Z4 dD:\Actelprj\1401\5932_ traf_ctl\simulation
+Z5 w1389436241
+Z6 8D:/Actelprj/1401/5932_ traf_ctl/hdl/BIN_TO_BCD.v
+Z7 FD:/Actelprj/1401/5932_ traf_ctl/hdl/BIN_TO_BCD.v
+L0 2
+Z8 OW;L;6.6d;45
+r1
+31
+Z9 o-work presynth -O0
+Z10 n@b@i@n_to_@b@c@d
+!s85 0
+!s101 -O0
+vdymamic_led
+Z11 !s100 hVj1ifQchh08U=zm1MfMm3
+Z12 ICUCG3G<BTC@F27eJM<@Uo0
+Z13 VLLEKWBK?j=GI]F9C8UGSL1
+R4
+Z14 w1389436232
+Z15 8D:/Actelprj/1401/5932_ traf_ctl/hdl/5932_digi_disp.v
+Z16 FD:/Actelprj/1401/5932_ traf_ctl/hdl/5932_digi_disp.v
+L0 2
+R8
+r1
+31
+R9
+!s85 0
+!s101 -O0
+vHC4511
+Z17 !s100 1AV;<Z;70^_5K7><^@`gP0
+Z18 IhO_F@N<6Ye2a288D_BDRe2
+Z19 V7Ia>Y>k5eGa16n7`cHPiM1
+R4
+Z20 w1389436229
+Z21 8D:/Actelprj/1401/5932_ traf_ctl/hdl/5932_74HC4511.v
+Z22 FD:/Actelprj/1401/5932_ traf_ctl/hdl/5932_74HC4511.v
+L0 2
+R8
+r1
+31
+R9
+Z23 n@h@c4511
+!s85 0
+!s101 -O0
+vone_seond_clk
+Z24 !s100 NNn?6[Q8]QdfoTSMIDjK32
+Z25 I7n?07<ShIz9J14BSZO]RS3
+Z26 VPjPQGVTR8nP8??Ci_6cf_1
+R4
+Z27 w1389436243
+Z28 8D:/Actelprj/1401/5932_ traf_ctl/hdl/one_second_clk.v
+Z29 FD:/Actelprj/1401/5932_ traf_ctl/hdl/one_second_clk.v
+L0 2
+R8
+r1
+31
+R9
+!s85 0
+!s101 -O0
+vtestbench
+Z30 !s100 PXmSlgOz]b5XeR:zi2@V<2
+Z31 IbWfE_N[ccM]?CDGzATXMe0
+Z32 V4L]m4k5a>K1=33b^[mcZ>0
+R4
+Z33 w1389436236
+Z34 8D:/Actelprj/1401/5932_ traf_ctl/stimulus/textbench.v
+Z35 FD:/Actelprj/1401/5932_ traf_ctl/stimulus/textbench.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s101 -O0
+R9
+Z36 !s92 {+incdir+D:/Actelprj/1401/5932_ traf_ctl/stimulus} -work presynth -O0
+vtextbench
+Z37 !s100 ;H`a6akFkM7DHnQSn6N3@1
+Z38 ImX6bN0;YzVb@`doKBzO1z1
+Z39 VbfQHFbd^ADV05D2^2XO7[2
+R4
+Z40 w1389426999
+R34
+R35
+L0 2
+R8
+r1
+31
+R9
+R36
+!s85 0
+!s101 -O0
+vtimer_EW
+Z41 !s100 a4E4zjMB7`@mElR?@mbZD2
+Z42 Ik_fAQSkf<goTPgJ4d^>IM2
+Z43 VKYB8oWoQWjo<`2]2TBcfK2
+R4
+Z44 w1389436225
+Z45 8D:/Actelprj/1401/5932_ traf_ctl/hdl/timer_EW.v
+Z46 FD:/Actelprj/1401/5932_ traf_ctl/hdl/timer_EW.v
+L0 2
+R8
+r1
+31
+R9
+Z47 ntimer_@e@w
+!s85 0
+!s101 -O0
+vtimer_N2S
+Z48 !s100 eCkGN^^D[08LK=L18]]GN1
+Z49 I47>Y[oM1Kgm^NCg7FOj`C3
+Z50 VOiQ1N`05n4ooKMAL@i5=b1
+R4
+Z51 w1389434143
+Z52 8D:/Actelprj/1401/5932_ traf_ctl/hdl/timer_N2S.v
+Z53 FD:/Actelprj/1401/5932_ traf_ctl/hdl/timer_N2S.v
+L0 2
+R8
+r1
+31
+R9
+Z54 ntimer_@n2@s
+!s85 0
+!s101 -O0
+vtimer_NS
+Z55 !s100 `H[2Qz_KUJU]?ojD5=K;]2
+Z56 IMk63mIA8FANnf3knmo;IV3
+Z57 V>:g>1j8^8T9OH9DnQnJE62
+R4
+Z58 w1389436227
+Z59 8D:/Actelprj/1401/5932_ traf_ctl/hdl/timer_NS.v
+Z60 FD:/Actelprj/1401/5932_ traf_ctl/hdl/timer_NS.v
+L0 2
+R8
+r1
+31
+R9
+Z61 ntimer_@n@s
+!s85 0
+!s101 -O0
+vtrattic_control
+Z62 !s100 XSe4L;33I?f7UM5B6HGeX3
+Z63 IGoP1>02a6nn9h8KlUVzAN2
+Z64 V54hQlO=flmzoF^Z<c_RRL0
+R4
+Z65 w1389436239
+Z66 8D:/Actelprj/1401/5932_ traf_ctl/hdl/traffic_control.v
+Z67 FD:/Actelprj/1401/5932_ traf_ctl/hdl/traffic_control.v
+L0 2
+R8
+r1
+31
+R9
+!s85 0
+!s101 -O0
+vXYF
+Z68 !s100 KA=:FD7UKnj7z^jBN8bV30
+Z69 I1aHC7DEM<CER5Bo9BXR2^1
+Z70 VUAa95L[WiYA[6AoOIlLZ00
+R4
+Z71 w1389436848
+Z72 8D:/Actelprj/1401/5932_ traf_ctl/component/work/XYF/XYF.v
+Z73 FD:/Actelprj/1401/5932_ traf_ctl/component/work/XYF/XYF.v
+L0 5
+R8
+r1
+31
+R9
+Z74 n@x@y@f
+!s85 0
+!s101 -O0

@@ -1,0 +1,40 @@
+Selecting top level module XYF
+@N: CG364 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\BIN_TO_BCD.v":2:7:2:16|Synthesizing module BIN_to_BCD
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1864:7:1864:9|Synthesizing module VCC
+
+@N: CG364 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\5932_74HC4511.v":2:7:2:12|Synthesizing module HC4511
+
+@N: CG179 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\5932_74HC4511.v":13:19:13:23|Removing redundant assignment
+@W: CL118 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\5932_74HC4511.v":11:2:11:3|Latch generated from always block for signal SM_8S[7:0], probably caused by a missing assignment in an if or case stmt
+@N: CG364 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\5932_digi_disp.v":2:7:2:17|Synthesizing module dymamic_led
+
+@W: CG296 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\5932_digi_disp.v":24:8:24:18|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\5932_digi_disp.v":27:19:27:19|Referenced variable a is not in sensitivity list
+@W: CG290 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\5932_digi_disp.v":28:19:28:19|Referenced variable b is not in sensitivity list
+@W: CG290 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\5932_digi_disp.v":29:19:29:19|Referenced variable c is not in sensitivity list
+@W: CG290 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\5932_digi_disp.v":30:19:30:19|Referenced variable d is not in sensitivity list
+@W: CG133 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\5932_digi_disp.v":7:8:7:14|No assignment to Seg_reg
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1163:7:1163:9|Synthesizing module GND
+
+@N: CG364 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\timer_NS.v":2:7:2:14|Synthesizing module timer_NS
+
+@N: CG364 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\timer_EW.v":2:7:2:14|Synthesizing module timer_EW
+
+@N: CG364 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\one_second_clk.v":2:7:2:19|Synthesizing module one_seond_clk
+
+@N: CG364 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\traffic_control.v":2:7:2:21|Synthesizing module trattic_control
+
+@N: CG364 :"D:\Actelprj\1401\5932_ traf_ctl\component\work\XYF\XYF.v":5:7:5:9|Synthesizing module XYF
+
+@W: CL168 :"D:\Actelprj\1401\5932_ traf_ctl\component\work\XYF\XYF.v":78:8:78:10|Pruning instance GND - not in use ...
+
+@W: CL168 :"D:\Actelprj\1401\5932_ traf_ctl\component\work\XYF\XYF.v":58:8:58:10|Pruning instance VCC - not in use ...
+
+@N: CL201 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\traffic_control.v":17:0:17:5|Trying to extract state machine for register current_state
+Extracted state machine for register current_state
+State machine has 4 reachable states with original encodings of:
+   0001
+   0010
+   0100
+   1000

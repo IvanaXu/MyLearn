@@ -1,0 +1,206 @@
+#Build: Synplify Pro E-2010.09A-1, Build 006R, Oct  6 2010
+#install: D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1
+#OS:  6.1
+#Hostname: IDEAPAD
+
+#Implementation: synthesis
+
+#Thu Jan 02 22:25:53 2014
+
+$ Start of Compile
+#Thu Jan 02 22:25:53 2014
+
+Synopsys Verilog Compiler, version comp520rcp1, Build 028R, built Sep 23 2010
+@N|Running in 32-bit mode
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+
+@I::"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v"
+@I::"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vlog\hypermods.v"
+@I::"D:\Actelprj\1401\5932_sign_cmp\smartgen\cmp_2\cmp_2.v"
+@I::"D:\Actelprj\1401\5932_sign_cmp\hdl\com_2c.v"
+@I::"D:\Actelprj\1401\5932_sign_cmp\component\work\XYF\XYF.v"
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module XYF
+@N: CG364 :"D:\Actelprj\1401\5932_sign_cmp\hdl\com_2c.v":3:7:3:12|Synthesizing module Com_2C
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1864:7:1864:9|Synthesizing module VCC
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":104:7:104:10|Synthesizing module AO1C
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1416:7:1416:11|Synthesizing module NOR3A
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":110:7:110:10|Synthesizing module AO1D
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":8:7:8:11|Synthesizing module AND2A
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":20:7:20:10|Synthesizing module AND3
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1470:7:1470:10|Synthesizing module OR2A
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1374:7:1374:12|Synthesizing module NAND3A
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1398:7:1398:11|Synthesizing module NOR2A
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1905:7:1905:11|Synthesizing module XNOR2
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":86:7:86:9|Synthesizing module AO1
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":122:7:122:10|Synthesizing module AOI1
+
+@N: CG364 :"D:\Actelprj\1401\5932_sign_cmp\smartgen\cmp_2\cmp_2.v":5:7:5:11|Synthesizing module cmp_2
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1163:7:1163:9|Synthesizing module GND
+
+@N: CG364 :"D:\Actelprj\1401\5932_sign_cmp\component\work\XYF\XYF.v":5:7:5:9|Synthesizing module XYF
+
+@W: CL168 :"D:\Actelprj\1401\5932_sign_cmp\component\work\XYF\XYF.v":40:8:40:10|Pruning instance GND - not in use ...
+
+@W: CL168 :"D:\Actelprj\1401\5932_sign_cmp\component\work\XYF\XYF.v":30:8:30:10|Pruning instance VCC - not in use ...
+
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 02 22:25:53 2014
+
+###########################################################]
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:01s; Memory used current: 53MB peak: 55MB)
+
+Finished factoring (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished preparing to map (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished technology mapping (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Writing Analyst data base D:\Actelprj\1401\5932_sign_cmp\synthesis\XYF.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Jan 02 22:21:59 2014
+#
+
+
+Top view:               XYF
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.42, P = 1.30, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: A3P030_QFN68_-2
+Report for cell XYF.verilog
+  Core Cell usage:
+              cell count     area count*area
+             AND2A     1      1.0        1.0
+              AND3     1      1.0        1.0
+               AO1     1      1.0        1.0
+              AO1C     6      1.0        6.0
+              AO1D     1      1.0        1.0
+              AOI1     1      1.0        1.0
+              AX1C    12      1.0       12.0
+               GND     4      0.0        0.0
+            NAND3A     2      1.0        2.0
+             NOR2A     1      1.0        1.0
+             NOR3A     1      1.0        1.0
+               OA1     2      1.0        2.0
+               OR2    10      1.0       10.0
+              OR2A     5      1.0        5.0
+               VCC     4      0.0        0.0
+             XNOR2     3      1.0        3.0
+
+
+                   -----          ----------
+             TOTAL    55                47.0
+
+
+  IO Cell usage:
+              cell count
+             INBUF    16
+            OUTBUF     1
+                   -----
+             TOTAL    17
+
+
+Core Cells         : 47 of 768 (6%)
+IO Cells           : 17
+Mapper successful!
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Thu Jan 02 22:21:59 2014
+
+###########################################################]

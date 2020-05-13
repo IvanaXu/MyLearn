@@ -1,0 +1,48 @@
+----------------------------------------------------------------------
+Report for cell XYF.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKBUF         1       0.0        0.0
+                                GND         1       0.0        0.0
+                              INBUF         5       0.0        0.0
+                             Keypad         1      37.0       37.0
+                             OUTBUF         9       0.0        0.0
+                       Synchronizer         1       2.0        2.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             19                 39.0
+----------------------------------------------------------------------
+Report for cell Keypad.netlist
+     Instance path:  Keypad_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         1       1.0        1.0
+                               AO1C         1       1.0        1.0
+                             DFN1C1         5       1.0        5.0
+                             DFN1P1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               MIN3         1       1.0        1.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         4       1.0        4.0
+                              NOR2B         2       1.0        2.0
+                               NOR3         3       1.0        3.0
+                              NOR3C         2       1.0        2.0
+                                OA1         1       1.0        1.0
+                               OA1B         1       1.0        1.0
+                                OR2        10       1.0       10.0
+                               OR2A         1       1.0        1.0
+                                OR3         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                              XNOR2         1       1.0        1.0
+                            
+                         TOTAL             39                 37.0
+----------------------------------------------------------------------
+Report for cell Synchronizer.netlist
+     Instance path:  Synchronizer_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1C1         2       1.0        2.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                  2.0

@@ -1,0 +1,158 @@
+----------------------------------------------------------------------
+Report for cell XYF.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                               BUFF         1       1.0        1.0
+                             CLKBUF         1       0.0        0.0
+                                GND         1       0.0        0.0
+                              INBUF         7       0.0        0.0
+                             OUTBUF        24       0.0        0.0
+                                VCC         1       0.0        0.0
+              paomadeng_paomadeng_1         1     185.0      185.0
+            paomadeng_paomadeng_1_1         1     185.0      185.0
+            paomadeng_paomadeng_1_2         1     187.0      187.0
+                            
+                         TOTAL             38                558.0
+----------------------------------------------------------------------
+Report for cell paomadeng_paomadeng_1_2.netlist
+  Original Cell name paomadeng_paomadeng_1
+     Instance path:  paomadeng_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                                AO1         1       1.0        1.0
+                               AO1A         8       1.0        8.0
+                               AO1B         3       1.0        3.0
+                               AOI1         2       1.0        2.0
+                              AOI1B         6       1.0        6.0
+                              AXOI5         1       1.0        1.0
+                               DFN1         5       1.0        5.0
+                             DFN1E0        16       1.0       16.0
+                             DFN1E1        11       1.0       11.0
+                                GND         1       0.0        0.0
+                               MAJ3         1       1.0        1.0
+                               MIN3         4       1.0        4.0
+                               NOR2         4       1.0        4.0
+                              NOR2A        11       1.0       11.0
+                              NOR2B        10       1.0       10.0
+                               NOR3         5       1.0        5.0
+                              NOR3B        10       1.0       10.0
+                              NOR3C         5       1.0        5.0
+                                OA1         5       1.0        5.0
+                               OA1A         4       1.0        4.0
+                               OA1B         1       1.0        1.0
+                               OA1C        10       1.0       10.0
+                               OAI1         1       1.0        1.0
+                                OR2        14       1.0       14.0
+                               OR2A        10       1.0       10.0
+                               OR2B         9       1.0        9.0
+                                OR3         2       1.0        2.0
+                               OR3A         1       1.0        1.0
+                               OR3B         2       1.0        2.0
+                               OR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1B         3       1.0        3.0
+                               XA1C         1       1.0        1.0
+                              XAI1A         3       1.0        3.0
+                              XNOR3         1       1.0        1.0
+                               XO1A         1       1.0        1.0
+                               XOR2         6       1.0        6.0
+                               XOR3         2       1.0        2.0
+                            
+                         TOTAL            189                187.0
+----------------------------------------------------------------------
+Report for cell paomadeng_paomadeng_1_1.netlist
+  Original Cell name paomadeng_paomadeng_1
+     Instance path:  paomadeng_2
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                                AO1         2       1.0        2.0
+                               AO1A         7       1.0        7.0
+                               AO1B         3       1.0        3.0
+                               AOI1         2       1.0        2.0
+                              AOI1B         8       1.0        8.0
+                              AXOI4         2       1.0        2.0
+                               DFN1         5       1.0        5.0
+                             DFN1E0        16       1.0       16.0
+                             DFN1E1        11       1.0       11.0
+                                GND         1       0.0        0.0
+                               MAJ3         1       1.0        1.0
+                               MIN3         4       1.0        4.0
+                               NOR2         5       1.0        5.0
+                              NOR2A        11       1.0       11.0
+                              NOR2B        11       1.0       11.0
+                               NOR3         4       1.0        4.0
+                              NOR3B         8       1.0        8.0
+                              NOR3C         5       1.0        5.0
+                                OA1         3       1.0        3.0
+                               OA1A         6       1.0        6.0
+                               OA1B         2       1.0        2.0
+                               OA1C        10       1.0       10.0
+                               OAI1         3       1.0        3.0
+                                OR2        12       1.0       12.0
+                               OR2A        10       1.0       10.0
+                               OR2B         6       1.0        6.0
+                                OR3         3       1.0        3.0
+                               OR3A         1       1.0        1.0
+                               OR3B         2       1.0        2.0
+                               OR3C         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1B         4       1.0        4.0
+                               XAI1         2       1.0        2.0
+                              XAI1A         3       1.0        3.0
+                              XNOR3         2       1.0        2.0
+                               XOR2         5       1.0        5.0
+                               XOR3         1       1.0        1.0
+                            
+                         TOTAL            187                185.0
+----------------------------------------------------------------------
+Report for cell paomadeng_paomadeng_1.netlist
+  Original Cell name paomadeng
+     Instance path:  paomadeng_1
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                                AO1         2       1.0        2.0
+                               AO1A         7       1.0        7.0
+                               AO1B         3       1.0        3.0
+                               AOI1         2       1.0        2.0
+                              AOI1B         8       1.0        8.0
+                              AXOI4         2       1.0        2.0
+                               DFN1         5       1.0        5.0
+                             DFN1E0        16       1.0       16.0
+                             DFN1E1        11       1.0       11.0
+                                GND         1       0.0        0.0
+                               MAJ3         1       1.0        1.0
+                               MIN3         4       1.0        4.0
+                               NOR2         4       1.0        4.0
+                              NOR2A        11       1.0       11.0
+                              NOR2B        11       1.0       11.0
+                               NOR3         4       1.0        4.0
+                              NOR3B         8       1.0        8.0
+                              NOR3C         5       1.0        5.0
+                                OA1         3       1.0        3.0
+                               OA1A         6       1.0        6.0
+                               OA1B         2       1.0        2.0
+                               OA1C        10       1.0       10.0
+                               OAI1         3       1.0        3.0
+                                OR2        14       1.0       14.0
+                               OR2A        10       1.0       10.0
+                               OR2B         5       1.0        5.0
+                                OR3         3       1.0        3.0
+                               OR3A         1       1.0        1.0
+                               OR3B         2       1.0        2.0
+                               OR3C         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1B         3       1.0        3.0
+                               XA1C         1       1.0        1.0
+                               XAI1         2       1.0        2.0
+                              XAI1A         3       1.0        3.0
+                              XNOR3         2       1.0        2.0
+                               XOR2         5       1.0        5.0
+                               XOR3         1       1.0        1.0
+                            
+                         TOTAL            187                185.0

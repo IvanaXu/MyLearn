@@ -1,0 +1,162 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Actelprj\1401\5932_ traf_ctl\simulation
+vBIN_to_BCD_BIN_to_BCD_0
+Z1 IlojBV7Mn?I13gR^4^f_K>1
+Z2 Vk9z48HmfEXHW^=;5;CUkg2
+Z3 dD:\Actelprj\1401\5932_ traf_ctl\simulation
+Z4 w1389436980
+Z5 8D:/Actelprj/1401/5932_ traf_ctl/synthesis/XYF.v
+Z6 FD:/Actelprj/1401/5932_ traf_ctl/synthesis/XYF.v
+L0 5
+Z7 OW;L;6.6d;45
+r1
+31
+Z8 o-work postsynth -O0
+Z9 n@b@i@n_to_@b@c@d_@b@i@n_to_@b@c@d_0
+Z10 !s100 gHeAj71F>7j9`V:jf1>jQ2
+!s85 0
+!s101 -O0
+vBIN_to_BCD_BIN_to_BCD_0_1
+Z11 IbC2nl24Edf?Ec4l3lHk?Z2
+Z12 VNc8gN_=iH0EZ4QO6^O0Rd2
+R3
+R4
+R5
+R6
+Z13 L0 242
+R7
+r1
+31
+R8
+Z14 n@b@i@n_to_@b@c@d_@b@i@n_to_@b@c@d_0_1
+Z15 !s100 V3ZMFGQoZGAhe1in23ITm3
+!s85 0
+!s101 -O0
+vdymamic_led
+Z16 IbTmz3O1FJReDJl2@l0kj[0
+Z17 VBbfKMoXTI>kie<Eclh0]02
+R3
+R4
+R5
+R6
+Z18 L0 395
+R7
+r1
+31
+R8
+Z19 !s100 T[YEKKkGIYLM]@agnI^2i1
+!s85 0
+!s101 -O0
+vHC4511
+Z20 I=YP[AdO`zz8mkAz5DoTUM0
+Z21 Vb@M50;?=O^P1a1b>Kjzg13
+R3
+R4
+R5
+R6
+Z22 L0 339
+R7
+r1
+31
+R8
+Z23 n@h@c4511
+Z24 !s100 fAfRQ7255Oma977T:lX^F3
+!s85 0
+!s101 -O0
+vone_seond_clk
+Z25 IoOi_djS41I6CCT;Q?g>OI0
+Z26 V5Xhh6m>cNP3BJB^Ee8UJH3
+R3
+R4
+R5
+R6
+L0 88
+R7
+r1
+31
+R8
+Z27 !s100 TBI1YRGWAf3?9N7`8C?^^1
+!s85 0
+!s101 -O0
+vtestbench
+!s100 PXmSlgOz]b5XeR:zi2@V<2
+IW7[5Eg7:0?TY_oFc7JGGG3
+V4L]m4k5a>K1=33b^[mcZ>0
+R3
+w1389436236
+8D:/Actelprj/1401/5932_ traf_ctl/stimulus/textbench.v
+FD:/Actelprj/1401/5932_ traf_ctl/stimulus/textbench.v
+L0 2
+R7
+r1
+!s85 0
+31
+!s101 -O0
+R8
+!s92 {+incdir+D:/Actelprj/1401/5932_ traf_ctl/stimulus} -work postsynth -O0
+vtimer_EW
+Z28 I:lRJ[FG2j6XE?PiRP7HTW1
+Z29 VJ3:2cKQX63EmPG<m_C7eB2
+R3
+R4
+R5
+R6
+Z30 L0 647
+R7
+r1
+31
+R8
+Z31 ntimer_@e@w
+Z32 !s100 l<h@WHdVQVdk8akUQa5M_3
+!s85 0
+!s101 -O0
+vtimer_NS
+Z33 IBL@A;hlA_TY8BA0>@^ZWi1
+Z34 V^MJ=JH[T3Z8l`c?`TfTCm1
+R3
+R4
+R5
+R6
+Z35 L0 488
+R7
+r1
+31
+R8
+Z36 ntimer_@n@s
+Z37 !s100 :6HMGaDC;XcVT:Vh67P_>3
+!s85 0
+!s101 -O0
+vtrattic_control
+Z38 IgNL1]m1K?JI57De<D@0>G0
+Z39 VMCI308D2;NWcLi5lWHYC>1
+R3
+R4
+R5
+R6
+Z40 L0 178
+R7
+r1
+31
+R8
+Z41 !s100 >];aK?bfGh^P3997T:@8`1
+!s85 0
+!s101 -O0
+vXYF
+Z42 If>6zENoAPoSRi<CM]D`]Y2
+Z43 VUAa95L[WiYA[6AoOIlLZ00
+R3
+R4
+R5
+R6
+Z44 L0 768
+R7
+r1
+31
+R8
+Z45 n@x@y@f
+Z46 !s100 a2^3iF?^:40;=hJV5D2gZ2
+!s85 0
+!s101 -O0

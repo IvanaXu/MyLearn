@@ -1,0 +1,68 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Actelprj\1401\5932_sign_cmp\simulation
+vcmp_2
+Z1 !s100 3>=8kLgaeARM_1nUQB_]Y0
+Z2 IB[OH1jU6PVj0dbNY9[ok62
+Z3 V_9DfBK0THbmDj0KNaiQ2X0
+Z4 dD:\Actelprj\1401\5932_sign_cmp\simulation
+Z5 w1388671503
+Z6 8D:/Actelprj/1401/5932_sign_cmp/smartgen/cmp_2/cmp_2.v
+Z7 FD:/Actelprj/1401/5932_sign_cmp/smartgen/cmp_2/cmp_2.v
+L0 5
+Z8 OW;L;6.6d;45
+r1
+31
+Z9 o-work presynth -O0
+!s85 0
+!s101 -O0
+vCom_2C
+Z10 !s100 cfThPTF1PLCk@@Ck7BF`X0
+Z11 IVC6iH>L^hl5z^UWTKX2UG1
+Z12 V`VOEJ451oM5_[@b5B04Re3
+R4
+Z13 w1388672062
+Z14 8D:/Actelprj/1401/5932_sign_cmp/hdl/com_2c.v
+Z15 FD:/Actelprj/1401/5932_sign_cmp/hdl/com_2c.v
+L0 3
+R8
+r1
+31
+R9
+Z16 n@com_2@c
+!s85 0
+!s101 -O0
+vtestbench
+!s100 b6A9?E5=co=I5dkGo3V5z2
+I@zB6BWGMRz:GeQYc:TX_53
+Z17 VhGfW:390DM[oDMzegDH9`2
+R4
+w1388754748
+Z18 8D:/Actelprj/1401/5932_sign_cmp/stimulus/textbench.v
+Z19 FD:/Actelprj/1401/5932_sign_cmp/stimulus/textbench.v
+L0 3
+R8
+r1
+!s85 0
+31
+!s101 -O0
+R9
+Z20 !s92 +incdir+D:/Actelprj/1401/5932_sign_cmp/stimulus -work presynth -O0
+vXYF
+Z21 !s100 HojUiOKQZo2d_`=OO^1G@0
+Z22 I9aJP5]Qg<Ndk7j^k<_Y?j1
+Z23 Vc?ln91P5OWBdm]kS8kabf0
+R4
+Z24 w1388671596
+Z25 8D:/Actelprj/1401/5932_sign_cmp/component/work/XYF/XYF.v
+Z26 FD:/Actelprj/1401/5932_sign_cmp/component/work/XYF/XYF.v
+L0 5
+R8
+r1
+31
+R9
+Z27 n@x@y@f
+!s85 0
+!s101 -O0

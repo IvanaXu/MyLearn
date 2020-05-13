@@ -1,0 +1,8 @@
+Selecting top level module dymamic_led
+@N: CG364 :"D:\Actelprj\1401\5932_digi_disp\hdl\5932_74HC4511.v":2:7:2:12|Synthesizing module HC4511
+
+@N: CG179 :"D:\Actelprj\1401\5932_digi_disp\hdl\5932_74HC4511.v":13:19:13:23|Removing redundant assignment
+@W: CL118 :"D:\Actelprj\1401\5932_digi_disp\hdl\5932_74HC4511.v":11:2:11:3|Latch generated from always block for signal SM_8S[7:0], probably caused by a missing assignment in an if or case stmt
+@N: CG364 :"D:\Actelprj\1401\5932_digi_disp\hdl\5932_digi_disp.v":2:7:2:17|Synthesizing module dymamic_led
+
+@W: CG133 :"D:\Actelprj\1401\5932_digi_disp\hdl\5932_digi_disp.v":6:8:6:14|No assignment to Seg_reg

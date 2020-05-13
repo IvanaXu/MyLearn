@@ -1,0 +1,37 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Actelprj\1209\5932_74HC112\simulation
+vHC112
+IX_PS@_G5@YDVbdShBeL;G3
+Vf6HI=]O1E1UoNhoi=;gE]3
+Z1 dD:\Actelprj\1209\5932_74HC112\simulation
+w1386655774
+8D:/Actelprj/1209/5932_74HC112/designer/impl1/HC112_ba.v
+FD:/Actelprj/1209/5932_74HC112/designer/impl1/HC112_ba.v
+L0 6
+Z2 OW;L;6.6d;45
+r1
+31
+Z3 o-work postlayout -O0
+n@h@c112
+!s100 FEob`b7DOf26@HKkd[TcB1
+!s85 0
+!s101 -O0
+vtestbench
+!s100 VLY?4f20]K]9lB2f]W^Fg2
+I@f6j5^zo4Q]REnzJ3M1H02
+Vce>2VUh1MZi:YK>?PKgR71
+R1
+w1386654821
+8D:/Actelprj/1209/5932_74HC112/stimulus/textbench112.v
+FD:/Actelprj/1209/5932_74HC112/stimulus/textbench112.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s101 -O0
+R3
+!s92 +incdir+D:/Actelprj/1209/5932_74HC112/stimulus -work postlayout -O0

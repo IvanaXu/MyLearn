@@ -1,0 +1,209 @@
+----------------------------------------------------------------------
+Report for cell XYF.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+            BIN_to_BCD_BIN_to_BCD_0         1      34.0       34.0
+          BIN_to_BCD_BIN_to_BCD_0_1         1      36.0       36.0
+                             CLKBUF         1       0.0        0.0
+                                GND         1       0.0        0.0
+                              INBUF         1       0.0        0.0
+                             OUTBUF        18       0.0        0.0
+                                VCC         1       0.0        0.0
+                        dymamic_led         1      35.0       35.0
+                      one_seond_clk         1      37.0       37.0
+                           timer_EW         1      53.0       53.0
+                           timer_NS         1      67.0       67.0
+                    trattic_control         1      13.0       13.0
+                            
+                         TOTAL             29                275.0
+----------------------------------------------------------------------
+Report for cell trattic_control.netlist
+     Instance path:  trattic_control_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1C1         2       1.0        2.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                               MX2B         2       1.0        2.0
+                               MX2C         1       1.0        1.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2         1       1.0        1.0
+                            
+                         TOTAL             15                 13.0
+----------------------------------------------------------------------
+Report for cell one_seond_clk.netlist
+     Instance path:  one_seond_clk_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         1       1.0        1.0
+                               AX1E         1       1.0        1.0
+                               DFN1        11       1.0       11.0
+                                GND         1       0.0        0.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         9       1.0        9.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         2       1.0        2.0
+                               OR2A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XA1B         8       1.0        8.0
+                            
+                         TOTAL             39                 37.0
+----------------------------------------------------------------------
+Report for cell timer_EW.netlist
+     Instance path:  timer_EW
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1C         2       1.0        2.0
+                              AOI1B         5       1.0        5.0
+                               DFN1         8       1.0        8.0
+                                GND         1       0.0        0.0
+                               MX2A         1       1.0        1.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         3       1.0        3.0
+                               NOR3         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                                OA1         3       1.0        3.0
+                               OA1C         1       1.0        1.0
+                               OR2A         2       1.0        2.0
+                               OR2B        10       1.0       10.0
+                                OR3         3       1.0        3.0
+                               OR3A         3       1.0        3.0
+                               OR3B         3       1.0        3.0
+                               OR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             55                 53.0
+----------------------------------------------------------------------
+Report for cell timer_NS.netlist
+     Instance path:  timer_NS_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         1       1.0        1.0
+                               AO1C         1       1.0        1.0
+                              AOI1B         5       1.0        5.0
+                               DFN1         8       1.0        8.0
+                                GND         1       0.0        0.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         3       1.0        3.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         2       1.0        2.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         2       1.0        2.0
+                                OA1         3       1.0        3.0
+                               OA1A         1       1.0        1.0
+                               OA1C         2       1.0        2.0
+                               OAI1         2       1.0        2.0
+                                OR2         3       1.0        3.0
+                               OR2A         5       1.0        5.0
+                               OR2B         7       1.0        7.0
+                                OR3         1       1.0        1.0
+                               OR3A         1       1.0        1.0
+                               OR3B         8       1.0        8.0
+                               OR3C         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             69                 67.0
+----------------------------------------------------------------------
+Report for cell BIN_to_BCD_BIN_to_BCD_0_1.netlist
+  Original Cell name BIN_to_BCD_BIN_to_BCD_0
+     Instance path:  BIN_to_BCD_1
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AX1         3       1.0        3.0
+                               AX1A         2       1.0        2.0
+                               AX1B         1       1.0        1.0
+                               AX1E         3       1.0        3.0
+                                GND         1       0.0        0.0
+                               MX2A         3       1.0        3.0
+                               MX2B         1       1.0        1.0
+                               MX2C         2       1.0        2.0
+                              NOR3A         1       1.0        1.0
+                                OA1         1       1.0        1.0
+                               OA1A         1       1.0        1.0
+                               OA1B         1       1.0        1.0
+                               OAI1         1       1.0        1.0
+                                OR2         2       1.0        2.0
+                               OR2A         3       1.0        3.0
+                               OR2B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                              XNOR2         3       1.0        3.0
+                               XOR2         6       1.0        6.0
+                               XOR3         1       1.0        1.0
+                            
+                         TOTAL             38                 36.0
+----------------------------------------------------------------------
+Report for cell dymamic_led.netlist
+     Instance path:  dymamic_led_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1C1         2       1.0        2.0
+                                GND         1       0.0        0.0
+                             HC4511         1      15.0       15.0
+                                INV         1       1.0        1.0
+                                MX2         6       1.0        6.0
+                               MX2C         6       1.0        6.0
+                                OR2         1       1.0        1.0
+                               OR2A         2       1.0        2.0
+                               OR2B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2         1       1.0        1.0
+                            
+                         TOTAL             23                 35.0
+----------------------------------------------------------------------
+Report for cell HC4511.netlist
+     Instance path:  dymamic_led_0.HC4511_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         1       1.0        1.0
+                               AO1C         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               AX1C         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         1       1.0        1.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         1       1.0        1.0
+                               OA1B         1       1.0        1.0
+                               OR2A         1       1.0        1.0
+                               OR2B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2         1       1.0        1.0
+                            
+                         TOTAL             17                 15.0
+----------------------------------------------------------------------
+Report for cell BIN_to_BCD_BIN_to_BCD_0.netlist
+  Original Cell name BIN_to_BCD
+     Instance path:  BIN_to_BCD_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AX1         1       1.0        1.0
+                               AX1A         2       1.0        2.0
+                               AX1C         1       1.0        1.0
+                               AX1D         2       1.0        2.0
+                               AX1E         2       1.0        2.0
+                              AXOI4         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                               MX2A         3       1.0        3.0
+                               MX2B         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                              NOR3B         1       1.0        1.0
+                               OA1A         1       1.0        1.0
+                               OAI1         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2A         4       1.0        4.0
+                               OR2B         3       1.0        3.0
+                                VCC         1       0.0        0.0
+                              XNOR2         3       1.0        3.0
+                               XOR2         5       1.0        5.0
+                            
+                         TOTAL             36                 34.0

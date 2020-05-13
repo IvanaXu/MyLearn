@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Actelprj\1231\5932_00_153_194\simulation
+vHC00
+Z1 !s100 jL:>ToTZHzQmF===]VI4G3
+Z2 IbVc?Qmd5:KzDEFLbEHB3c2
+Z3 VYG2fjoRj>eZ@HZ10GDLVQ1
+Z4 dD:\Actelprj\1231\5932_00_153_194\simulation
+Z5 w1388467709
+Z6 8D:/Actelprj/1231/5932_00_153_194/hdl/5932_74HC00.v
+Z7 FD:/Actelprj/1231/5932_00_153_194/hdl/5932_74HC00.v
+L0 2
+Z8 OW;L;6.6d;45
+r1
+31
+Z9 o-work presynth -O0
+Z10 n@h@c00
+!s85 0
+!s101 -O0
+vHC153
+Z11 !s100 gc^D2WF64PbiAMBNF[VTW2
+Z12 Ie1W9SBP]H?ho]fUX];CbI3
+Z13 VJON[XWmzFLE]<BI2BV_M72
+R4
+Z14 w1388467711
+Z15 8D:/Actelprj/1231/5932_00_153_194/hdl/5932_74HC153.v
+Z16 FD:/Actelprj/1231/5932_00_153_194/hdl/5932_74HC153.v
+L0 2
+R8
+r1
+31
+R9
+Z17 n@h@c153
+!s85 0
+!s101 -O0
+vHC194
+Z18 !s100 JU9S:CCJA7@oACSBl]k000
+Z19 IbVnB5P1[YLPD^^2`PAJa^3
+Z20 V?45CF9[G]Bc8FM2Onb6U71
+R4
+Z21 w1388467713
+Z22 8D:/Actelprj/1231/5932_00_153_194/hdl/5932_74HC194.v
+Z23 FD:/Actelprj/1231/5932_00_153_194/hdl/5932_74HC194.v
+L0 2
+R8
+r1
+31
+R9
+Z24 n@h@c194
+!s85 0
+!s101 -O0
+vtestbench
+!s100 ddBiAcz][zo]n5>M2`LLz0
+Iz=?Mo9;E^V1RQL7`S?d7@3
+Z25 Vce>2VUh1MZi:YK>?PKgR71
+R4
+w1388469794
+Z26 8D:/Actelprj/1231/5932_00_153_194/stimulus/testbench.v
+Z27 FD:/Actelprj/1231/5932_00_153_194/stimulus/testbench.v
+L0 3
+R8
+r1
+!s85 0
+31
+!s101 -O0
+R9
+Z28 !s92 +incdir+D:/Actelprj/1231/5932_00_153_194/stimulus -work presynth -O0
+vXYF
+Z29 !s100 YU<m[R>6Y<o@dI1P=>VkN1
+Z30 I^aL5G1z7llln2Q>bKY>Eb3
+Z31 VF?CJlR0YX:i2189;CB^`z2
+R4
+Z32 w1388467807
+Z33 8D:/Actelprj/1231/5932_00_153_194/component/work/XYF/XYF.v
+Z34 FD:/Actelprj/1231/5932_00_153_194/component/work/XYF/XYF.v
+L0 5
+R8
+r1
+31
+R9
+Z35 n@x@y@f
+!s85 0
+!s101 -O0

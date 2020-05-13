@@ -1,0 +1,21 @@
+#add_file options
+add_file -verilog "C:/Users/Administrator/Desktop/数字逻辑实验/5/project/5932_extend_coder/hdl/5932_74HC148.v"
+add_file -verilog "C:/Users/Administrator/Desktop/数字逻辑实验/5/project/5932_extend_coder/hdl/5932_74HC85.v"
+add_file -verilog "C:/Users/Administrator/Desktop/数字逻辑实验/5/project/5932_extend_coder/hdl/5932_74HC4511.v"
+add_file -verilog "C:/Users/Administrator/Desktop/数字逻辑实验/5/project/5932_extend_coder/component/work/XYF/XYF.v"
+set_option -top_module XYF
+
+#device options
+set_option -technology ProASIC3
+set_option -part A3P030
+set_option -vlog_std v2001
+
+#compilation/mapping options
+set_option -symbolic_fsm_compiler true
+
+#compilation/mapping options
+set_option -frequency 100.000
+
+#simulation options
+impl -active "synthesis"
+project -result_file "C:/Users/Administrator/Desktop/数字逻辑实验/5/project/5932_extend_coder/synthesis/XYF.edn"

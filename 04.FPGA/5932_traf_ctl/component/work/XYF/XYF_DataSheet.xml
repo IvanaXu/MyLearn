@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="datasheet.xsl"?>
+<datasheet>
+  <header>XYF</header>
+  <project-settings>
+    <fam>ProASIC3</fam>
+    <die>A3P030</die>
+    <package>100 VQFP</package>
+    <hdl-type>Verilog</hdl-type>
+    <location>D:/Actelprj/1401/5932_ traf_ctl/component/work/XYF</location>
+    <state>SAVED</state>
+  </project-settings>
+  <site-map>
+  </site-map>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>BIN_to_BCD</core-exttype>
+    <core-location>hdl\BIN_TO_BCD.v</core-location>
+    <core-name>BIN_to_BCD_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>BIN_to_BCD</core-exttype>
+    <core-location>hdl\BIN_TO_BCD.v</core-location>
+    <core-name>BIN_to_BCD_1</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>dymamic_led</core-exttype>
+    <core-location>hdl\5932_digi_disp.v</core-location>
+    <core-name>dymamic_led_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>one_seond_clk</core-exttype>
+    <core-location>hdl\one_second_clk.v</core-location>
+    <core-name>one_seond_clk_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>timer_NS</core-exttype>
+    <core-location>hdl\timer_NS.v</core-location>
+    <core-name>timer_EW</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>timer_NS</core-exttype>
+    <core-location>hdl\timer_NS.v</core-location>
+    <core-name>timer_NS</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>trattic_control</core-exttype>
+    <core-location>hdl\traffic_control.v</core-location>
+    <core-name>trattic_control_0</core-name>
+  </core>
+  <memorysystem>
+    <title>Memory Map for XYF</title>
+    <description>The project does not contain any subsystems.</description>
+  </memorysystem>
+</datasheet>

@@ -1,0 +1,30 @@
+#Build: Synplify Pro E-2010.09A-1, Build 006R, Oct  6 2010
+#install: D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1
+#OS:  6.1
+#Hostname: IDEAPAD
+
+#Implementation: synthesis
+
+#Tue Dec 10 15:06:06 2013
+
+$ Start of Compile
+#Tue Dec 10 15:06:06 2013
+
+Synopsys Verilog Compiler, version comp520rcp1, Build 028R, built Sep 23 2010
+@N|Running in 32-bit mode
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+
+@I::"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v"
+@I::"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vlog\hypermods.v"
+@I::"D:\Actelprj\1209\5932_74HC194\hdl\5932_74HC194.v"
+Verilog syntax check successful!
+Selecting top level module HC194
+@N: CG364 :"D:\Actelprj\1209\5932_74HC194\hdl\5932_74HC194.v":2:7:2:11|Synthesizing module HC194
+
+@N: CG179 :"D:\Actelprj\1209\5932_74HC194\hdl\5932_74HC194.v":11:25:11:28|Removing redundant assignment
+@E: CS153 :"D:\Actelprj\1209\5932_74HC194\hdl\5932_74HC194.v":14:23:14:23|Can't mix blocking and non-blocking assignments to a variable
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Dec 10 15:06:07 2013
+
+###########################################################]

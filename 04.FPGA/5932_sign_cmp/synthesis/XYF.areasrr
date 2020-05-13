@@ -1,0 +1,59 @@
+----------------------------------------------------------------------
+Report for cell XYF.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                    Com_2C_Com_2C_1         1      12.0       12.0
+                  Com_2C_Com_2C_1_1         1      12.0       12.0
+                                GND         1       0.0        0.0
+                              INBUF        16       0.0        0.0
+                             OUTBUF         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                              cmp_2         1      23.0       23.0
+                            
+                         TOTAL             22                 47.0
+----------------------------------------------------------------------
+Report for cell Com_2C_Com_2C_1_1.netlist
+  Original Cell name Com_2C_Com_2C_1
+     Instance path:  Com_2C_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AX1C         6       1.0        6.0
+                                GND         1       0.0        0.0
+                                OA1         1       1.0        1.0
+                                OR2         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             14                 12.0
+----------------------------------------------------------------------
+Report for cell cmp_2.netlist
+     Instance path:  cmp_2_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                              AND2A         1       1.0        1.0
+                               AND3         1       1.0        1.0
+                                AO1         1       1.0        1.0
+                               AO1C         6       1.0        6.0
+                               AO1D         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                             NAND3A         2       1.0        2.0
+                              NOR2A         1       1.0        1.0
+                              NOR3A         1       1.0        1.0
+                               OR2A         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                              XNOR2         3       1.0        3.0
+                            
+                         TOTAL             25                 23.0
+----------------------------------------------------------------------
+Report for cell Com_2C_Com_2C_1.netlist
+  Original Cell name Com_2C
+     Instance path:  Com_2C_1
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AX1C         6       1.0        6.0
+                                GND         1       0.0        0.0
+                                OA1         1       1.0        1.0
+                                OR2         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             14                 12.0

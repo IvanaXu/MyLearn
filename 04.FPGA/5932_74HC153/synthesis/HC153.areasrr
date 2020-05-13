@@ -1,0 +1,13 @@
+----------------------------------------------------------------------
+Report for cell HC153.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         2       1.0        2.0
+                                GND         1       0.0        0.0
+                              INBUF        12       0.0        0.0
+                                MX2         4       1.0        4.0
+                               OA1B         2       1.0        2.0
+                             OUTBUF         2       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             24                  8.0

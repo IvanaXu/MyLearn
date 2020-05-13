@@ -1,0 +1,66 @@
+%%% protect protected_file
+@E
+@ 
+#
+#
+#
+# Created by Synplify Verilog HDL Compiler version comp520rcp1, Build 028R from Synplicity, Inc.
+# Copyright 1994-2010 Synopsys, Inc. , All rights reserved.
+# Synthesis Netlist written on Tue Dec 10 13:12:07 2013
+#
+#
+#OPTIONS:"|-top|HC74|-nram|-fixsmult|-I|D:\\Actelprj\\1209\\5932_74HC74\\synthesis\\|-I|D:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib|-v95|-devicelib|D:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\proasic\\proasic3.v|-encrypt|-pro|-ll|2000|-ui|-fid2|-ram|-sharing|on|-autosm|-lib|work"
+#CUR:"D:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\bin\\c_ver.exe":1286419880
+#CUR:"D:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\proasic\\proasic3.v":1286419904
+#CUR:"D:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\vlog\\hypermods.v":1286419906
+#CUR:"D:\\Actelprj\\1209\\5932_74HC74\\hdl\\5932_74HC74.v":1386652322
+f "D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v"; # file 0
+af .is_verilog 1;
+f "D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vlog\hypermods.v"; # file 1
+af .is_verilog 1;
+f "D:\Actelprj\1209\5932_74HC74\hdl\5932_74HC74.v"; # file 2
+af .is_verilog 1;
+@E
+@ 
+ftell;
+@E@MR@..::.(::R4jI	FsR(]BcCRPsFHDoN;
+PHR3#sPCHoDFR
+4;N3PRHP#_CDsHF4oR;P
+NRs3FHNohl"CR]cB("
+;
+
+@HR@d.:::44d4:4R47r:R.97:r4.
+9;N3HRs_0DFosHMCNlR""7;
+
+
+
+@HR@d.:::4dd6:4R	BDr.4:9DRB	:r4.
+9;N3HRs_0DFosHMCNlRD"B	
+";
+@FR@6.::6g::TgRr.4:9_RT49r4,4T_r;.9
+RNH3Ds0_HFsolMNCTR""
+;
+
+@HR@d.:::4(dU:4Rr1749:.Rr1749:.;H
+NR03sDs_FHNoMl"CR1;7"
+@HR@d.:::.jd4:.Rr)749:.Rr)749:.;H
+NR03sDs_FHNoMl"CR);7"
+@FR@c.:::4cc6:4RrTh49:.RrTh49:.;H
+NR03sDs_FHNoMl"CRT;h"
+@bR@U.::Uj::H6RMkPRM14_7MRk47_1Rr174
+9;b@R@.::g(::g4HURMkPRM)4_79r4R4kM_r)74)9R79r4;R
+b@:@.4jn:::4n6MRHPMRk47_1_k4RM14_7R_41.7r9b;
+R.@@::4(((:4:R4UHRMPk_M4)47_rR49k_M4)47_rR49).7r9b;
+Rj@@:44::.4:Rk0sCsR0k0CRs;kC
+@bR@4j::44::V.RNCD#RDVN#VCRNCD#;R
+b@:@.n4:4:4n:.MRHPhRTr.4:9hRTr.4:9_RT49r4,4T_r;.9
+@bR@4.:4::.4n4:R8NMP4RTd4RTd7R1rR49k_M4)47r9b;
+R.@@::4g.g:4:NnRMR8PTR.(TR.(1.7r9MRk47_)_44r9b;
+R.@@:jU::6U:RV8VsT#R_44r9_RT49r4R47r9DRB	9r4RdT4R4kM_;17
+RNH3Ds0_HFsolMNCTR""b;
+R.@@::4njn:4:86RV#VsR4T_rR.9Tr_4.79RrR.9BrD	.T9R.k(RM14_7;_4
+RNH3Ds0_HFsolMNCTR""C;
+;
+
+
+

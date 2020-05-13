@@ -1,0 +1,19 @@
+Selecting top level module XYF
+@N: CG364 :"D:\Actelprj\1401\5932_extend_coder\hdl\5932_74HC148.v":2:7:2:11|Synthesizing module HC148
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1163:7:1163:9|Synthesizing module GND
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1283:7:1283:9|Synthesizing module INV
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1864:7:1864:9|Synthesizing module VCC
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":2:7:2:10|Synthesizing module AND2
+
+@N: CG364 :"D:\Actelprj\1401\5932_extend_coder\hdl\5932_74HC85.v":2:7:2:10|Synthesizing module HC85
+
+@N: CG364 :"D:\Actelprj\1401\5932_extend_coder\hdl\5932_74HC4511.v":2:7:2:12|Synthesizing module HC4511
+
+@N: CG179 :"D:\Actelprj\1401\5932_extend_coder\hdl\5932_74HC4511.v":13:19:13:23|Removing redundant assignment
+@W: CL118 :"D:\Actelprj\1401\5932_extend_coder\hdl\5932_74HC4511.v":11:2:11:3|Latch generated from always block for signal SM_8S[7:0], probably caused by a missing assignment in an if or case stmt
+@N: CG364 :"D:\Actelprj\1401\5932_extend_coder\component\work\XYF\XYF.v":5:7:5:9|Synthesizing module XYF
+

@@ -1,0 +1,864 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "XYF")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 023R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "XYF")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_NS_0/Q_NS_e1_0_a2_4/B  timer_NS_0/Q_NS_e1_0_a2_4/Y  timer_NS_0/Q_NS_e1_0_o2_0/A  timer_NS_0/Q_NS_e1_0_o2_0/Y  timer_NS_0/Q_NS_RNO_1\[5\]/B  timer_NS_0/Q_NS_RNO_1\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/C  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_NS_0/Q_NS_e1_0_a2_4/B  timer_NS_0/Q_NS_e1_0_a2_4/Y  timer_NS_0/Q_NS_e1_0_o2_0/A  timer_NS_0/Q_NS_e1_0_o2_0/Y  timer_NS_0/Q_NS_RNO_1\[4\]/A  timer_NS_0/Q_NS_RNO_1\[4\]/Y  timer_NS_0/Q_NS_RNO\[4\]/C  timer_NS_0/Q_NS_RNO\[4\]/Y  timer_NS_0/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_EW/Q_NS_e2_0_a2_4/B  timer_EW/Q_NS_e2_0_a2_4/Y  timer_EW/Q_NS_e2_0_a2_0/B  timer_EW/Q_NS_e2_0_a2_0/Y  timer_EW/Q_NS_RNO_0\[2\]/C  timer_EW/Q_NS_RNO_0\[2\]/Y  timer_EW/Q_NS_RNO\[2\]/C  timer_EW/Q_NS_RNO\[2\]/Y  timer_EW/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[2\]/CLK  timer_NS_0/Q_NS\[2\]/Q  timer_NS_0/Q_NS_RNI7OG3\[2\]/B  timer_NS_0/Q_NS_RNI7OG3\[2\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/B  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_NS_0/Q_NS_e1_0_a2_4/B  timer_NS_0/Q_NS_e1_0_a2_4/Y  timer_NS_0/Q_NS_e1_0_o2_0/A  timer_NS_0/Q_NS_e1_0_o2_0/Y  timer_NS_0/Q_NS_RNO_1\[5\]/B  timer_NS_0/Q_NS_RNO_1\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/C  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  timer_NS_0/Q_NS_RNI5GG3\[4\]/A  timer_NS_0/Q_NS_RNI5GG3\[4\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/A  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_NS_0/Q_NS_e1_0_a2_4/B  timer_NS_0/Q_NS_e1_0_a2_4/Y  timer_NS_0/Q_NS_e1_0_o2_0/A  timer_NS_0/Q_NS_e1_0_o2_0/Y  timer_NS_0/Q_NS_RNO_1\[5\]/B  timer_NS_0/Q_NS_RNO_1\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/C  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[4\]/CLK  timer_NS_0/Q_NS\[4\]/Q  timer_NS_0/Q_NS_RNI5GG3\[4\]/B  timer_NS_0/Q_NS_RNI5GG3\[4\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/A  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_NS_0/Q_NS_e1_0_a2_4/B  timer_NS_0/Q_NS_e1_0_a2_4/Y  timer_NS_0/Q_NS_e1_0_o2_0/A  timer_NS_0/Q_NS_e1_0_o2_0/Y  timer_NS_0/Q_NS_RNO_1\[5\]/B  timer_NS_0/Q_NS_RNO_1\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/C  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[7\]/CLK  timer_NS_0/Q_NS\[7\]/Q  timer_NS_0/Q_NS_RNI7OG3\[2\]/A  timer_NS_0/Q_NS_RNI7OG3\[2\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/B  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_NS_0/Q_NS_e1_0_a2_4/B  timer_NS_0/Q_NS_e1_0_a2_4/Y  timer_NS_0/Q_NS_e1_0_o2_0/A  timer_NS_0/Q_NS_e1_0_o2_0/Y  timer_NS_0/Q_NS_RNO_1\[5\]/B  timer_NS_0/Q_NS_RNO_1\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/C  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[1\]/CLK  timer_NS_0/Q_NS\[1\]/Q  timer_NS_0/Q_NS_RNIVNF3\[0\]/A  timer_NS_0/Q_NS_RNIVNF3\[0\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/B  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_NS_0/Q_NS_e1_0_a2_4/B  timer_NS_0/Q_NS_e1_0_a2_4/Y  timer_NS_0/Q_NS_e1_0_o2_0/A  timer_NS_0/Q_NS_e1_0_o2_0/Y  timer_NS_0/Q_NS_RNO_1\[5\]/B  timer_NS_0/Q_NS_RNO_1\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/C  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[6\]/CLK  timer_NS_0/Q_NS\[6\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/B  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_NS_0/Q_NS_e1_0_a2_4/B  timer_NS_0/Q_NS_e1_0_a2_4/Y  timer_NS_0/Q_NS_e1_0_o2_0/A  timer_NS_0/Q_NS_e1_0_o2_0/Y  timer_NS_0/Q_NS_RNO_1\[5\]/B  timer_NS_0/Q_NS_RNO_1\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/C  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[0\]/CLK  timer_NS_0/Q_NS\[0\]/Q  timer_NS_0/Q_NS_RNIVNF3\[0\]/B  timer_NS_0/Q_NS_RNIVNF3\[0\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/B  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_NS_0/Q_NS_e1_0_a2_4/B  timer_NS_0/Q_NS_e1_0_a2_4/Y  timer_NS_0/Q_NS_e1_0_o2_0/A  timer_NS_0/Q_NS_e1_0_o2_0/Y  timer_NS_0/Q_NS_RNO_1\[5\]/B  timer_NS_0/Q_NS_RNO_1\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/C  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Cout/CLK  one_seond_clk_0/Cout/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/A  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_NS_0/Q_NS_e1_0_a2_4/B  timer_NS_0/Q_NS_e1_0_a2_4/Y  timer_NS_0/Q_NS_e1_0_o2_0/A  timer_NS_0/Q_NS_e1_0_o2_0/Y  timer_NS_0/Q_NS_RNO_1\[5\]/B  timer_NS_0/Q_NS_RNO_1\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/C  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_NS_0/Q_NS_e1_0_a2_4/B  timer_NS_0/Q_NS_e1_0_a2_4/Y  timer_NS_0/Q_NS_e1_0_o2_0/A  timer_NS_0/Q_NS_e1_0_o2_0/Y  timer_NS_0/Q_NS_RNO\[2\]/B  timer_NS_0/Q_NS_RNO\[2\]/Y  timer_NS_0/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_EW/Q_NS_e2_0_a2_4/B  timer_EW/Q_NS_e2_0_a2_4/Y  timer_NS_0/Q_NS_e1_0_o2/A  timer_NS_0/Q_NS_e1_0_o2/Y  timer_NS_0/Q_NS_e1_0_a2_0/C  timer_NS_0/Q_NS_e1_0_a2_0/Y  timer_NS_0/Q_NS_RNO\[4\]/A  timer_NS_0/Q_NS_RNO\[4\]/Y  timer_NS_0/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_EW/Q_NS_e2_0_a2_4/B  timer_EW/Q_NS_e2_0_a2_4/Y  timer_NS_0/Q_NS_e1_0_o2/A  timer_NS_0/Q_NS_e1_0_o2/Y  timer_NS_0/Q_NS_e1_0_a2_0/C  timer_NS_0/Q_NS_e1_0_a2_0/Y  timer_NS_0/Q_NS_RNO\[1\]/A  timer_NS_0/Q_NS_RNO\[1\]/Y  timer_NS_0/Q_NS\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_EW/Q_NS_e2_0_a2_4/B  timer_EW/Q_NS_e2_0_a2_4/Y  timer_EW/Q_NS_e2_0_a2_0/B  timer_EW/Q_NS_e2_0_a2_0/Y  timer_EW/Q_NS_RNO\[1\]/C  timer_EW/Q_NS_RNO\[1\]/Y  timer_EW/Q_NS\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_NS_0/Q_NS_e2_0_a2_4/A  timer_NS_0/Q_NS_e2_0_a2_4/Y  timer_NS_0/Q_NS_RNO_3\[2\]/A  timer_NS_0/Q_NS_RNO_3\[2\]/Y  timer_NS_0/Q_NS_RNO_0\[2\]/C  timer_NS_0/Q_NS_RNO_0\[2\]/Y  timer_NS_0/Q_NS_RNO\[2\]/C  timer_NS_0/Q_NS_RNO\[2\]/Y  timer_NS_0/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_EW/Q_NS_e2_0_a2_4/B  timer_EW/Q_NS_e2_0_a2_4/Y  timer_EW/Q_NS_e2_0_a2_0/B  timer_EW/Q_NS_e2_0_a2_0/Y  timer_EW/Q_NS_RNO\[4\]/A  timer_EW/Q_NS_RNO\[4\]/Y  timer_EW/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_EW/Q_NS_e2_0_a2_4/B  timer_EW/Q_NS_e2_0_a2_4/Y  timer_EW/Q_NS_e2_0_a2_0/B  timer_EW/Q_NS_e2_0_a2_0/Y  timer_EW/Q_NS_RNO\[5\]/A  timer_EW/Q_NS_RNO\[5\]/Y  timer_EW/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/Sload_EW_i/A  trattic_control_0/Sload_EW_i/Y  timer_EW/un1_Reset_1_i_i_a2/A  timer_EW/un1_Reset_1_i_i_a2/Y  timer_EW/Q_NS_e1_0_a2_4/A  timer_EW/Q_NS_e1_0_a2_4/Y  timer_EW/Q_NS_e1_0_o2_0/A  timer_EW/Q_NS_e1_0_o2_0/Y  timer_EW/Q_NS_RNO_1\[4\]/A  timer_EW/Q_NS_RNO_1\[4\]/Y  timer_EW/Q_NS_RNO\[4\]/C  timer_EW/Q_NS_RNO\[4\]/Y  timer_EW/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/Sload_EW_i/A  trattic_control_0/Sload_EW_i/Y  timer_EW/un1_Reset_1_i_i_a2/A  timer_EW/un1_Reset_1_i_i_a2/Y  timer_EW/Q_NS_e1_0_a2_4/A  timer_EW/Q_NS_e1_0_a2_4/Y  timer_EW/Q_NS_e1_0_o2_0/A  timer_EW/Q_NS_e1_0_o2_0/Y  timer_EW/Q_NS_RNO_0\[1\]/A  timer_EW/Q_NS_RNO_0\[1\]/Y  timer_EW/Q_NS_RNO\[1\]/A  timer_EW/Q_NS_RNO\[1\]/Y  timer_EW/Q_NS\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_NS_0/Q_NS_e1_0_a2_4/B  timer_NS_0/Q_NS_e1_0_a2_4/Y  timer_NS_0/Q_NS_RNO_2\[3\]/C  timer_NS_0/Q_NS_RNO_2\[3\]/Y  timer_NS_0/Q_NS_RNO\[3\]/C  timer_NS_0/Q_NS_RNO\[3\]/Y  timer_NS_0/Q_NS\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_NS_0/Q_NS_e1_0_a2_4/B  timer_NS_0/Q_NS_e1_0_a2_4/Y  timer_NS_0/Q_NS_RNIQJHH2\[6\]/A  timer_NS_0/Q_NS_RNIQJHH2\[6\]/Y  timer_NS_0/Q_NS_RNO\[6\]/C  timer_NS_0/Q_NS_RNO\[6\]/Y  timer_NS_0/Q_NS\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e1_0_a2_4/A  timer_NS_0/Q_NS_e1_0_a2_4/Y  timer_NS_0/Q_NS_e1_0_o2_0/A  timer_NS_0/Q_NS_e1_0_o2_0/Y  timer_NS_0/Q_NS_RNO_1\[5\]/B  timer_NS_0/Q_NS_RNO_1\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/C  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e1_0_a2_4/A  timer_NS_0/Q_NS_e1_0_a2_4/Y  timer_NS_0/Q_NS_e1_0_o2_0/A  timer_NS_0/Q_NS_e1_0_o2_0/Y  timer_NS_0/Q_NS_RNO_1\[1\]/A  timer_NS_0/Q_NS_RNO_1\[1\]/Y  timer_NS_0/Q_NS_RNO\[1\]/C  timer_NS_0/Q_NS_RNO\[1\]/Y  timer_NS_0/Q_NS\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_NS_0/Q_NS_e1_0_a2_4/B  timer_NS_0/Q_NS_e1_0_a2_4/Y  timer_NS_0/Q_NS_RNIQJHH2\[6\]/A  timer_NS_0/Q_NS_RNIQJHH2\[6\]/Y  timer_NS_0/Q_NS_RNO\[7\]/A  timer_NS_0/Q_NS_RNO\[7\]/Y  timer_NS_0/Q_NS\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[1\]/CLK  trattic_control_0/current_state\[1\]/Q  trattic_control_0/current_state_RNIVQ5D_1\[0\]/A  trattic_control_0/current_state_RNIVQ5D_1\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/B  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_NS_0/Q_NS_e1_0_a2_4/B  timer_NS_0/Q_NS_e1_0_a2_4/Y  timer_NS_0/Q_NS_e1_0_o2_0/A  timer_NS_0/Q_NS_e1_0_o2_0/Y  timer_NS_0/Q_NS_RNO_1\[5\]/B  timer_NS_0/Q_NS_RNO_1\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/C  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/Sload_EW_i/A  trattic_control_0/Sload_EW_i/Y  timer_EW/un1_Reset_1_i_i_a2/A  timer_EW/un1_Reset_1_i_i_a2/Y  timer_EW/Q_NS_e1_0_a2_4/A  timer_EW/Q_NS_e1_0_a2_4/Y  timer_EW/Q_NS_e1_0_o2_0/A  timer_EW/Q_NS_e1_0_o2_0/Y  timer_EW/Q_NS_RNO\[2\]/B  timer_EW/Q_NS_RNO\[2\]/Y  timer_EW/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_NS_0/Q_NS_RNO_1\[2\]/B  timer_NS_0/Q_NS_RNO_1\[2\]/Y  timer_NS_0/Q_NS_RNO_0\[2\]/A  timer_NS_0/Q_NS_RNO_0\[2\]/Y  timer_NS_0/Q_NS_RNO\[2\]/C  timer_NS_0/Q_NS_RNO\[2\]/Y  timer_NS_0/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[0\]/CLK  trattic_control_0/current_state\[0\]/Q  trattic_control_0/current_state_RNIVQ5D_1\[0\]/B  trattic_control_0/current_state_RNIVQ5D_1\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/B  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_NS_0/Q_NS_e1_0_a2_4/B  timer_NS_0/Q_NS_e1_0_a2_4/Y  timer_NS_0/Q_NS_e1_0_o2_0/A  timer_NS_0/Q_NS_e1_0_o2_0/Y  timer_NS_0/Q_NS_RNO_1\[5\]/B  timer_NS_0/Q_NS_RNO_1\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/C  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_EW/Q_NS_RNO_1\[2\]/B  timer_EW/Q_NS_RNO_1\[2\]/Y  timer_EW/Q_NS_RNO_0\[2\]/A  timer_EW/Q_NS_RNO_0\[2\]/Y  timer_EW/Q_NS_RNO\[2\]/C  timer_EW/Q_NS_RNO\[2\]/Y  timer_EW/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e2_0_o2/A  timer_NS_0/Q_NS_e2_0_o2/Y  timer_NS_0/Q_NS_e1_0_a2_4/B  timer_NS_0/Q_NS_e1_0_a2_4/Y  timer_NS_0/Q_NS_RNO\[0\]/A  timer_NS_0/Q_NS_RNO\[0\]/Y  timer_NS_0/Q_NS\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/Sload_EW_i/A  trattic_control_0/Sload_EW_i/Y  timer_EW/un1_Reset_1_i_i_a2/A  timer_EW/un1_Reset_1_i_i_a2/Y  timer_EW/Q_NS_e1_0_a2_4/A  timer_EW/Q_NS_e1_0_a2_4/Y  timer_EW/Q_NS_RNO_2\[3\]/C  timer_EW/Q_NS_RNO_2\[3\]/Y  timer_EW/Q_NS_RNO\[3\]/C  timer_EW/Q_NS_RNO\[3\]/Y  timer_EW/Q_NS\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/Sload_EW_i/A  trattic_control_0/Sload_EW_i/Y  timer_EW/un1_Reset_1_i_i_a2/A  timer_EW/un1_Reset_1_i_i_a2/Y  timer_EW/Q_NS_e1_0_a2_4/A  timer_EW/Q_NS_e1_0_a2_4/Y  timer_EW/Q_NS_RNO_2\[7\]/B  timer_EW/Q_NS_RNO_2\[7\]/Y  timer_EW/Q_NS_RNO\[7\]/C  timer_EW/Q_NS_RNO\[7\]/Y  timer_EW/Q_NS\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/Sload_EW_i/A  trattic_control_0/Sload_EW_i/Y  timer_EW/un1_Reset_1_i_i_a2/A  timer_EW/un1_Reset_1_i_i_a2/Y  timer_EW/Q_NS_RNO_3\[2\]/B  timer_EW/Q_NS_RNO_3\[2\]/Y  timer_EW/Q_NS_RNO_2\[2\]/C  timer_EW/Q_NS_RNO_2\[2\]/Y  timer_EW/Q_NS_RNO_0\[2\]/B  timer_EW/Q_NS_RNO_0\[2\]/Y  timer_EW/Q_NS_RNO\[2\]/C  timer_EW/Q_NS_RNO\[2\]/Y  timer_EW/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_RNO_4\[2\]/A  timer_NS_0/Q_NS_RNO_4\[2\]/Y  timer_NS_0/Q_NS_RNO_1\[2\]/A  timer_NS_0/Q_NS_RNO_1\[2\]/Y  timer_NS_0/Q_NS_RNO_0\[2\]/A  timer_NS_0/Q_NS_RNO_0\[2\]/Y  timer_NS_0/Q_NS_RNO\[2\]/C  timer_NS_0/Q_NS_RNO\[2\]/Y  timer_NS_0/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/Sload_EW_i/A  trattic_control_0/Sload_EW_i/Y  timer_EW/un1_Reset_1_i_i_a2/A  timer_EW/un1_Reset_1_i_i_a2/Y  timer_EW/Q_NS_RNO_1\[2\]/C  timer_EW/Q_NS_RNO_1\[2\]/Y  timer_EW/Q_NS_RNO_0\[2\]/A  timer_EW/Q_NS_RNO_0\[2\]/Y  timer_EW/Q_NS_RNO\[2\]/C  timer_EW/Q_NS_RNO\[2\]/Y  timer_EW/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_RNO_1\[7\]/A  timer_NS_0/Q_NS_RNO_1\[7\]/Y  timer_NS_0/Q_NS_RNO_0\[7\]/A  timer_NS_0/Q_NS_RNO_0\[7\]/Y  timer_NS_0/Q_NS_RNO\[7\]/C  timer_NS_0/Q_NS_RNO\[7\]/Y  timer_NS_0/Q_NS\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/Sload_EW_i/A  trattic_control_0/Sload_EW_i/Y  timer_EW/un1_Reset_1_i_i_a2/A  timer_EW/un1_Reset_1_i_i_a2/Y  timer_EW/Q_NS_e1_0_a2_4/A  timer_EW/Q_NS_e1_0_a2_4/Y  timer_EW/Q_NS_RNO\[0\]/A  timer_EW/Q_NS_RNO\[0\]/Y  timer_EW/Q_NS\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/Sload_EW_i/A  trattic_control_0/Sload_EW_i/Y  timer_EW/un1_Reset_1_i_i_a2/A  timer_EW/un1_Reset_1_i_i_a2/Y  timer_EW/Q_NS_RNO_1\[6\]/B  timer_EW/Q_NS_RNO_1\[6\]/Y  timer_EW/Q_NS_RNO_0\[6\]/C  timer_EW/Q_NS_RNO_0\[6\]/Y  timer_EW/Q_NS_RNO\[6\]/C  timer_EW/Q_NS_RNO\[6\]/Y  timer_EW/Q_NS\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/Sload_EW_i/A  trattic_control_0/Sload_EW_i/Y  timer_EW/un1_Reset_1_i_i_a2/A  timer_EW/un1_Reset_1_i_i_a2/Y  timer_EW/Q_NS_RNO_2\[1\]/B  timer_EW/Q_NS_RNO_2\[1\]/Y  timer_EW/Q_NS_RNO_1\[1\]/C  timer_EW/Q_NS_RNO_1\[1\]/Y  timer_EW/Q_NS_RNO\[1\]/B  timer_EW/Q_NS_RNO\[1\]/Y  timer_EW/Q_NS\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/Sload_EW_i/A  trattic_control_0/Sload_EW_i/Y  timer_EW/un1_Reset_1_i_i_a2/A  timer_EW/un1_Reset_1_i_i_a2/Y  timer_EW/Q_NS_RNO_2\[5\]/B  timer_EW/Q_NS_RNO_2\[5\]/Y  timer_EW/Q_NS_RNO_0\[5\]/C  timer_EW/Q_NS_RNO_0\[5\]/Y  timer_EW/Q_NS_RNO\[5\]/B  timer_EW/Q_NS_RNO\[5\]/Y  timer_EW/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/Sload_EW_i/A  trattic_control_0/Sload_EW_i/Y  timer_EW/un1_Reset_1_i_i_a2/A  timer_EW/un1_Reset_1_i_i_a2/Y  timer_EW/Q_NS_RNO_2\[4\]/B  timer_EW/Q_NS_RNO_2\[4\]/Y  timer_EW/Q_NS_RNO_0\[4\]/C  timer_EW/Q_NS_RNO_0\[4\]/Y  timer_EW/Q_NS_RNO\[4\]/B  timer_EW/Q_NS_RNO\[4\]/Y  timer_EW/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[1\]/CLK  trattic_control_0/current_state\[1\]/Q  trattic_control_0/current_state_RNIVQ5D_2\[0\]/B  trattic_control_0/current_state_RNIVQ5D_2\[0\]/Y  trattic_control_0/Sload_EW_i/B  trattic_control_0/Sload_EW_i/Y  timer_EW/un1_Reset_1_i_i_a2/A  timer_EW/un1_Reset_1_i_i_a2/Y  timer_EW/Q_NS_e1_0_a2_4/A  timer_EW/Q_NS_e1_0_a2_4/Y  timer_EW/Q_NS_e1_0_o2_0/A  timer_EW/Q_NS_e1_0_o2_0/Y  timer_EW/Q_NS_RNO_1\[4\]/A  timer_EW/Q_NS_RNO_1\[4\]/Y  timer_EW/Q_NS_RNO\[4\]/C  timer_EW/Q_NS_RNO\[4\]/Y  timer_EW/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/Sload_EW_i/A  trattic_control_0/Sload_EW_i/Y  timer_EW/un1_Reset_1_i_i_a2/A  timer_EW/un1_Reset_1_i_i_a2/Y  timer_EW/Q_NS_e1_0_a2_4/A  timer_EW/Q_NS_e1_0_a2_4/Y  timer_EW/Q_NS_RNO\[6\]/A  timer_EW/Q_NS_RNO\[6\]/Y  timer_EW/Q_NS\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_RNO_3\[2\]/B  timer_NS_0/Q_NS_RNO_3\[2\]/Y  timer_NS_0/Q_NS_RNO_0\[2\]/C  timer_NS_0/Q_NS_RNO_0\[2\]/Y  timer_NS_0/Q_NS_RNO\[2\]/C  timer_NS_0/Q_NS_RNO\[2\]/Y  timer_NS_0/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[0\]/CLK  trattic_control_0/current_state\[0\]/Q  trattic_control_0/current_state_RNIVQ5D_2\[0\]/A  trattic_control_0/current_state_RNIVQ5D_2\[0\]/Y  trattic_control_0/Sload_EW_i/B  trattic_control_0/Sload_EW_i/Y  timer_EW/un1_Reset_1_i_i_a2/A  timer_EW/un1_Reset_1_i_i_a2/Y  timer_EW/Q_NS_e1_0_a2_4/A  timer_EW/Q_NS_e1_0_a2_4/Y  timer_EW/Q_NS_e1_0_o2_0/A  timer_EW/Q_NS_e1_0_o2_0/Y  timer_EW/Q_NS_RNO_1\[4\]/A  timer_EW/Q_NS_RNO_1\[4\]/Y  timer_EW/Q_NS_RNO\[4\]/C  timer_EW/Q_NS_RNO\[4\]/Y  timer_EW/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_RNO_2\[2\]/A  timer_NS_0/Q_NS_RNO_2\[2\]/Y  timer_NS_0/Q_NS_RNO_0\[2\]/B  timer_NS_0/Q_NS_RNO_0\[2\]/Y  timer_NS_0/Q_NS_RNO\[2\]/C  timer_NS_0/Q_NS_RNO\[2\]/Y  timer_NS_0/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_RNO_2\[5\]/A  timer_NS_0/Q_NS_RNO_2\[5\]/Y  timer_NS_0/Q_NS_RNO_0\[5\]/C  timer_NS_0/Q_NS_RNO_0\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/B  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_RNO_2\[4\]/A  timer_NS_0/Q_NS_RNO_2\[4\]/Y  timer_NS_0/Q_NS_RNO_0\[4\]/C  timer_NS_0/Q_NS_RNO_0\[4\]/Y  timer_NS_0/Q_NS_RNO\[4\]/B  timer_NS_0/Q_NS_RNO\[4\]/Y  timer_NS_0/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_RNO_2\[1\]/A  timer_NS_0/Q_NS_RNO_2\[1\]/Y  timer_NS_0/Q_NS_RNO_0\[1\]/C  timer_NS_0/Q_NS_RNO_0\[1\]/Y  timer_NS_0/Q_NS_RNO\[1\]/B  timer_NS_0/Q_NS_RNO\[1\]/Y  timer_NS_0/Q_NS\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/Sload_EW_i/A  trattic_control_0/Sload_EW_i/Y  timer_EW/un1_Reset_1_i_i_a2/A  timer_EW/un1_Reset_1_i_i_a2/Y  timer_EW/Q_NS_RNO_0\[3\]/B  timer_EW/Q_NS_RNO_0\[3\]/Y  timer_EW/Q_NS_RNO\[3\]/A  timer_EW/Q_NS_RNO\[3\]/Y  timer_EW/Q_NS\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e1_0_a2_0/B  timer_NS_0/Q_NS_e1_0_a2_0/Y  timer_NS_0/Q_NS_RNO\[4\]/A  timer_NS_0/Q_NS_RNO\[4\]/Y  timer_NS_0/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_e1_0_a2_0/B  timer_NS_0/Q_NS_e1_0_a2_0/Y  timer_NS_0/Q_NS_RNO\[5\]/A  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/Sload_EW_i/A  trattic_control_0/Sload_EW_i/Y  timer_EW/un1_Reset_1_i_i_a2/A  timer_EW/un1_Reset_1_i_i_a2/Y  timer_EW/Q_NS_RNO_0\[7\]/A  timer_EW/Q_NS_RNO_0\[7\]/Y  timer_EW/Q_NS_RNO\[7\]/A  timer_EW/Q_NS_RNO\[7\]/Y  timer_EW/Q_NS\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[1\]/CLK  timer_NS_0/Q_NS\[1\]/Q  timer_NS_0/Q_NS_RNIVNF3\[0\]/A  timer_NS_0/Q_NS_RNIVNF3\[0\]/Y  timer_NS_0/Q_NS_RNI0Q75\[2\]/B  timer_NS_0/Q_NS_RNI0Q75\[2\]/Y  timer_NS_0/Q_NS_RNI5AO8\[4\]/A  timer_NS_0/Q_NS_RNI5AO8\[4\]/Y  timer_NS_0/Q_NS_RNO_3\[5\]/B  timer_NS_0/Q_NS_RNO_3\[5\]/Y  timer_NS_0/Q_NS_RNO_2\[5\]/B  timer_NS_0/Q_NS_RNO_2\[5\]/Y  timer_NS_0/Q_NS_RNO_0\[5\]/C  timer_NS_0/Q_NS_RNO_0\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/B  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/Sload_EW_i/A  trattic_control_0/Sload_EW_i/Y  timer_EW/Q_NS_e2_0_a2_0/A  timer_EW/Q_NS_e2_0_a2_0/Y  timer_EW/Q_NS_RNO_0\[2\]/C  timer_EW/Q_NS_RNO_0\[2\]/Y  timer_EW/Q_NS_RNO\[2\]/C  timer_EW/Q_NS_RNO\[2\]/Y  timer_EW/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_RNO_0\[0\]/A  timer_NS_0/Q_NS_RNO_0\[0\]/Y  timer_NS_0/Q_NS_RNO\[0\]/C  timer_NS_0/Q_NS_RNO\[0\]/Y  timer_NS_0/Q_NS\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_RNO_1\[3\]/A  timer_NS_0/Q_NS_RNO_1\[3\]/Y  timer_NS_0/Q_NS_RNO\[3\]/B  timer_NS_0/Q_NS_RNO\[3\]/Y  timer_NS_0/Q_NS\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[1\]/CLK  timer_NS_0/Q_NS\[1\]/Q  timer_NS_0/Q_NS_RNIVNF3\[0\]/A  timer_NS_0/Q_NS_RNIVNF3\[0\]/Y  timer_NS_0/Q_NS_RNI0Q75\[2\]/B  timer_NS_0/Q_NS_RNI0Q75\[2\]/Y  timer_NS_0/Q_NS_RNI5AO8\[4\]/A  timer_NS_0/Q_NS_RNI5AO8\[4\]/Y  timer_NS_0/Q_NS_RNIEA9C\[6\]/A  timer_NS_0/Q_NS_RNIEA9C\[6\]/Y  timer_NS_0/Q_NS_RNO_0\[7\]/B  timer_NS_0/Q_NS_RNO_0\[7\]/Y  timer_NS_0/Q_NS_RNO\[7\]/C  timer_NS_0/Q_NS_RNO\[7\]/Y  timer_NS_0/Q_NS\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  timer_EW/Q_NS_RNI6VA9\[0\]/B  timer_EW/Q_NS_RNI6VA9\[0\]/Y  timer_EW/Q_NS_RNIFTIF\[4\]/A  timer_EW/Q_NS_RNIFTIF\[4\]/Y  timer_EW/Q_NS_RNISBRL\[6\]/A  timer_EW/Q_NS_RNISBRL\[6\]/Y  timer_EW/Q_NS_RNIF75S\[7\]/B  timer_EW/Q_NS_RNIF75S\[7\]/Y  trattic_control_0/current_state_ns_1_0__m5/B  trattic_control_0/current_state_ns_1_0__m5/Y  trattic_control_0/current_state_ns_1_0__m6/B  trattic_control_0/current_state_ns_1_0__m6/Y  trattic_control_0/current_state\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  timer_EW/Q_NS_RNI6VA9\[0\]/B  timer_EW/Q_NS_RNI6VA9\[0\]/Y  timer_EW/Q_NS_RNIFTIF\[4\]/A  timer_EW/Q_NS_RNIFTIF\[4\]/Y  timer_EW/Q_NS_RNISBRL\[6\]/A  timer_EW/Q_NS_RNISBRL\[6\]/Y  timer_EW/Q_NS_RNIF75S\[7\]/B  timer_EW/Q_NS_RNIF75S\[7\]/Y  trattic_control_0/current_state_ns_1_0__m2/B  trattic_control_0/current_state_ns_1_0__m2/Y  trattic_control_0/current_state_ns_1_0__m3_0/A  trattic_control_0/current_state_ns_1_0__m3_0/Y  trattic_control_0/current_state\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[2\]/CLK  timer_EW/Q_NS\[2\]/Q  timer_EW/Q_NS_RNI6VA9\[0\]/C  timer_EW/Q_NS_RNI6VA9\[0\]/Y  timer_EW/Q_NS_RNIFTIF\[4\]/A  timer_EW/Q_NS_RNIFTIF\[4\]/Y  timer_EW/Q_NS_RNISBRL\[6\]/A  timer_EW/Q_NS_RNISBRL\[6\]/Y  timer_EW/Q_NS_RNIF75S\[7\]/B  timer_EW/Q_NS_RNIF75S\[7\]/Y  trattic_control_0/current_state_ns_1_0__m5/B  trattic_control_0/current_state_ns_1_0__m5/Y  trattic_control_0/current_state_ns_1_0__m6/B  trattic_control_0/current_state_ns_1_0__m6/Y  trattic_control_0/current_state\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[1\]/CLK  timer_NS_0/Q_NS\[1\]/Q  timer_NS_0/Q_NS_RNIVNF3\[0\]/A  timer_NS_0/Q_NS_RNIVNF3\[0\]/Y  timer_NS_0/Q_NS_RNI0Q75\[2\]/B  timer_NS_0/Q_NS_RNI0Q75\[2\]/Y  timer_NS_0/Q_NS_RNI5AO8\[4\]/A  timer_NS_0/Q_NS_RNI5AO8\[4\]/Y  timer_NS_0/Q_NS_RNIEA9C\[6\]/A  timer_NS_0/Q_NS_RNIEA9C\[6\]/Y  timer_NS_0/Q_NS_RNIQJHH2\[6\]/B  timer_NS_0/Q_NS_RNIQJHH2\[6\]/Y  timer_NS_0/Q_NS_RNO\[6\]/C  timer_NS_0/Q_NS_RNO\[6\]/Y  timer_NS_0/Q_NS\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_RNO_0\[3\]/A  timer_NS_0/Q_NS_RNO_0\[3\]/Y  timer_NS_0/Q_NS_RNO\[3\]/A  timer_NS_0/Q_NS_RNO\[3\]/Y  timer_NS_0/Q_NS\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_RNIU9DU\[0\]/A  trattic_control_0/current_state_RNIU9DU\[0\]/Y  timer_NS_0/Q_NS_RNO_0\[6\]/A  timer_NS_0/Q_NS_RNO_0\[6\]/Y  timer_NS_0/Q_NS_RNO\[6\]/A  timer_NS_0/Q_NS_RNO\[6\]/Y  timer_NS_0/Q_NS\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[0\]/CLK  one_seond_clk_0/Count\[0\]/Q  one_seond_clk_0/Count_RNIJS3B\[1\]/B  one_seond_clk_0/Count_RNIJS3B\[1\]/Y  one_seond_clk_0/Count_RNIU0MG\[2\]/B  one_seond_clk_0/Count_RNIU0MG\[2\]/Y  one_seond_clk_0/Count_RNIA98M\[3\]/B  one_seond_clk_0/Count_RNIA98M\[3\]/Y  one_seond_clk_0/Count_RNINLQR\[4\]/B  one_seond_clk_0/Count_RNINLQR\[4\]/Y  one_seond_clk_0/Count_RNI56D11\[5\]/B  one_seond_clk_0/Count_RNI56D11\[5\]/Y  one_seond_clk_0/Count_RNIKQV61\[6\]/B  one_seond_clk_0/Count_RNIKQV61\[6\]/Y  one_seond_clk_0/Count_RNI4JIC1\[7\]/B  one_seond_clk_0/Count_RNI4JIC1\[7\]/Y  one_seond_clk_0/Count_RNO\[9\]/A  one_seond_clk_0/Count_RNO\[9\]/Y  one_seond_clk_0/Count\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[1\]/CLK  timer_NS_0/Q_NS\[1\]/Q  timer_NS_0/Q_NS_RNIVNF3\[0\]/A  timer_NS_0/Q_NS_RNIVNF3\[0\]/Y  timer_NS_0/Q_NS_RNI0Q75\[2\]/B  timer_NS_0/Q_NS_RNI0Q75\[2\]/Y  timer_NS_0/Q_NS_RNI5AO8\[4\]/A  timer_NS_0/Q_NS_RNI5AO8\[4\]/Y  timer_NS_0/Q_NS_RNO_2\[6\]/A  timer_NS_0/Q_NS_RNO_2\[6\]/Y  timer_NS_0/Q_NS_RNO_0\[6\]/B  timer_NS_0/Q_NS_RNO_0\[6\]/Y  timer_NS_0/Q_NS_RNO\[6\]/A  timer_NS_0/Q_NS_RNO\[6\]/Y  timer_NS_0/Q_NS\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[0\]/CLK  timer_EW/Q_NS\[0\]/Q  timer_EW/Q_NS_RNI6VA9\[0\]/A  timer_EW/Q_NS_RNI6VA9\[0\]/Y  timer_EW/Q_NS_RNIFTIF\[4\]/A  timer_EW/Q_NS_RNIFTIF\[4\]/Y  timer_EW/Q_NS_RNISBRL\[6\]/A  timer_EW/Q_NS_RNISBRL\[6\]/Y  timer_EW/Q_NS_RNIF75S\[7\]/B  timer_EW/Q_NS_RNIF75S\[7\]/Y  trattic_control_0/current_state_ns_1_0__m5/B  trattic_control_0/current_state_ns_1_0__m5/Y  trattic_control_0/current_state_ns_1_0__m6/B  trattic_control_0/current_state_ns_1_0__m6/Y  trattic_control_0/current_state\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[0\]/CLK  one_seond_clk_0/Count\[0\]/Q  one_seond_clk_0/Count_RNIJS3B\[1\]/B  one_seond_clk_0/Count_RNIJS3B\[1\]/Y  one_seond_clk_0/Count_RNIU0MG\[2\]/B  one_seond_clk_0/Count_RNIU0MG\[2\]/Y  one_seond_clk_0/Count_RNIA98M\[3\]/B  one_seond_clk_0/Count_RNIA98M\[3\]/Y  one_seond_clk_0/Count_RNINLQR\[4\]/B  one_seond_clk_0/Count_RNINLQR\[4\]/Y  one_seond_clk_0/Count_RNI56D11\[5\]/B  one_seond_clk_0/Count_RNI56D11\[5\]/Y  one_seond_clk_0/Count_RNIKQV61\[6\]/B  one_seond_clk_0/Count_RNIKQV61\[6\]/Y  one_seond_clk_0/Count_RNI4JIC1\[7\]/B  one_seond_clk_0/Count_RNI4JIC1\[7\]/Y  one_seond_clk_0/Count_RNO\[8\]/A  one_seond_clk_0/Count_RNO\[8\]/Y  one_seond_clk_0/Count\[8\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[1\]/CLK  one_seond_clk_0/Count\[1\]/Q  one_seond_clk_0/Count_RNIJS3B\[1\]/A  one_seond_clk_0/Count_RNIJS3B\[1\]/Y  one_seond_clk_0/Count_RNIU0MG\[2\]/B  one_seond_clk_0/Count_RNIU0MG\[2\]/Y  one_seond_clk_0/Count_RNIA98M\[3\]/B  one_seond_clk_0/Count_RNIA98M\[3\]/Y  one_seond_clk_0/Count_RNINLQR\[4\]/B  one_seond_clk_0/Count_RNINLQR\[4\]/Y  one_seond_clk_0/Count_RNI56D11\[5\]/B  one_seond_clk_0/Count_RNI56D11\[5\]/Y  one_seond_clk_0/Count_RNIKQV61\[6\]/B  one_seond_clk_0/Count_RNIKQV61\[6\]/Y  one_seond_clk_0/Count_RNI4JIC1\[7\]/B  one_seond_clk_0/Count_RNI4JIC1\[7\]/Y  one_seond_clk_0/Count_RNO\[9\]/A  one_seond_clk_0/Count_RNO\[9\]/Y  one_seond_clk_0/Count\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  timer_EW/Q_NS_RNI6VA9\[0\]/B  timer_EW/Q_NS_RNI6VA9\[0\]/Y  timer_EW/Q_NS_RNIFTIF\[4\]/A  timer_EW/Q_NS_RNIFTIF\[4\]/Y  timer_EW/Q_NS_RNO_2\[6\]/A  timer_EW/Q_NS_RNO_2\[6\]/Y  timer_EW/Q_NS_RNO_1\[6\]/A  timer_EW/Q_NS_RNO_1\[6\]/Y  timer_EW/Q_NS_RNO_0\[6\]/C  timer_EW/Q_NS_RNO_0\[6\]/Y  timer_EW/Q_NS_RNO\[6\]/C  timer_EW/Q_NS_RNO\[6\]/Y  timer_EW/Q_NS\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  timer_EW/Q_NS_RNI6VA9\[0\]/B  timer_EW/Q_NS_RNI6VA9\[0\]/Y  timer_EW/Q_NS_RNIFTIF\[4\]/A  timer_EW/Q_NS_RNIFTIF\[4\]/Y  timer_EW/Q_NS_RNISBRL\[6\]/A  timer_EW/Q_NS_RNISBRL\[6\]/Y  timer_EW/Q_NS_RNO_0\[7\]/C  timer_EW/Q_NS_RNO_0\[7\]/Y  timer_EW/Q_NS_RNO\[7\]/A  timer_EW/Q_NS_RNO\[7\]/Y  timer_EW/Q_NS\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  timer_EW/Q_NS_RNI6VA9\[0\]/B  timer_EW/Q_NS_RNI6VA9\[0\]/Y  timer_EW/Q_NS_RNIFTIF\[4\]/A  timer_EW/Q_NS_RNIFTIF\[4\]/Y  timer_EW/Q_NS_RNO_3\[5\]/B  timer_EW/Q_NS_RNO_3\[5\]/Y  timer_EW/Q_NS_RNO_2\[5\]/A  timer_EW/Q_NS_RNO_2\[5\]/Y  timer_EW/Q_NS_RNO_0\[5\]/C  timer_EW/Q_NS_RNO_0\[5\]/Y  timer_EW/Q_NS_RNO\[5\]/B  timer_EW/Q_NS_RNO\[5\]/Y  timer_EW/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  timer_EW/Q_NS_RNI6VA9\[0\]/B  timer_EW/Q_NS_RNI6VA9\[0\]/Y  timer_EW/Q_NS_RNIFTIF\[4\]/A  timer_EW/Q_NS_RNIFTIF\[4\]/Y  timer_EW/Q_NS_RNISBRL\[6\]/A  timer_EW/Q_NS_RNISBRL\[6\]/Y  timer_EW/Q_NS_RNO_2\[7\]/A  timer_EW/Q_NS_RNO_2\[7\]/Y  timer_EW/Q_NS_RNO\[7\]/C  timer_EW/Q_NS_RNO\[7\]/Y  timer_EW/Q_NS\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[1\]/CLK  timer_NS_0/Q_NS\[1\]/Q  timer_NS_0/Q_NS_RNIVNF3\[0\]/A  timer_NS_0/Q_NS_RNIVNF3\[0\]/Y  timer_NS_0/Q_NS_RNI0Q75\[2\]/B  timer_NS_0/Q_NS_RNI0Q75\[2\]/Y  timer_NS_0/Q_NS_RNO_3\[4\]/A  timer_NS_0/Q_NS_RNO_3\[4\]/Y  timer_NS_0/Q_NS_RNO_2\[4\]/B  timer_NS_0/Q_NS_RNO_2\[4\]/Y  timer_NS_0/Q_NS_RNO_0\[4\]/C  timer_NS_0/Q_NS_RNO_0\[4\]/Y  timer_NS_0/Q_NS_RNO\[4\]/B  timer_NS_0/Q_NS_RNO\[4\]/Y  timer_NS_0/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Cout/CLK  one_seond_clk_0/Cout/Q  timer_NS_0/Q_NS_e2_0_o2/B  timer_NS_0/Q_NS_e2_0_o2/Y  timer_NS_0/Q_NS_e1_0_a2_4/B  timer_NS_0/Q_NS_e1_0_a2_4/Y  timer_NS_0/Q_NS_e1_0_o2_0/A  timer_NS_0/Q_NS_e1_0_o2_0/Y  timer_NS_0/Q_NS_RNO_1\[5\]/B  timer_NS_0/Q_NS_RNO_1\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/C  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[1\]/CLK  timer_NS_0/Q_NS\[1\]/Q  timer_NS_0/Q_NS_RNIVNF3\[0\]/A  timer_NS_0/Q_NS_RNIVNF3\[0\]/Y  timer_NS_0/Q_NS_RNI0Q75\[2\]/B  timer_NS_0/Q_NS_RNI0Q75\[2\]/Y  timer_NS_0/Q_NS_RNI5AO8\[4\]/A  timer_NS_0/Q_NS_RNI5AO8\[4\]/Y  timer_NS_0/Q_NS_RNO_1\[5\]/A  timer_NS_0/Q_NS_RNO_1\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/C  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[1\]/CLK  timer_NS_0/Q_NS\[1\]/Q  timer_NS_0/Q_NS_RNIVNF3\[0\]/A  timer_NS_0/Q_NS_RNIVNF3\[0\]/Y  timer_NS_0/Q_NS_RNI0Q75\[2\]/B  timer_NS_0/Q_NS_RNI0Q75\[2\]/Y  timer_NS_0/Q_NS_RNI5AO8\[4\]/A  timer_NS_0/Q_NS_RNI5AO8\[4\]/Y  timer_NS_0/Q_NS_RNO_1\[4\]/B  timer_NS_0/Q_NS_RNO_1\[4\]/Y  timer_NS_0/Q_NS_RNO\[4\]/C  timer_NS_0/Q_NS_RNO\[4\]/Y  timer_NS_0/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[0\]/CLK  one_seond_clk_0/Count\[0\]/Q  one_seond_clk_0/Count_RNIJS3B\[1\]/B  one_seond_clk_0/Count_RNIJS3B\[1\]/Y  one_seond_clk_0/Count_RNIU0MG\[2\]/B  one_seond_clk_0/Count_RNIU0MG\[2\]/Y  one_seond_clk_0/Count_RNIA98M\[3\]/B  one_seond_clk_0/Count_RNIA98M\[3\]/Y  one_seond_clk_0/Count_RNINLQR\[4\]/B  one_seond_clk_0/Count_RNINLQR\[4\]/Y  one_seond_clk_0/Count_RNI56D11\[5\]/B  one_seond_clk_0/Count_RNI56D11\[5\]/Y  one_seond_clk_0/Count_RNIKQV61\[6\]/B  one_seond_clk_0/Count_RNIKQV61\[6\]/Y  one_seond_clk_0/Count_RNO\[7\]/A  one_seond_clk_0/Count_RNO\[7\]/Y  one_seond_clk_0/Count\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[2\]/CLK  timer_NS_0/Q_NS\[2\]/Q  timer_NS_0/Q_NS_RNI0Q75\[2\]/A  timer_NS_0/Q_NS_RNI0Q75\[2\]/Y  timer_NS_0/Q_NS_RNI5AO8\[4\]/A  timer_NS_0/Q_NS_RNI5AO8\[4\]/Y  timer_NS_0/Q_NS_RNO_3\[5\]/B  timer_NS_0/Q_NS_RNO_3\[5\]/Y  timer_NS_0/Q_NS_RNO_2\[5\]/B  timer_NS_0/Q_NS_RNO_2\[5\]/Y  timer_NS_0/Q_NS_RNO_0\[5\]/C  timer_NS_0/Q_NS_RNO_0\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/B  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  timer_EW/Q_NS_RNIFTIF\[4\]/B  timer_EW/Q_NS_RNIFTIF\[4\]/Y  timer_EW/Q_NS_RNISBRL\[6\]/A  timer_EW/Q_NS_RNISBRL\[6\]/Y  timer_EW/Q_NS_RNIF75S\[7\]/B  timer_EW/Q_NS_RNIF75S\[7\]/Y  trattic_control_0/current_state_ns_1_0__m5/B  trattic_control_0/current_state_ns_1_0__m5/Y  trattic_control_0/current_state_ns_1_0__m6/B  trattic_control_0/current_state_ns_1_0__m6/Y  trattic_control_0/current_state\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[2\]/CLK  one_seond_clk_0/Count\[2\]/Q  one_seond_clk_0/Count_RNIU0MG\[2\]/A  one_seond_clk_0/Count_RNIU0MG\[2\]/Y  one_seond_clk_0/Count_RNIA98M\[3\]/B  one_seond_clk_0/Count_RNIA98M\[3\]/Y  one_seond_clk_0/Count_RNINLQR\[4\]/B  one_seond_clk_0/Count_RNINLQR\[4\]/Y  one_seond_clk_0/Count_RNI56D11\[5\]/B  one_seond_clk_0/Count_RNI56D11\[5\]/Y  one_seond_clk_0/Count_RNIKQV61\[6\]/B  one_seond_clk_0/Count_RNIKQV61\[6\]/Y  one_seond_clk_0/Count_RNI4JIC1\[7\]/B  one_seond_clk_0/Count_RNI4JIC1\[7\]/Y  one_seond_clk_0/Count_RNO\[9\]/A  one_seond_clk_0/Count_RNO\[9\]/Y  one_seond_clk_0/Count\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[4\]/CLK  timer_EW/Q_NS\[4\]/Q  timer_EW/Q_NS_RNIFTIF\[4\]/C  timer_EW/Q_NS_RNIFTIF\[4\]/Y  timer_EW/Q_NS_RNISBRL\[6\]/A  timer_EW/Q_NS_RNISBRL\[6\]/Y  timer_EW/Q_NS_RNIF75S\[7\]/B  timer_EW/Q_NS_RNIF75S\[7\]/Y  trattic_control_0/current_state_ns_1_0__m5/B  trattic_control_0/current_state_ns_1_0__m5/Y  trattic_control_0/current_state_ns_1_0__m6/B  trattic_control_0/current_state_ns_1_0__m6/Y  trattic_control_0/current_state\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  timer_EW/Q_NS_RNI6VA9\[0\]/B  timer_EW/Q_NS_RNI6VA9\[0\]/Y  timer_EW/Q_NS_RNIFTIF\[4\]/A  timer_EW/Q_NS_RNIFTIF\[4\]/Y  timer_EW/Q_NS_RNISBRL\[6\]/A  timer_EW/Q_NS_RNISBRL\[6\]/Y  timer_EW/Q_NS_RNO\[6\]/B  timer_EW/Q_NS_RNO\[6\]/Y  timer_EW/Q_NS\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[1\]/CLK  timer_NS_0/Q_NS\[1\]/Q  timer_NS_0/Q_NS_RNIVNF3\[0\]/A  timer_NS_0/Q_NS_RNIVNF3\[0\]/Y  timer_NS_0/Q_NS_RNI0Q75\[2\]/B  timer_NS_0/Q_NS_RNI0Q75\[2\]/Y  timer_NS_0/Q_NS_RNO_3\[3\]/B  timer_NS_0/Q_NS_RNO_3\[3\]/Y  timer_NS_0/Q_NS_RNO_0\[3\]/B  timer_NS_0/Q_NS_RNO_0\[3\]/Y  timer_NS_0/Q_NS_RNO\[3\]/A  timer_NS_0/Q_NS_RNO\[3\]/Y  timer_NS_0/Q_NS\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[0\]/CLK  trattic_control_0/current_state\[0\]/Q  timer_EW/Q_NS_e2_0_a2_4_1/A  timer_EW/Q_NS_e2_0_a2_4_1/Y  timer_EW/Q_NS_e2_0_a2_4/A  timer_EW/Q_NS_e2_0_a2_4/Y  timer_EW/Q_NS_e2_0_a2_0/B  timer_EW/Q_NS_e2_0_a2_0/Y  timer_EW/Q_NS_RNO_0\[2\]/C  timer_EW/Q_NS_RNO_0\[2\]/Y  timer_EW/Q_NS_RNO\[2\]/C  timer_EW/Q_NS_RNO\[2\]/Y  timer_EW/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[0\]/CLK  one_seond_clk_0/Count\[0\]/Q  one_seond_clk_0/Count_RNIJS3B\[1\]/B  one_seond_clk_0/Count_RNIJS3B\[1\]/Y  one_seond_clk_0/Count_RNID6E11\[5\]/C  one_seond_clk_0/Count_RNID6E11\[5\]/Y  one_seond_clk_0/Count_RNICN0T1\[7\]/A  one_seond_clk_0/Count_RNICN0T1\[7\]/Y  one_seond_clk_0/Count_RNO_0\[9\]/B  one_seond_clk_0/Count_RNO_0\[9\]/Y  one_seond_clk_0/Count_RNO\[9\]/B  one_seond_clk_0/Count_RNO\[9\]/Y  one_seond_clk_0/Count\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[1\]/CLK  trattic_control_0/current_state\[1\]/Q  timer_EW/Q_NS_e2_0_a2_4_1/B  timer_EW/Q_NS_e2_0_a2_4_1/Y  timer_EW/Q_NS_e2_0_a2_4/A  timer_EW/Q_NS_e2_0_a2_4/Y  timer_EW/Q_NS_e2_0_a2_0/B  timer_EW/Q_NS_e2_0_a2_0/Y  timer_EW/Q_NS_RNO_0\[2\]/C  timer_EW/Q_NS_RNO_0\[2\]/Y  timer_EW/Q_NS_RNO\[2\]/C  timer_EW/Q_NS_RNO\[2\]/Y  timer_EW/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[0\]/CLK  one_seond_clk_0/Count\[0\]/Q  one_seond_clk_0/Count_RNIJS3B\[1\]/B  one_seond_clk_0/Count_RNIJS3B\[1\]/Y  one_seond_clk_0/Count_RNIU0MG\[2\]/B  one_seond_clk_0/Count_RNIU0MG\[2\]/Y  one_seond_clk_0/Count_RNIA98M\[3\]/B  one_seond_clk_0/Count_RNIA98M\[3\]/Y  one_seond_clk_0/Count_RNINLQR\[4\]/B  one_seond_clk_0/Count_RNINLQR\[4\]/Y  one_seond_clk_0/Count_RNI56D11\[5\]/B  one_seond_clk_0/Count_RNI56D11\[5\]/Y  one_seond_clk_0/Count_RNO\[6\]/A  one_seond_clk_0/Count_RNO\[6\]/Y  one_seond_clk_0/Count\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  timer_EW/Q_NS_RNI6VA9\[0\]/B  timer_EW/Q_NS_RNI6VA9\[0\]/Y  timer_EW/Q_NS_RNIFTIF\[4\]/A  timer_EW/Q_NS_RNIFTIF\[4\]/Y  timer_EW/Q_NS_RNO_1\[5\]/B  timer_EW/Q_NS_RNO_1\[5\]/Y  timer_EW/Q_NS_RNO\[5\]/C  timer_EW/Q_NS_RNO\[5\]/Y  timer_EW/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[0\]/CLK  one_seond_clk_0/Count\[0\]/Q  one_seond_clk_0/Count_RNIJS3B\[1\]/B  one_seond_clk_0/Count_RNIJS3B\[1\]/Y  one_seond_clk_0/Count_RNID6E11\[5\]/C  one_seond_clk_0/Count_RNID6E11\[5\]/Y  one_seond_clk_0/Count_RNICN0T1\[7\]/A  one_seond_clk_0/Count_RNICN0T1\[7\]/Y  one_seond_clk_0/Count_RNO_1\[9\]/B  one_seond_clk_0/Count_RNO_1\[9\]/Y  one_seond_clk_0/Count_RNO\[9\]/C  one_seond_clk_0/Count_RNO\[9\]/Y  one_seond_clk_0/Count\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  timer_EW/Q_NS_RNI6VA9\[0\]/B  timer_EW/Q_NS_RNI6VA9\[0\]/Y  timer_EW/Q_NS_RNIFTIF\[4\]/A  timer_EW/Q_NS_RNIFTIF\[4\]/Y  timer_EW/Q_NS_RNO_1\[4\]/B  timer_EW/Q_NS_RNO_1\[4\]/Y  timer_EW/Q_NS_RNO\[4\]/C  timer_EW/Q_NS_RNO\[4\]/Y  timer_EW/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Cout/CLK  one_seond_clk_0/Cout/Q  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/A  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/Y  timer_NS_0/Q_NS_RNO_5\[2\]/B  timer_NS_0/Q_NS_RNO_5\[2\]/Y  timer_NS_0/Q_NS_RNO_1\[2\]/C  timer_NS_0/Q_NS_RNO_1\[2\]/Y  timer_NS_0/Q_NS_RNO_0\[2\]/A  timer_NS_0/Q_NS_RNO_0\[2\]/Y  timer_NS_0/Q_NS_RNO\[2\]/C  timer_NS_0/Q_NS_RNO\[2\]/Y  timer_NS_0/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_ns_1_0__m5/A  trattic_control_0/current_state_ns_1_0__m5/Y  trattic_control_0/current_state_ns_1_0__m6/B  trattic_control_0/current_state_ns_1_0__m6/Y  trattic_control_0/current_state\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  timer_EW/Q_NS_RNI6VA9\[0\]/B  timer_EW/Q_NS_RNI6VA9\[0\]/Y  timer_EW/Q_NS_RNO_3\[4\]/A  timer_EW/Q_NS_RNO_3\[4\]/Y  timer_EW/Q_NS_RNO_2\[4\]/A  timer_EW/Q_NS_RNO_2\[4\]/Y  timer_EW/Q_NS_RNO_0\[4\]/C  timer_EW/Q_NS_RNO_0\[4\]/Y  timer_EW/Q_NS_RNO\[4\]/B  timer_EW/Q_NS_RNO\[4\]/Y  timer_EW/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Cout/CLK  one_seond_clk_0/Cout/Q  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/A  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/Y  timer_EW/Q_NS_RNO_2\[2\]/B  timer_EW/Q_NS_RNO_2\[2\]/Y  timer_EW/Q_NS_RNO_0\[2\]/B  timer_EW/Q_NS_RNO_0\[2\]/Y  timer_EW/Q_NS_RNO\[2\]/C  timer_EW/Q_NS_RNO\[2\]/Y  timer_EW/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[4\]/CLK  one_seond_clk_0/Count\[4\]/Q  one_seond_clk_0/Count_RNIPK4B\[3\]/B  one_seond_clk_0/Count_RNIPK4B\[3\]/Y  one_seond_clk_0/Count_RNIQ9AM\[7\]/C  one_seond_clk_0/Count_RNIQ9AM\[7\]/Y  one_seond_clk_0/Count_RNICN0T1\[7\]/B  one_seond_clk_0/Count_RNICN0T1\[7\]/Y  one_seond_clk_0/Count_RNO_0\[9\]/B  one_seond_clk_0/Count_RNO_0\[9\]/Y  one_seond_clk_0/Count_RNO\[9\]/B  one_seond_clk_0/Count_RNO\[9\]/Y  one_seond_clk_0/Count\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIKEM6\[6\]/C  timer_NS_0/Q_NS_RNIKEM6\[6\]/Y  timer_NS_0/Q_NS_RNI0NND\[2\]/C  timer_NS_0/Q_NS_RNI0NND\[2\]/Y  timer_NS_0/Q_NS_RNIVE7H\[0\]/A  timer_NS_0/Q_NS_RNIVE7H\[0\]/Y  trattic_control_0/current_state_ns_1_0__m2/A  trattic_control_0/current_state_ns_1_0__m2/Y  trattic_control_0/current_state_ns_1_0__m3_0/A  trattic_control_0/current_state_ns_1_0__m3_0/Y  trattic_control_0/current_state\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[3\]/CLK  one_seond_clk_0/Count\[3\]/Q  one_seond_clk_0/Count_RNIA98M\[3\]/A  one_seond_clk_0/Count_RNIA98M\[3\]/Y  one_seond_clk_0/Count_RNINLQR\[4\]/B  one_seond_clk_0/Count_RNINLQR\[4\]/Y  one_seond_clk_0/Count_RNI56D11\[5\]/B  one_seond_clk_0/Count_RNI56D11\[5\]/Y  one_seond_clk_0/Count_RNIKQV61\[6\]/B  one_seond_clk_0/Count_RNIKQV61\[6\]/Y  one_seond_clk_0/Count_RNI4JIC1\[7\]/B  one_seond_clk_0/Count_RNI4JIC1\[7\]/Y  one_seond_clk_0/Count_RNO\[9\]/A  one_seond_clk_0/Count_RNO\[9\]/Y  one_seond_clk_0/Count\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[3\]/CLK  one_seond_clk_0/Count\[3\]/Q  one_seond_clk_0/Count_RNIPK4B\[3\]/A  one_seond_clk_0/Count_RNIPK4B\[3\]/Y  one_seond_clk_0/Count_RNIQ9AM\[7\]/C  one_seond_clk_0/Count_RNIQ9AM\[7\]/Y  one_seond_clk_0/Count_RNICN0T1\[7\]/B  one_seond_clk_0/Count_RNICN0T1\[7\]/Y  one_seond_clk_0/Count_RNO_0\[9\]/B  one_seond_clk_0/Count_RNO_0\[9\]/Y  one_seond_clk_0/Count_RNO\[9\]/B  one_seond_clk_0/Count_RNO\[9\]/Y  one_seond_clk_0/Count\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  timer_NS_0/Q_NS_RNI5AO8\[4\]/B  timer_NS_0/Q_NS_RNI5AO8\[4\]/Y  timer_NS_0/Q_NS_RNO_3\[5\]/B  timer_NS_0/Q_NS_RNO_3\[5\]/Y  timer_NS_0/Q_NS_RNO_2\[5\]/B  timer_NS_0/Q_NS_RNO_2\[5\]/Y  timer_NS_0/Q_NS_RNO_0\[5\]/C  timer_NS_0/Q_NS_RNO_0\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/B  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[2\]/CLK  one_seond_clk_0/Count\[2\]/Q  one_seond_clk_0/Count_RNIT45B\[9\]/B  one_seond_clk_0/Count_RNIT45B\[9\]/Y  one_seond_clk_0/Count_RNID6E11\[5\]/B  one_seond_clk_0/Count_RNID6E11\[5\]/Y  one_seond_clk_0/Count_RNICN0T1\[7\]/A  one_seond_clk_0/Count_RNICN0T1\[7\]/Y  one_seond_clk_0/Count_RNO_0\[9\]/B  one_seond_clk_0/Count_RNO_0\[9\]/Y  one_seond_clk_0/Count_RNO\[9\]/B  one_seond_clk_0/Count_RNO\[9\]/Y  one_seond_clk_0/Count\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[1\]/CLK  timer_NS_0/Q_NS\[1\]/Q  timer_NS_0/Q_NS_RNIVNF3\[0\]/A  timer_NS_0/Q_NS_RNIVNF3\[0\]/Y  timer_NS_0/Q_NS_RNO_6\[2\]/B  timer_NS_0/Q_NS_RNO_6\[2\]/Y  timer_NS_0/Q_NS_RNO_2\[2\]/B  timer_NS_0/Q_NS_RNO_2\[2\]/Y  timer_NS_0/Q_NS_RNO_0\[2\]/B  timer_NS_0/Q_NS_RNO_0\[2\]/Y  timer_NS_0/Q_NS_RNO\[2\]/C  timer_NS_0/Q_NS_RNO\[2\]/Y  timer_NS_0/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[1\]/CLK  trattic_control_0/current_state\[1\]/Q  trattic_control_0/current_state_RNIVQ5D_0\[0\]/B  trattic_control_0/current_state_RNIVQ5D_0\[0\]/Y  timer_NS_0/Q_NS_RNO_4\[2\]/C  timer_NS_0/Q_NS_RNO_4\[2\]/Y  timer_NS_0/Q_NS_RNO_1\[2\]/A  timer_NS_0/Q_NS_RNO_1\[2\]/Y  timer_NS_0/Q_NS_RNO_0\[2\]/A  timer_NS_0/Q_NS_RNO_0\[2\]/Y  timer_NS_0/Q_NS_RNO\[2\]/C  timer_NS_0/Q_NS_RNO\[2\]/Y  timer_NS_0/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[4\]/CLK  timer_NS_0/Q_NS\[4\]/Q  timer_NS_0/Q_NS_RNI5AO8\[4\]/C  timer_NS_0/Q_NS_RNI5AO8\[4\]/Y  timer_NS_0/Q_NS_RNO_3\[5\]/B  timer_NS_0/Q_NS_RNO_3\[5\]/Y  timer_NS_0/Q_NS_RNO_2\[5\]/B  timer_NS_0/Q_NS_RNO_2\[5\]/Y  timer_NS_0/Q_NS_RNO_0\[5\]/C  timer_NS_0/Q_NS_RNO_0\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/B  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[0\]/CLK  trattic_control_0/current_state\[0\]/Q  trattic_control_0/current_state_RNIVQ5D_0\[0\]/A  trattic_control_0/current_state_RNIVQ5D_0\[0\]/Y  timer_NS_0/Q_NS_RNO_4\[2\]/C  timer_NS_0/Q_NS_RNO_4\[2\]/Y  timer_NS_0/Q_NS_RNO_1\[2\]/A  timer_NS_0/Q_NS_RNO_1\[2\]/Y  timer_NS_0/Q_NS_RNO_0\[2\]/A  timer_NS_0/Q_NS_RNO_0\[2\]/Y  timer_NS_0/Q_NS_RNO\[2\]/C  timer_NS_0/Q_NS_RNO\[2\]/Y  timer_NS_0/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[6\]/CLK  one_seond_clk_0/Count\[6\]/Q  one_seond_clk_0/Count_RNIT45B\[5\]/B  one_seond_clk_0/Count_RNIT45B\[5\]/Y  one_seond_clk_0/Count_RNID6E11\[5\]/A  one_seond_clk_0/Count_RNID6E11\[5\]/Y  one_seond_clk_0/Count_RNICN0T1\[7\]/A  one_seond_clk_0/Count_RNICN0T1\[7\]/Y  one_seond_clk_0/Count_RNO_0\[9\]/B  one_seond_clk_0/Count_RNO_0\[9\]/Y  one_seond_clk_0/Count_RNO\[9\]/B  one_seond_clk_0/Count_RNO\[9\]/Y  one_seond_clk_0/Count\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[1\]/CLK  timer_NS_0/Q_NS\[1\]/Q  timer_NS_0/Q_NS_RNIVNF3\[0\]/A  timer_NS_0/Q_NS_RNIVNF3\[0\]/Y  timer_NS_0/Q_NS_RNI0Q75\[2\]/B  timer_NS_0/Q_NS_RNI0Q75\[2\]/Y  timer_NS_0/Q_NS_RNO_2\[3\]/A  timer_NS_0/Q_NS_RNO_2\[3\]/Y  timer_NS_0/Q_NS_RNO\[3\]/C  timer_NS_0/Q_NS_RNO\[3\]/Y  timer_NS_0/Q_NS\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[1\]/CLK  trattic_control_0/current_state\[1\]/Q  timer_NS_0/Q_NS_e2_0_a2_4_1/A  timer_NS_0/Q_NS_e2_0_a2_4_1/Y  timer_NS_0/Q_NS_e2_0_a2_4/B  timer_NS_0/Q_NS_e2_0_a2_4/Y  timer_NS_0/Q_NS_RNO_3\[2\]/A  timer_NS_0/Q_NS_RNO_3\[2\]/Y  timer_NS_0/Q_NS_RNO_0\[2\]/C  timer_NS_0/Q_NS_RNO_0\[2\]/Y  timer_NS_0/Q_NS_RNO\[2\]/C  timer_NS_0/Q_NS_RNO\[2\]/Y  timer_NS_0/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[0\]/CLK  trattic_control_0/current_state\[0\]/Q  timer_NS_0/Q_NS_e2_0_a2_4_1/B  timer_NS_0/Q_NS_e2_0_a2_4_1/Y  timer_NS_0/Q_NS_e2_0_a2_4/B  timer_NS_0/Q_NS_e2_0_a2_4/Y  timer_NS_0/Q_NS_RNO_3\[2\]/A  timer_NS_0/Q_NS_RNO_3\[2\]/Y  timer_NS_0/Q_NS_RNO_0\[2\]/C  timer_NS_0/Q_NS_RNO_0\[2\]/Y  timer_NS_0/Q_NS_RNO\[2\]/C  timer_NS_0/Q_NS_RNO\[2\]/Y  timer_NS_0/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Cout/CLK  one_seond_clk_0/Cout/Q  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/A  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/Y  timer_NS_0/Q_NS_RNO_1\[0\]/B  timer_NS_0/Q_NS_RNO_1\[0\]/Y  timer_NS_0/Q_NS_RNO_0\[0\]/C  timer_NS_0/Q_NS_RNO_0\[0\]/Y  timer_NS_0/Q_NS_RNO\[0\]/C  timer_NS_0/Q_NS_RNO\[0\]/Y  timer_NS_0/Q_NS\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[5\]/CLK  one_seond_clk_0/Count\[5\]/Q  one_seond_clk_0/Count_RNIT45B\[5\]/A  one_seond_clk_0/Count_RNIT45B\[5\]/Y  one_seond_clk_0/Count_RNID6E11\[5\]/A  one_seond_clk_0/Count_RNID6E11\[5\]/Y  one_seond_clk_0/Count_RNICN0T1\[7\]/A  one_seond_clk_0/Count_RNICN0T1\[7\]/Y  one_seond_clk_0/Count_RNO_0\[9\]/B  one_seond_clk_0/Count_RNO_0\[9\]/Y  one_seond_clk_0/Count_RNO\[9\]/B  one_seond_clk_0/Count_RNO\[9\]/Y  one_seond_clk_0/Count\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Cout/CLK  one_seond_clk_0/Cout/Q  timer_EW/Q_NS_e1_0_a2_4/B  timer_EW/Q_NS_e1_0_a2_4/Y  timer_EW/Q_NS_e1_0_o2_0/A  timer_EW/Q_NS_e1_0_o2_0/Y  timer_EW/Q_NS_RNO_1\[4\]/A  timer_EW/Q_NS_RNO_1\[4\]/Y  timer_EW/Q_NS_RNO\[4\]/C  timer_EW/Q_NS_RNO\[4\]/Y  timer_EW/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Cout/CLK  one_seond_clk_0/Cout/Q  timer_EW/Q_NS_e1_0_a2_4/B  timer_EW/Q_NS_e1_0_a2_4/Y  timer_EW/Q_NS_e1_0_o2_0/A  timer_EW/Q_NS_e1_0_o2_0/Y  timer_EW/Q_NS_RNO_1\[5\]/A  timer_EW/Q_NS_RNO_1\[5\]/Y  timer_EW/Q_NS_RNO\[5\]/C  timer_EW/Q_NS_RNO\[5\]/Y  timer_EW/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Cout/CLK  one_seond_clk_0/Cout/Q  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/A  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/Y  timer_NS_0/Q_NS_RNO_4\[3\]/B  timer_NS_0/Q_NS_RNO_4\[3\]/Y  timer_NS_0/Q_NS_RNO_1\[3\]/C  timer_NS_0/Q_NS_RNO_1\[3\]/Y  timer_NS_0/Q_NS_RNO\[3\]/B  timer_NS_0/Q_NS_RNO\[3\]/Y  timer_NS_0/Q_NS\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[1\]/CLK  trattic_control_0/current_state\[1\]/Q  timer_NS_0/Q_NS_e2_0_a2_4_1/A  timer_NS_0/Q_NS_e2_0_a2_4_1/Y  timer_NS_0/Q_NS_e2_0_a2_4/B  timer_NS_0/Q_NS_e2_0_a2_4/Y  timer_NS_0/Q_NS_e1_0_o2/C  timer_NS_0/Q_NS_e1_0_o2/Y  timer_NS_0/Q_NS_e1_0_a2_0/C  timer_NS_0/Q_NS_e1_0_a2_0/Y  timer_NS_0/Q_NS_RNO\[4\]/A  timer_NS_0/Q_NS_RNO\[4\]/Y  timer_NS_0/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[0\]/CLK  one_seond_clk_0/Count\[0\]/Q  one_seond_clk_0/Count_RNIJS3B\[1\]/B  one_seond_clk_0/Count_RNIJS3B\[1\]/Y  one_seond_clk_0/Count_RNID6E11\[5\]/C  one_seond_clk_0/Count_RNID6E11\[5\]/Y  one_seond_clk_0/Count_RNICN0T1\[7\]/A  one_seond_clk_0/Count_RNICN0T1\[7\]/Y  one_seond_clk_0/Count_RNO\[0\]/B  one_seond_clk_0/Count_RNO\[0\]/Y  one_seond_clk_0/Count\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Cout/CLK  one_seond_clk_0/Cout/Q  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/A  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/Y  timer_NS_0/Q_NS_RNO_2\[7\]/B  timer_NS_0/Q_NS_RNO_2\[7\]/Y  timer_NS_0/Q_NS_RNO_0\[7\]/C  timer_NS_0/Q_NS_RNO_0\[7\]/Y  timer_NS_0/Q_NS_RNO\[7\]/C  timer_NS_0/Q_NS_RNO\[7\]/Y  timer_NS_0/Q_NS\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[9\]/CLK  one_seond_clk_0/Count\[9\]/Q  one_seond_clk_0/Count_RNIT45B\[9\]/A  one_seond_clk_0/Count_RNIT45B\[9\]/Y  one_seond_clk_0/Count_RNID6E11\[5\]/B  one_seond_clk_0/Count_RNID6E11\[5\]/Y  one_seond_clk_0/Count_RNICN0T1\[7\]/A  one_seond_clk_0/Count_RNICN0T1\[7\]/Y  one_seond_clk_0/Count_RNO_0\[9\]/B  one_seond_clk_0/Count_RNO_0\[9\]/Y  one_seond_clk_0/Count_RNO\[9\]/B  one_seond_clk_0/Count_RNO\[9\]/Y  one_seond_clk_0/Count\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[0\]/CLK  one_seond_clk_0/Count\[0\]/Q  one_seond_clk_0/Count_RNIJS3B\[1\]/B  one_seond_clk_0/Count_RNIJS3B\[1\]/Y  one_seond_clk_0/Count_RNIU0MG\[2\]/B  one_seond_clk_0/Count_RNIU0MG\[2\]/Y  one_seond_clk_0/Count_RNIA98M\[3\]/B  one_seond_clk_0/Count_RNIA98M\[3\]/Y  one_seond_clk_0/Count_RNINLQR\[4\]/B  one_seond_clk_0/Count_RNINLQR\[4\]/Y  one_seond_clk_0/Count_RNO\[5\]/A  one_seond_clk_0/Count_RNO\[5\]/Y  one_seond_clk_0/Count\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[0\]/CLK  one_seond_clk_0/Count\[0\]/Q  one_seond_clk_0/Count_RNIJS3B\[1\]/B  one_seond_clk_0/Count_RNIJS3B\[1\]/Y  one_seond_clk_0/Count_RNID6E11\[5\]/C  one_seond_clk_0/Count_RNID6E11\[5\]/Y  one_seond_clk_0/Count_RNICN0T1\[7\]/A  one_seond_clk_0/Count_RNICN0T1\[7\]/Y  one_seond_clk_0/Count_RNO\[1\]/C  one_seond_clk_0/Count_RNO\[1\]/Y  one_seond_clk_0/Count\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[0\]/CLK  one_seond_clk_0/Count\[0\]/Q  one_seond_clk_0/Count_RNIJS3B\[1\]/B  one_seond_clk_0/Count_RNIJS3B\[1\]/Y  one_seond_clk_0/Count_RNID6E11\[5\]/C  one_seond_clk_0/Count_RNID6E11\[5\]/Y  one_seond_clk_0/Count_RNICN0T1\[7\]/A  one_seond_clk_0/Count_RNICN0T1\[7\]/Y  one_seond_clk_0/Count_RNO\[8\]/C  one_seond_clk_0/Count_RNO\[8\]/Y  one_seond_clk_0/Count\[8\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[0\]/CLK  one_seond_clk_0/Count\[0\]/Q  one_seond_clk_0/Count_RNIJS3B\[1\]/B  one_seond_clk_0/Count_RNIJS3B\[1\]/Y  one_seond_clk_0/Count_RNID6E11\[5\]/C  one_seond_clk_0/Count_RNID6E11\[5\]/Y  one_seond_clk_0/Count_RNICN0T1\[7\]/A  one_seond_clk_0/Count_RNICN0T1\[7\]/Y  one_seond_clk_0/Count_RNO\[7\]/C  one_seond_clk_0/Count_RNO\[7\]/Y  one_seond_clk_0/Count\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[0\]/CLK  one_seond_clk_0/Count\[0\]/Q  one_seond_clk_0/Count_RNIJS3B\[1\]/B  one_seond_clk_0/Count_RNIJS3B\[1\]/Y  one_seond_clk_0/Count_RNID6E11\[5\]/C  one_seond_clk_0/Count_RNID6E11\[5\]/Y  one_seond_clk_0/Count_RNICN0T1\[7\]/A  one_seond_clk_0/Count_RNICN0T1\[7\]/Y  one_seond_clk_0/Count_RNO\[6\]/C  one_seond_clk_0/Count_RNO\[6\]/Y  one_seond_clk_0/Count\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[0\]/CLK  one_seond_clk_0/Count\[0\]/Q  one_seond_clk_0/Count_RNIJS3B\[1\]/B  one_seond_clk_0/Count_RNIJS3B\[1\]/Y  one_seond_clk_0/Count_RNID6E11\[5\]/C  one_seond_clk_0/Count_RNID6E11\[5\]/Y  one_seond_clk_0/Count_RNICN0T1\[7\]/A  one_seond_clk_0/Count_RNICN0T1\[7\]/Y  one_seond_clk_0/Count_RNO\[5\]/C  one_seond_clk_0/Count_RNO\[5\]/Y  one_seond_clk_0/Count\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[0\]/CLK  one_seond_clk_0/Count\[0\]/Q  one_seond_clk_0/Count_RNIJS3B\[1\]/B  one_seond_clk_0/Count_RNIJS3B\[1\]/Y  one_seond_clk_0/Count_RNID6E11\[5\]/C  one_seond_clk_0/Count_RNID6E11\[5\]/Y  one_seond_clk_0/Count_RNICN0T1\[7\]/A  one_seond_clk_0/Count_RNICN0T1\[7\]/Y  one_seond_clk_0/Count_RNO\[4\]/C  one_seond_clk_0/Count_RNO\[4\]/Y  one_seond_clk_0/Count\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[0\]/CLK  one_seond_clk_0/Count\[0\]/Q  one_seond_clk_0/Count_RNIJS3B\[1\]/B  one_seond_clk_0/Count_RNIJS3B\[1\]/Y  one_seond_clk_0/Count_RNID6E11\[5\]/C  one_seond_clk_0/Count_RNID6E11\[5\]/Y  one_seond_clk_0/Count_RNICN0T1\[7\]/A  one_seond_clk_0/Count_RNICN0T1\[7\]/Y  one_seond_clk_0/Count_RNO\[3\]/C  one_seond_clk_0/Count_RNO\[3\]/Y  one_seond_clk_0/Count\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[0\]/CLK  one_seond_clk_0/Count\[0\]/Q  one_seond_clk_0/Count_RNIJS3B\[1\]/B  one_seond_clk_0/Count_RNIJS3B\[1\]/Y  one_seond_clk_0/Count_RNID6E11\[5\]/C  one_seond_clk_0/Count_RNID6E11\[5\]/Y  one_seond_clk_0/Count_RNICN0T1\[7\]/A  one_seond_clk_0/Count_RNICN0T1\[7\]/Y  one_seond_clk_0/Count_RNO\[2\]/C  one_seond_clk_0/Count_RNO\[2\]/Y  one_seond_clk_0/Count\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[5\]/CLK  timer_EW/Q_NS\[5\]/Q  timer_EW/Q_NS_RNISBRL\[6\]/B  timer_EW/Q_NS_RNISBRL\[6\]/Y  timer_EW/Q_NS_RNIF75S\[7\]/B  timer_EW/Q_NS_RNIF75S\[7\]/Y  trattic_control_0/current_state_ns_1_0__m5/B  trattic_control_0/current_state_ns_1_0__m5/Y  trattic_control_0/current_state_ns_1_0__m6/B  trattic_control_0/current_state_ns_1_0__m6/Y  trattic_control_0/current_state\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  timer_EW/Q_NS_RNI6VA9\[0\]/B  timer_EW/Q_NS_RNI6VA9\[0\]/Y  timer_EW/Q_NS_RNO_3\[3\]/B  timer_EW/Q_NS_RNO_3\[3\]/Y  timer_EW/Q_NS_RNO_0\[3\]/A  timer_EW/Q_NS_RNO_0\[3\]/Y  timer_EW/Q_NS_RNO\[3\]/A  timer_EW/Q_NS_RNO\[3\]/Y  timer_EW/Q_NS\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  timer_EW/Q_NS_RNO_4\[2\]/B  timer_EW/Q_NS_RNO_4\[2\]/Y  timer_EW/Q_NS_RNO_3\[2\]/A  timer_EW/Q_NS_RNO_3\[2\]/Y  timer_EW/Q_NS_RNO_2\[2\]/C  timer_EW/Q_NS_RNO_2\[2\]/Y  timer_EW/Q_NS_RNO_0\[2\]/B  timer_EW/Q_NS_RNO_0\[2\]/Y  timer_EW/Q_NS_RNO\[2\]/C  timer_EW/Q_NS_RNO\[2\]/Y  timer_EW/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Cout/CLK  one_seond_clk_0/Cout/Q  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/A  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/Y  timer_EW/Q_NS_RNO_0\[6\]/B  timer_EW/Q_NS_RNO_0\[6\]/Y  timer_EW/Q_NS_RNO\[6\]/C  timer_EW/Q_NS_RNO\[6\]/Y  timer_EW/Q_NS\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Cout/CLK  one_seond_clk_0/Cout/Q  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/A  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/Y  timer_EW/Q_NS_RNO_1\[1\]/B  timer_EW/Q_NS_RNO_1\[1\]/Y  timer_EW/Q_NS_RNO\[1\]/B  timer_EW/Q_NS_RNO\[1\]/Y  timer_EW/Q_NS\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Cout/CLK  one_seond_clk_0/Cout/Q  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/A  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/Y  timer_EW/Q_NS_RNO_0\[5\]/B  timer_EW/Q_NS_RNO_0\[5\]/Y  timer_EW/Q_NS_RNO\[5\]/B  timer_EW/Q_NS_RNO\[5\]/Y  timer_EW/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Cout/CLK  one_seond_clk_0/Cout/Q  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/A  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/Y  timer_EW/Q_NS_RNO_0\[4\]/B  timer_EW/Q_NS_RNO_0\[4\]/Y  timer_EW/Q_NS_RNO\[4\]/B  timer_EW/Q_NS_RNO\[4\]/Y  timer_EW/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Cout/CLK  one_seond_clk_0/Cout/Q  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/A  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/Y  timer_NS_0/Q_NS_RNO_0\[1\]/B  timer_NS_0/Q_NS_RNO_0\[1\]/Y  timer_NS_0/Q_NS_RNO\[1\]/B  timer_NS_0/Q_NS_RNO\[1\]/Y  timer_NS_0/Q_NS\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Cout/CLK  one_seond_clk_0/Cout/Q  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/A  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/Y  timer_NS_0/Q_NS_RNO_0\[4\]/B  timer_NS_0/Q_NS_RNO_0\[4\]/Y  timer_NS_0/Q_NS_RNO\[4\]/B  timer_NS_0/Q_NS_RNO\[4\]/Y  timer_NS_0/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Cout/CLK  one_seond_clk_0/Cout/Q  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/A  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/Y  timer_NS_0/Q_NS_RNO_0\[5\]/B  timer_NS_0/Q_NS_RNO_0\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/B  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[7\]/CLK  one_seond_clk_0/Count\[7\]/Q  one_seond_clk_0/Count_RNIQ9AM\[7\]/B  one_seond_clk_0/Count_RNIQ9AM\[7\]/Y  one_seond_clk_0/Count_RNICN0T1\[7\]/B  one_seond_clk_0/Count_RNICN0T1\[7\]/Y  one_seond_clk_0/Count_RNO_0\[9\]/B  one_seond_clk_0/Count_RNO_0\[9\]/Y  one_seond_clk_0/Count_RNO\[9\]/B  one_seond_clk_0/Count_RNO\[9\]/Y  one_seond_clk_0/Count\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[0\]/CLK  trattic_control_0/current_state\[0\]/Q  trattic_control_0/current_state_RNIVQ5D_0\[0\]/A  trattic_control_0/current_state_RNIVQ5D_0\[0\]/Y  timer_NS_0/Q_NS_e0_0_a2_0_0/A  timer_NS_0/Q_NS_e0_0_a2_0_0/Y  timer_NS_0/Q_NS_RNO_0\[0\]/B  timer_NS_0/Q_NS_RNO_0\[0\]/Y  timer_NS_0/Q_NS_RNO\[0\]/C  timer_NS_0/Q_NS_RNO\[0\]/Y  timer_NS_0/Q_NS\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[0\]/CLK  timer_EW/Q_NS\[0\]/Q  timer_EW/Q_NS_RNO_4\[2\]/A  timer_EW/Q_NS_RNO_4\[2\]/Y  timer_EW/Q_NS_RNO_3\[2\]/A  timer_EW/Q_NS_RNO_3\[2\]/Y  timer_EW/Q_NS_RNO_2\[2\]/C  timer_EW/Q_NS_RNO_2\[2\]/Y  timer_EW/Q_NS_RNO_0\[2\]/B  timer_EW/Q_NS_RNO_0\[2\]/Y  timer_EW/Q_NS_RNO\[2\]/C  timer_EW/Q_NS_RNO\[2\]/Y  timer_EW/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[6\]/CLK  timer_EW/Q_NS\[6\]/Q  timer_EW/Q_NS_RNISBRL\[6\]/C  timer_EW/Q_NS_RNISBRL\[6\]/Y  timer_EW/Q_NS_RNIF75S\[7\]/B  timer_EW/Q_NS_RNIF75S\[7\]/Y  trattic_control_0/current_state_ns_1_0__m5/B  trattic_control_0/current_state_ns_1_0__m5/Y  trattic_control_0/current_state_ns_1_0__m6/B  trattic_control_0/current_state_ns_1_0__m6/Y  trattic_control_0/current_state\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[4\]/CLK  one_seond_clk_0/Count\[4\]/Q  one_seond_clk_0/Count_RNINLQR\[4\]/A  one_seond_clk_0/Count_RNINLQR\[4\]/Y  one_seond_clk_0/Count_RNI56D11\[5\]/B  one_seond_clk_0/Count_RNI56D11\[5\]/Y  one_seond_clk_0/Count_RNIKQV61\[6\]/B  one_seond_clk_0/Count_RNIKQV61\[6\]/Y  one_seond_clk_0/Count_RNI4JIC1\[7\]/B  one_seond_clk_0/Count_RNI4JIC1\[7\]/Y  one_seond_clk_0/Count_RNO\[9\]/A  one_seond_clk_0/Count_RNO\[9\]/Y  one_seond_clk_0/Count\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[8\]/CLK  one_seond_clk_0/Count\[8\]/Q  one_seond_clk_0/Count_RNIQ9AM\[7\]/A  one_seond_clk_0/Count_RNIQ9AM\[7\]/Y  one_seond_clk_0/Count_RNICN0T1\[7\]/B  one_seond_clk_0/Count_RNICN0T1\[7\]/Y  one_seond_clk_0/Count_RNO_0\[9\]/B  one_seond_clk_0/Count_RNO_0\[9\]/Y  one_seond_clk_0/Count_RNO\[9\]/B  one_seond_clk_0/Count_RNO\[9\]/Y  one_seond_clk_0/Count\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[2\]/CLK  timer_EW/Q_NS\[2\]/Q  timer_EW/Q_NS_RNO_4\[2\]/C  timer_EW/Q_NS_RNO_4\[2\]/Y  timer_EW/Q_NS_RNO_3\[2\]/A  timer_EW/Q_NS_RNO_3\[2\]/Y  timer_EW/Q_NS_RNO_2\[2\]/C  timer_EW/Q_NS_RNO_2\[2\]/Y  timer_EW/Q_NS_RNO_0\[2\]/B  timer_EW/Q_NS_RNO_0\[2\]/Y  timer_EW/Q_NS_RNO\[2\]/C  timer_EW/Q_NS_RNO\[2\]/Y  timer_EW/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[1\]/CLK  trattic_control_0/current_state\[1\]/Q  trattic_control_0/current_state_RNIVQ5D_1\[0\]/A  trattic_control_0/current_state_RNIVQ5D_1\[0\]/Y  timer_EW/Q_NS_RNO_1\[2\]/A  timer_EW/Q_NS_RNO_1\[2\]/Y  timer_EW/Q_NS_RNO_0\[2\]/A  timer_EW/Q_NS_RNO_0\[2\]/Y  timer_EW/Q_NS_RNO\[2\]/C  timer_EW/Q_NS_RNO\[2\]/Y  timer_EW/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[1\]/CLK  timer_NS_0/Q_NS\[1\]/Q  timer_NS_0/Q_NS_RNIVNF3\[0\]/A  timer_NS_0/Q_NS_RNIVNF3\[0\]/Y  timer_NS_0/Q_NS_RNI0Q75\[2\]/B  timer_NS_0/Q_NS_RNI0Q75\[2\]/Y  timer_NS_0/Q_NS_RNO\[2\]/A  timer_NS_0/Q_NS_RNO\[2\]/Y  timer_NS_0/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Cout/CLK  one_seond_clk_0/Cout/Q  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/A  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/Y  timer_EW/Q_NS_RNO_1\[7\]/B  timer_EW/Q_NS_RNO_1\[7\]/Y  timer_EW/Q_NS_RNO\[7\]/B  timer_EW/Q_NS_RNO\[7\]/Y  timer_EW/Q_NS\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Cout/CLK  one_seond_clk_0/Cout/Q  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/A  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/Y  timer_EW/Q_NS_RNO_1\[3\]/B  timer_EW/Q_NS_RNO_1\[3\]/Y  timer_EW/Q_NS_RNO\[3\]/B  timer_EW/Q_NS_RNO\[3\]/Y  timer_EW/Q_NS\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Cout/CLK  one_seond_clk_0/Cout/Q  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/A  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/Y  timer_NS_0/Q_NS_RNO_1\[6\]/B  timer_NS_0/Q_NS_RNO_1\[6\]/Y  timer_NS_0/Q_NS_RNO\[6\]/B  timer_NS_0/Q_NS_RNO\[6\]/Y  timer_NS_0/Q_NS\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  timer_NS_0/Q_NS_RNO_3\[4\]/B  timer_NS_0/Q_NS_RNO_3\[4\]/Y  timer_NS_0/Q_NS_RNO_2\[4\]/B  timer_NS_0/Q_NS_RNO_2\[4\]/Y  timer_NS_0/Q_NS_RNO_0\[4\]/C  timer_NS_0/Q_NS_RNO_0\[4\]/Y  timer_NS_0/Q_NS_RNO\[4\]/B  timer_NS_0/Q_NS_RNO\[4\]/Y  timer_NS_0/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[0\]/CLK  one_seond_clk_0/Count\[0\]/Q  one_seond_clk_0/Count_RNIJS3B\[1\]/B  one_seond_clk_0/Count_RNIJS3B\[1\]/Y  one_seond_clk_0/Count_RNIU0MG\[2\]/B  one_seond_clk_0/Count_RNIU0MG\[2\]/Y  one_seond_clk_0/Count_RNIA98M\[3\]/B  one_seond_clk_0/Count_RNIA98M\[3\]/Y  one_seond_clk_0/Count_RNO\[4\]/A  one_seond_clk_0/Count_RNO\[4\]/Y  one_seond_clk_0/Count\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  timer_EW/Q_NS_RNI6VA9\[0\]/B  timer_EW/Q_NS_RNI6VA9\[0\]/Y  timer_EW/Q_NS_RNO_2\[3\]/A  timer_EW/Q_NS_RNO_2\[3\]/Y  timer_EW/Q_NS_RNO\[3\]/C  timer_EW/Q_NS_RNO\[3\]/Y  timer_EW/Q_NS\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[5\]/CLK  timer_EW/Q_NS\[5\]/Q  timer_EW/Q_NS_RNO_2\[6\]/B  timer_EW/Q_NS_RNO_2\[6\]/Y  timer_EW/Q_NS_RNO_1\[6\]/A  timer_EW/Q_NS_RNO_1\[6\]/Y  timer_EW/Q_NS_RNO_0\[6\]/C  timer_EW/Q_NS_RNO_0\[6\]/Y  timer_EW/Q_NS_RNO\[6\]/C  timer_EW/Q_NS_RNO\[6\]/Y  timer_EW/Q_NS\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  timer_EW/Q_NS_RNO_3\[4\]/B  timer_EW/Q_NS_RNO_3\[4\]/Y  timer_EW/Q_NS_RNO_2\[4\]/A  timer_EW/Q_NS_RNO_2\[4\]/Y  timer_EW/Q_NS_RNO_0\[4\]/C  timer_EW/Q_NS_RNO_0\[4\]/Y  timer_EW/Q_NS_RNO\[4\]/B  timer_EW/Q_NS_RNO\[4\]/Y  timer_EW/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[2\]/CLK  timer_NS_0/Q_NS\[2\]/Q  timer_NS_0/Q_NS_RNO_6\[2\]/A  timer_NS_0/Q_NS_RNO_6\[2\]/Y  timer_NS_0/Q_NS_RNO_2\[2\]/B  timer_NS_0/Q_NS_RNO_2\[2\]/Y  timer_NS_0/Q_NS_RNO_0\[2\]/B  timer_NS_0/Q_NS_RNO_0\[2\]/Y  timer_NS_0/Q_NS_RNO\[2\]/C  timer_NS_0/Q_NS_RNO\[2\]/Y  timer_NS_0/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNO_3\[5\]/A  timer_NS_0/Q_NS_RNO_3\[5\]/Y  timer_NS_0/Q_NS_RNO_2\[5\]/B  timer_NS_0/Q_NS_RNO_2\[5\]/Y  timer_NS_0/Q_NS_RNO_0\[5\]/C  timer_NS_0/Q_NS_RNO_0\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/B  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[4\]/CLK  timer_NS_0/Q_NS\[4\]/Q  timer_NS_0/Q_NS_RNO_3\[4\]/C  timer_NS_0/Q_NS_RNO_3\[4\]/Y  timer_NS_0/Q_NS_RNO_2\[4\]/B  timer_NS_0/Q_NS_RNO_2\[4\]/Y  timer_NS_0/Q_NS_RNO_0\[4\]/C  timer_NS_0/Q_NS_RNO_0\[4\]/Y  timer_NS_0/Q_NS_RNO\[4\]/B  timer_NS_0/Q_NS_RNO\[4\]/Y  timer_NS_0/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  timer_EW/Q_NS_RNO_3\[1\]/B  timer_EW/Q_NS_RNO_3\[1\]/Y  timer_EW/Q_NS_RNO_2\[1\]/A  timer_EW/Q_NS_RNO_2\[1\]/Y  timer_EW/Q_NS_RNO_1\[1\]/C  timer_EW/Q_NS_RNO_1\[1\]/Y  timer_EW/Q_NS_RNO\[1\]/B  timer_EW/Q_NS_RNO\[1\]/Y  timer_EW/Q_NS\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[1\]/CLK  timer_NS_0/Q_NS\[1\]/Q  timer_NS_0/Q_NS_RNIVNF3\[0\]/A  timer_NS_0/Q_NS_RNIVNF3\[0\]/Y  timer_NS_0/Q_NS_RNO_1\[1\]/B  timer_NS_0/Q_NS_RNO_1\[1\]/Y  timer_NS_0/Q_NS_RNO\[1\]/C  timer_NS_0/Q_NS_RNO\[1\]/Y  timer_NS_0/Q_NS\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[5\]/CLK  one_seond_clk_0/Count\[5\]/Q  one_seond_clk_0/Count_RNI56D11\[5\]/A  one_seond_clk_0/Count_RNI56D11\[5\]/Y  one_seond_clk_0/Count_RNIKQV61\[6\]/B  one_seond_clk_0/Count_RNIKQV61\[6\]/Y  one_seond_clk_0/Count_RNI4JIC1\[7\]/B  one_seond_clk_0/Count_RNI4JIC1\[7\]/Y  one_seond_clk_0/Count_RNO\[9\]/A  one_seond_clk_0/Count_RNO\[9\]/Y  one_seond_clk_0/Count\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNIEA9C\[6\]/B  timer_NS_0/Q_NS_RNIEA9C\[6\]/Y  timer_NS_0/Q_NS_RNO_0\[7\]/B  timer_NS_0/Q_NS_RNO_0\[7\]/Y  timer_NS_0/Q_NS_RNO\[7\]/C  timer_NS_0/Q_NS_RNO\[7\]/Y  timer_NS_0/Q_NS\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[5\]/CLK  timer_EW/Q_NS\[5\]/Q  timer_EW/Q_NS_RNO_3\[5\]/A  timer_EW/Q_NS_RNO_3\[5\]/Y  timer_EW/Q_NS_RNO_2\[5\]/A  timer_EW/Q_NS_RNO_2\[5\]/Y  timer_EW/Q_NS_RNO_0\[5\]/C  timer_EW/Q_NS_RNO_0\[5\]/Y  timer_EW/Q_NS_RNO\[5\]/B  timer_EW/Q_NS_RNO\[5\]/Y  timer_EW/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[1\]/CLK  timer_NS_0/Q_NS\[1\]/Q  timer_NS_0/Q_NS_RNO_3\[1\]/B  timer_NS_0/Q_NS_RNO_3\[1\]/Y  timer_NS_0/Q_NS_RNO_2\[1\]/B  timer_NS_0/Q_NS_RNO_2\[1\]/Y  timer_NS_0/Q_NS_RNO_0\[1\]/C  timer_NS_0/Q_NS_RNO_0\[1\]/Y  timer_NS_0/Q_NS_RNO\[1\]/B  timer_NS_0/Q_NS_RNO\[1\]/Y  timer_NS_0/Q_NS\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[4\]/CLK  timer_EW/Q_NS\[4\]/Q  timer_EW/Q_NS_RNO_3\[4\]/C  timer_EW/Q_NS_RNO_3\[4\]/Y  timer_EW/Q_NS_RNO_2\[4\]/A  timer_EW/Q_NS_RNO_2\[4\]/Y  timer_EW/Q_NS_RNO_0\[4\]/C  timer_EW/Q_NS_RNO_0\[4\]/Y  timer_EW/Q_NS_RNO\[4\]/B  timer_EW/Q_NS_RNO\[4\]/Y  timer_EW/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[2\]/CLK  timer_NS_0/Q_NS\[2\]/Q  timer_NS_0/Q_NS_RNO_5\[2\]/A  timer_NS_0/Q_NS_RNO_5\[2\]/Y  timer_NS_0/Q_NS_RNO_1\[2\]/C  timer_NS_0/Q_NS_RNO_1\[2\]/Y  timer_NS_0/Q_NS_RNO_0\[2\]/A  timer_NS_0/Q_NS_RNO_0\[2\]/Y  timer_NS_0/Q_NS_RNO\[2\]/C  timer_NS_0/Q_NS_RNO\[2\]/Y  timer_NS_0/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Cout/CLK  one_seond_clk_0/Cout/Q  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/A  timer_NS_0/Q_NSlde_i_o2tt_m1_0_a2/Y  timer_EW/Q_NS_RNO\[0\]/B  timer_EW/Q_NS_RNO\[0\]/Y  timer_EW/Q_NS\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[6\]/CLK  timer_EW/Q_NS\[6\]/Q  timer_EW/Q_NS_RNO_2\[6\]/C  timer_EW/Q_NS_RNO_2\[6\]/Y  timer_EW/Q_NS_RNO_1\[6\]/A  timer_EW/Q_NS_RNO_1\[6\]/Y  timer_EW/Q_NS_RNO_0\[6\]/C  timer_EW/Q_NS_RNO_0\[6\]/Y  timer_EW/Q_NS_RNO\[6\]/C  timer_EW/Q_NS_RNO\[6\]/Y  timer_EW/Q_NS\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[6\]/CLK  timer_NS_0/Q_NS\[6\]/Q  timer_NS_0/Q_NS_RNIEA9C\[6\]/C  timer_NS_0/Q_NS_RNIEA9C\[6\]/Y  timer_NS_0/Q_NS_RNO_0\[7\]/B  timer_NS_0/Q_NS_RNO_0\[7\]/Y  timer_NS_0/Q_NS_RNO\[7\]/C  timer_NS_0/Q_NS_RNO\[7\]/Y  timer_NS_0/Q_NS\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[0\]/CLK  timer_EW/Q_NS\[0\]/Q  timer_EW/Q_NS_RNO_3\[1\]/A  timer_EW/Q_NS_RNO_3\[1\]/Y  timer_EW/Q_NS_RNO_2\[1\]/A  timer_EW/Q_NS_RNO_2\[1\]/Y  timer_EW/Q_NS_RNO_1\[1\]/C  timer_EW/Q_NS_RNO_1\[1\]/Y  timer_EW/Q_NS_RNO\[1\]/B  timer_EW/Q_NS_RNO\[1\]/Y  timer_EW/Q_NS\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[0\]/CLK  timer_NS_0/Q_NS\[0\]/Q  timer_NS_0/Q_NS_RNO_3\[1\]/A  timer_NS_0/Q_NS_RNO_3\[1\]/Y  timer_NS_0/Q_NS_RNO_2\[1\]/B  timer_NS_0/Q_NS_RNO_2\[1\]/Y  timer_NS_0/Q_NS_RNO_0\[1\]/C  timer_NS_0/Q_NS_RNO_0\[1\]/Y  timer_NS_0/Q_NS_RNO\[1\]/B  timer_NS_0/Q_NS_RNO\[1\]/Y  timer_NS_0/Q_NS\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[7\]/CLK  timer_NS_0/Q_NS\[7\]/Q  timer_NS_0/Q_NS_RNO_1\[7\]/B  timer_NS_0/Q_NS_RNO_1\[7\]/Y  timer_NS_0/Q_NS_RNO_0\[7\]/A  timer_NS_0/Q_NS_RNO_0\[7\]/Y  timer_NS_0/Q_NS_RNO\[7\]/C  timer_NS_0/Q_NS_RNO\[7\]/Y  timer_NS_0/Q_NS\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[2\]/CLK  timer_EW/Q_NS\[2\]/Q  timer_EW/Q_NS_RNO_2\[2\]/A  timer_EW/Q_NS_RNO_2\[2\]/Y  timer_EW/Q_NS_RNO_0\[2\]/B  timer_EW/Q_NS_RNO_0\[2\]/Y  timer_EW/Q_NS_RNO\[2\]/C  timer_EW/Q_NS_RNO\[2\]/Y  timer_EW/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNO_2\[6\]/B  timer_NS_0/Q_NS_RNO_2\[6\]/Y  timer_NS_0/Q_NS_RNO_0\[6\]/B  timer_NS_0/Q_NS_RNO_0\[6\]/Y  timer_NS_0/Q_NS_RNO\[6\]/A  timer_NS_0/Q_NS_RNO\[6\]/Y  timer_NS_0/Q_NS\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[7\]/CLK  timer_EW/Q_NS\[7\]/Q  timer_EW/Q_NS_RNIF75S\[7\]/C  timer_EW/Q_NS_RNIF75S\[7\]/Y  trattic_control_0/current_state_ns_1_0__m5/B  trattic_control_0/current_state_ns_1_0__m5/Y  trattic_control_0/current_state_ns_1_0__m6/B  trattic_control_0/current_state_ns_1_0__m6/Y  trattic_control_0/current_state\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  timer_NS_0/Q_NS_RNO_4\[3\]/A  timer_NS_0/Q_NS_RNO_4\[3\]/Y  timer_NS_0/Q_NS_RNO_1\[3\]/C  timer_NS_0/Q_NS_RNO_1\[3\]/Y  timer_NS_0/Q_NS_RNO\[3\]/B  timer_NS_0/Q_NS_RNO\[3\]/Y  timer_NS_0/Q_NS\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[0\]/CLK  one_seond_clk_0/Count\[0\]/Q  one_seond_clk_0/Count_RNIJS3B\[1\]/B  one_seond_clk_0/Count_RNIJS3B\[1\]/Y  one_seond_clk_0/Count_RNIU0MG\[2\]/B  one_seond_clk_0/Count_RNIU0MG\[2\]/Y  one_seond_clk_0/Count_RNO\[3\]/A  one_seond_clk_0/Count_RNO\[3\]/Y  one_seond_clk_0/Count\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  timer_EW/Q_NS_RNI6VA9\[0\]/B  timer_EW/Q_NS_RNI6VA9\[0\]/Y  timer_EW/Q_NS_RNO\[2\]/A  timer_EW/Q_NS_RNO\[2\]/Y  timer_EW/Q_NS\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  timer_NS_0/Q_NS_RNO_3\[3\]/A  timer_NS_0/Q_NS_RNO_3\[3\]/Y  timer_NS_0/Q_NS_RNO_0\[3\]/B  timer_NS_0/Q_NS_RNO_0\[3\]/Y  timer_NS_0/Q_NS_RNO\[3\]/A  timer_NS_0/Q_NS_RNO\[3\]/Y  timer_NS_0/Q_NS\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[0\]/CLK  one_seond_clk_0/Count\[0\]/Q  one_seond_clk_0/Count_RNIJS3B\[1\]/B  one_seond_clk_0/Count_RNIJS3B\[1\]/Y  one_seond_clk_0/Count_RNID6E11\[5\]/C  one_seond_clk_0/Count_RNID6E11\[5\]/Y  one_seond_clk_0/Cout_RNO/B  one_seond_clk_0/Cout_RNO/Y  one_seond_clk_0/Cout/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  timer_EW/Q_NS_RNO_3\[3\]/A  timer_EW/Q_NS_RNO_3\[3\]/Y  timer_EW/Q_NS_RNO_0\[3\]/A  timer_EW/Q_NS_RNO_0\[3\]/Y  timer_EW/Q_NS_RNO\[3\]/A  timer_EW/Q_NS_RNO\[3\]/Y  timer_EW/Q_NS\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[0\]/CLK  timer_NS_0/Q_NS\[0\]/Q  timer_NS_0/Q_NS_RNO_1\[0\]/A  timer_NS_0/Q_NS_RNO_1\[0\]/Y  timer_NS_0/Q_NS_RNO_0\[0\]/C  timer_NS_0/Q_NS_RNO_0\[0\]/Y  timer_NS_0/Q_NS_RNO\[0\]/C  timer_NS_0/Q_NS_RNO\[0\]/Y  timer_NS_0/Q_NS\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[7\]/CLK  timer_NS_0/Q_NS\[7\]/Q  timer_NS_0/Q_NS_RNO_2\[7\]/A  timer_NS_0/Q_NS_RNO_2\[7\]/Y  timer_NS_0/Q_NS_RNO_0\[7\]/C  timer_NS_0/Q_NS_RNO_0\[7\]/Y  timer_NS_0/Q_NS_RNO\[7\]/C  timer_NS_0/Q_NS_RNO\[7\]/Y  timer_NS_0/Q_NS\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[6\]/CLK  one_seond_clk_0/Count\[6\]/Q  one_seond_clk_0/Count_RNIKQV61\[6\]/A  one_seond_clk_0/Count_RNIKQV61\[6\]/Y  one_seond_clk_0/Count_RNI4JIC1\[7\]/B  one_seond_clk_0/Count_RNI4JIC1\[7\]/Y  one_seond_clk_0/Count_RNO\[9\]/A  one_seond_clk_0/Count_RNO\[9\]/Y  one_seond_clk_0/Count\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[6\]/CLK  timer_NS_0/Q_NS\[6\]/Q  timer_NS_0/Q_NS_RNO_2\[6\]/C  timer_NS_0/Q_NS_RNO_2\[6\]/Y  timer_NS_0/Q_NS_RNO_0\[6\]/B  timer_NS_0/Q_NS_RNO_0\[6\]/Y  timer_NS_0/Q_NS_RNO\[6\]/A  timer_NS_0/Q_NS_RNO\[6\]/Y  timer_NS_0/Q_NS\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Cout/CLK  one_seond_clk_0/Cout/Q  timer_EW/Q_NS_RNIF75S\[7\]/A  timer_EW/Q_NS_RNIF75S\[7\]/Y  trattic_control_0/current_state_ns_1_0__m5/B  trattic_control_0/current_state_ns_1_0__m5/Y  trattic_control_0/current_state_ns_1_0__m6/B  trattic_control_0/current_state_ns_1_0__m6/Y  trattic_control_0/current_state\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNO_0\[5\]/A  timer_NS_0/Q_NS_RNO_0\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/B  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  timer_EW/Q_NS_RNO_1\[1\]/A  timer_EW/Q_NS_RNO_1\[1\]/Y  timer_EW/Q_NS_RNO\[1\]/B  timer_EW/Q_NS_RNO\[1\]/Y  timer_EW/Q_NS\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[5\]/CLK  timer_EW/Q_NS\[5\]/Q  timer_EW/Q_NS_RNO_0\[5\]/A  timer_EW/Q_NS_RNO_0\[5\]/Y  timer_EW/Q_NS_RNO\[5\]/B  timer_EW/Q_NS_RNO\[5\]/Y  timer_EW/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[4\]/CLK  one_seond_clk_0/Count\[4\]/Q  one_seond_clk_0/Count_RNIPK4B\[3\]/B  one_seond_clk_0/Count_RNIPK4B\[3\]/Y  one_seond_clk_0/Count_RNIQ9AM\[7\]/C  one_seond_clk_0/Count_RNIQ9AM\[7\]/Y  one_seond_clk_0/Cout_RNO/A  one_seond_clk_0/Cout_RNO/Y  one_seond_clk_0/Cout/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[4\]/CLK  timer_NS_0/Q_NS\[4\]/Q  timer_NS_0/Q_NS_RNO_0\[4\]/A  timer_NS_0/Q_NS_RNO_0\[4\]/Y  timer_NS_0/Q_NS_RNO\[4\]/B  timer_NS_0/Q_NS_RNO\[4\]/Y  timer_NS_0/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  timer_NS_0/Q_NS_RNO_1\[5\]/C  timer_NS_0/Q_NS_RNO_1\[5\]/Y  timer_NS_0/Q_NS_RNO\[5\]/C  timer_NS_0/Q_NS_RNO\[5\]/Y  timer_NS_0/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[5\]/CLK  timer_EW/Q_NS\[5\]/Q  timer_EW/Q_NS_RNO_1\[5\]/C  timer_EW/Q_NS_RNO_1\[5\]/Y  timer_EW/Q_NS_RNO\[5\]/C  timer_EW/Q_NS_RNO\[5\]/Y  timer_EW/Q_NS\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  timer_NS_0/Q_NS_RNO_2\[3\]/B  timer_NS_0/Q_NS_RNO_2\[3\]/Y  timer_NS_0/Q_NS_RNO\[3\]/C  timer_NS_0/Q_NS_RNO\[3\]/Y  timer_NS_0/Q_NS\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[1\]/CLK  timer_NS_0/Q_NS\[1\]/Q  timer_NS_0/Q_NS_RNO_0\[1\]/A  timer_NS_0/Q_NS_RNO_0\[1\]/Y  timer_NS_0/Q_NS_RNO\[1\]/B  timer_NS_0/Q_NS_RNO\[1\]/Y  timer_NS_0/Q_NS\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[4\]/CLK  timer_EW/Q_NS\[4\]/Q  timer_EW/Q_NS_RNO_0\[4\]/A  timer_EW/Q_NS_RNO_0\[4\]/Y  timer_EW/Q_NS_RNO\[4\]/B  timer_EW/Q_NS_RNO\[4\]/Y  timer_EW/Q_NS\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  timer_EW/Q_NS_RNO_2\[3\]/B  timer_EW/Q_NS_RNO_2\[3\]/Y  timer_EW/Q_NS_RNO\[3\]/C  timer_EW/Q_NS_RNO\[3\]/Y  timer_EW/Q_NS\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[7\]/CLK  timer_EW/Q_NS\[7\]/Q  timer_EW/Q_NS_RNO_2\[7\]/C  timer_EW/Q_NS_RNO_2\[7\]/Y  timer_EW/Q_NS_RNO\[7\]/C  timer_EW/Q_NS_RNO\[7\]/Y  timer_EW/Q_NS\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[6\]/CLK  timer_EW/Q_NS\[6\]/Q  timer_EW/Q_NS_RNO_0\[6\]/A  timer_EW/Q_NS_RNO_0\[6\]/Y  timer_EW/Q_NS_RNO\[6\]/C  timer_EW/Q_NS_RNO\[6\]/Y  timer_EW/Q_NS\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  timer_EW/Q_NS_RNO_0\[1\]/C  timer_EW/Q_NS_RNO_0\[1\]/Y  timer_EW/Q_NS_RNO\[1\]/A  timer_EW/Q_NS_RNO\[1\]/Y  timer_EW/Q_NS\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[1\]/CLK  trattic_control_0/current_state\[1\]/Q  trattic_control_0/current_state_ns_1_0__m5/S  trattic_control_0/current_state_ns_1_0__m5/Y  trattic_control_0/current_state_ns_1_0__m6/B  trattic_control_0/current_state_ns_1_0__m6/Y  trattic_control_0/current_state\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  timer_EW/Q_NS_RNO_1\[3\]/A  timer_EW/Q_NS_RNO_1\[3\]/Y  timer_EW/Q_NS_RNO\[3\]/B  timer_EW/Q_NS_RNO\[3\]/Y  timer_EW/Q_NS\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[1\]/CLK  trattic_control_0/current_state\[1\]/Q  trattic_control_0/current_state_ns_1_0__m2/S  trattic_control_0/current_state_ns_1_0__m2/Y  trattic_control_0/current_state_ns_1_0__m3_0/A  trattic_control_0/current_state_ns_1_0__m3_0/Y  trattic_control_0/current_state\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[0\]/CLK  one_seond_clk_0/Count\[0\]/Q  one_seond_clk_0/Count_RNIJS3B\[1\]/B  one_seond_clk_0/Count_RNIJS3B\[1\]/Y  one_seond_clk_0/Count_RNO\[2\]/A  one_seond_clk_0/Count_RNO\[2\]/Y  one_seond_clk_0/Count\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[7\]/CLK  timer_EW/Q_NS\[7\]/Q  timer_EW/Q_NS_RNO_1\[7\]/A  timer_EW/Q_NS_RNO_1\[7\]/Y  timer_EW/Q_NS_RNO\[7\]/B  timer_EW/Q_NS_RNO\[7\]/Y  timer_EW/Q_NS\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[7\]/CLK  timer_EW/Q_NS\[7\]/Q  timer_EW/Q_NS_RNO_0\[7\]/B  timer_EW/Q_NS_RNO_0\[7\]/Y  timer_EW/Q_NS_RNO\[7\]/A  timer_EW/Q_NS_RNO\[7\]/Y  timer_EW/Q_NS\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[0\]/CLK  timer_EW/Q_NS\[0\]/Q  timer_EW/Q_NS_RNO_0\[1\]/B  timer_EW/Q_NS_RNO_0\[1\]/Y  timer_EW/Q_NS_RNO\[1\]/A  timer_EW/Q_NS_RNO\[1\]/Y  timer_EW/Q_NS\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[6\]/CLK  timer_NS_0/Q_NS\[6\]/Q  timer_NS_0/Q_NS_RNO_1\[6\]/A  timer_NS_0/Q_NS_RNO_1\[6\]/Y  timer_NS_0/Q_NS_RNO\[6\]/B  timer_NS_0/Q_NS_RNO\[6\]/Y  timer_NS_0/Q_NS\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[8\]/CLK  one_seond_clk_0/Count\[8\]/Q  one_seond_clk_0/Count_RNO_0\[9\]/A  one_seond_clk_0/Count_RNO_0\[9\]/Y  one_seond_clk_0/Count_RNO\[9\]/B  one_seond_clk_0/Count_RNO\[9\]/Y  one_seond_clk_0/Count\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[7\]/CLK  one_seond_clk_0/Count\[7\]/Q  one_seond_clk_0/Count_RNI4JIC1\[7\]/A  one_seond_clk_0/Count_RNI4JIC1\[7\]/Y  one_seond_clk_0/Count_RNO\[9\]/A  one_seond_clk_0/Count_RNO\[9\]/Y  one_seond_clk_0/Count\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/un3_count_1_SUM1_0/B  dymamic_led_0/un3_count_1_SUM1_0/Y  dymamic_led_0/count\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[0\]/CLK  trattic_control_0/current_state\[0\]/Q  trattic_control_0/current_state_ns_1_0__m3_0/B  trattic_control_0/current_state_ns_1_0__m3_0/Y  trattic_control_0/current_state\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/un3_count_1_SUM1_0/A  dymamic_led_0/un3_count_1_SUM1_0/Y  dymamic_led_0/count\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[1\]/CLK  trattic_control_0/current_state\[1\]/Q  trattic_control_0/current_state_ns_1_0__m6/A  trattic_control_0/current_state_ns_1_0__m6/Y  trattic_control_0/current_state\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNO\[0\]/A  dymamic_led_0/count_RNO\[0\]/Y  dymamic_led_0/count\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[0\]/CLK  trattic_control_0/current_state\[0\]/Q  trattic_control_0/current_state_ns_1_0__m6/S  trattic_control_0/current_state_ns_1_0__m6/Y  trattic_control_0/current_state\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[7\]/CLK  timer_NS_0/Q_NS\[7\]/Q  timer_NS_0/Q_NS_RNO\[7\]/B  timer_NS_0/Q_NS_RNO\[7\]/Y  timer_NS_0/Q_NS\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[0\]/CLK  timer_EW/Q_NS\[0\]/Q  timer_EW/Q_NS_RNO\[0\]/S  timer_EW/Q_NS_RNO\[0\]/Y  timer_EW/Q_NS\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[0\]/CLK  timer_NS_0/Q_NS\[0\]/Q  timer_NS_0/Q_NS_RNO\[0\]/B  timer_NS_0/Q_NS_RNO\[0\]/Y  timer_NS_0/Q_NS\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[9\]/CLK  one_seond_clk_0/Count\[9\]/Q  one_seond_clk_0/Count_RNO_1\[9\]/A  one_seond_clk_0/Count_RNO_1\[9\]/Y  one_seond_clk_0/Count_RNO\[9\]/C  one_seond_clk_0/Count_RNO\[9\]/Y  one_seond_clk_0/Count\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[0\]/CLK  one_seond_clk_0/Count\[0\]/Q  one_seond_clk_0/Count_RNO\[1\]/B  one_seond_clk_0/Count_RNO\[1\]/Y  one_seond_clk_0/Count\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[2\]/CLK  one_seond_clk_0/Count\[2\]/Q  one_seond_clk_0/Count_RNO\[2\]/B  one_seond_clk_0/Count_RNO\[2\]/Y  one_seond_clk_0/Count\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[4\]/CLK  one_seond_clk_0/Count\[4\]/Q  one_seond_clk_0/Count_RNO\[4\]/B  one_seond_clk_0/Count_RNO\[4\]/Y  one_seond_clk_0/Count\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[3\]/CLK  one_seond_clk_0/Count\[3\]/Q  one_seond_clk_0/Count_RNO\[3\]/B  one_seond_clk_0/Count_RNO\[3\]/Y  one_seond_clk_0/Count\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[6\]/CLK  one_seond_clk_0/Count\[6\]/Q  one_seond_clk_0/Count_RNO\[6\]/B  one_seond_clk_0/Count_RNO\[6\]/Y  one_seond_clk_0/Count\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[5\]/CLK  one_seond_clk_0/Count\[5\]/Q  one_seond_clk_0/Count_RNO\[5\]/B  one_seond_clk_0/Count_RNO\[5\]/Y  one_seond_clk_0/Count\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[7\]/CLK  one_seond_clk_0/Count\[7\]/Q  one_seond_clk_0/Count_RNO\[7\]/B  one_seond_clk_0/Count_RNO\[7\]/Y  one_seond_clk_0/Count\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[8\]/CLK  one_seond_clk_0/Count\[8\]/Q  one_seond_clk_0/Count_RNO\[8\]/B  one_seond_clk_0/Count_RNO\[8\]/Y  one_seond_clk_0/Count\[8\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[0\]/CLK  one_seond_clk_0/Count\[0\]/Q  one_seond_clk_0/Count_RNO\[0\]/A  one_seond_clk_0/Count_RNO\[0\]/Y  one_seond_clk_0/Count\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT one_seond_clk_0/Count\[1\]/CLK  one_seond_clk_0/Count\[1\]/Q  one_seond_clk_0/Count_RNO\[1\]/A  one_seond_clk_0/Count_RNO\[1\]/Y  one_seond_clk_0/Count\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[1\]/CLK  trattic_control_0/current_state\[1\]/Q  trattic_control_0/current_state_RNIVQ5D_1\[0\]/A  trattic_control_0/current_state_RNIVQ5D_1\[0\]/Y  Green2_pad/D  Green2_pad/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[0\]/CLK  trattic_control_0/current_state\[0\]/Q  trattic_control_0/current_state_RNIVQ5D_0\[0\]/A  trattic_control_0/current_state_RNIVQ5D_0\[0\]/Y  Yellow1_pad/D  Yellow1_pad/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[1\]/CLK  trattic_control_0/current_state\[1\]/Q  trattic_control_0/current_state_RNIVQ5D_2\[0\]/B  trattic_control_0/current_state_RNIVQ5D_2\[0\]/Y  Green1_pad/D  Green1_pad/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNIAMNFC2\[1\]/S  dymamic_led_0/count_RNIAMNFC2\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNIJC01A2\[1\]/S  dymamic_led_0/count_RNIJC01A2\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNI4IDMO2\[1\]/S  dymamic_led_0/count_RNI4IDMO2\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNIHP4S92_0\[1\]/S  dymamic_led_0/count_RNIHP4S92_0\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNIJ56C03\[1\]/S  dymamic_led_0/count_RNIJ56C03\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNI5MT7\[1\]/S  dymamic_led_0/count_RNI5MT7\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNI9I46_0\[0\]/A  dymamic_led_0/count_RNI9I46_0\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNI9I46_1\[0\]/B  dymamic_led_0/count_RNI9I46_1\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNI9I46_2\[0\]/A  dymamic_led_0/count_RNI9I46_2\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNI9I46\[0\]/A  dymamic_led_0/count_RNI9I46\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNIMOAKP2\[1\]/S  dymamic_led_0/count_RNIMOAKP2\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNIHP4S92\[1\]/S  dymamic_led_0/count_RNIHP4S92\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[1\]/CLK  trattic_control_0/current_state\[1\]/Q  Red1_pad/D  Red1_pad/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[1\]/CLK  trattic_control_0/current_state\[1\]/Q  trattic_control_0/current_state_RNIVQ5D\[0\]/B  trattic_control_0/current_state_RNIVQ5D\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[1\]/CLK  trattic_control_0/current_state\[1\]/Q  trattic_control_0/current_state_RNIGVI6\[1\]/A  trattic_control_0/current_state_RNIGVI6\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI1AQJM4\[0\]/S  dymamic_led_0/count_RNI1AQJM4\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNIJ56C03\[1\]/S  dymamic_led_0/count_RNIJ56C03\[1\]/Y  dymamic_led_0/count_RNIRUL5P5\[0\]/A  dymamic_led_0/count_RNIRUL5P5\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI1AQJM4\[0\]/S  dymamic_led_0/count_RNI1AQJM4\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a2\[6\]/A  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a2\[6\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI1AQJM4\[0\]/S  dymamic_led_0/count_RNI1AQJM4\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_i_x2\[6\]/A  dymamic_led_0/HC4511_0/SM_8S_1_i_i_x2\[6\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI1AQJM4\[0\]/S  dymamic_led_0/count_RNI1AQJM4\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a3\[6\]/C  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a3\[6\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI1AQJM4\[0\]/S  dymamic_led_0/count_RNI1AQJM4\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_0_0_o2\[5\]/A  dymamic_led_0/HC4511_0/SM_8S_1_0_0_o2\[5\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI1AQJM4\[0\]/S  dymamic_led_0/count_RNI1AQJM4\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a3_0\[4\]/B  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a3_0\[4\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI1AQJM4\[0\]/S  dymamic_led_0/count_RNI1AQJM4\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_0_o2\[1\]/B  dymamic_led_0/HC4511_0/SM_8S_1_i_0_o2\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI1AQJM4\[0\]/S  dymamic_led_0/count_RNI1AQJM4\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_0_0_o2\[5\]/A  dymamic_led_0/HC4511_0/SM_8S_1_0_0_o2\[5\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_0_i_a3_0\[2\]/C  dymamic_led_0/HC4511_0/SM_8S_1_0_i_a3_0\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNIJC01A2\[1\]/S  dymamic_led_0/count_RNIJC01A2\[1\]/Y  dymamic_led_0/count_RNI1AQJM4\[0\]/A  dymamic_led_0/count_RNI1AQJM4\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNI4IDMO2\[1\]/S  dymamic_led_0/count_RNI4IDMO2\[1\]/Y  dymamic_led_0/count_RNIRUL5P5\[0\]/B  dymamic_led_0/count_RNIRUL5P5\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI1AQJM4\[0\]/S  dymamic_led_0/count_RNI1AQJM4\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a3_0\[4\]/B  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a3_0\[4\]/Y  Seg_pad\[4\]/D  Seg_pad\[4\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNIJC01A2\[1\]/S  dymamic_led_0/count_RNIJC01A2\[1\]/Y  dymamic_led_0/count_RNI1AQJM4\[0\]/A  dymamic_led_0/count_RNI1AQJM4\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_0_a3\[3\]/C  dymamic_led_0/HC4511_0/SM_8S_1_i_0_a3\[3\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI1AQJM4\[0\]/S  dymamic_led_0/count_RNI1AQJM4\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_0_o2\[1\]/B  dymamic_led_0/HC4511_0/SM_8S_1_i_0_o2\[1\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_0_a3_0\[0\]/A  dymamic_led_0/HC4511_0/SM_8S_1_i_0_a3_0\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI1AQJM4\[0\]/S  dymamic_led_0/count_RNI1AQJM4\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_i_x2\[6\]/A  dymamic_led_0/HC4511_0/SM_8S_1_i_i_x2\[6\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_i_1\[6\]/B  dymamic_led_0/HC4511_0/SM_8S_1_i_i_1\[6\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI1AQJM4\[0\]/S  dymamic_led_0/count_RNI1AQJM4\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_0_o2\[1\]/B  dymamic_led_0/HC4511_0/SM_8S_1_i_0_o2\[1\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_0\[1\]/A  dymamic_led_0/HC4511_0/SM_8S_1_i_0\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI1AQJM4\[0\]/S  dymamic_led_0/count_RNI1AQJM4\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a2\[6\]/A  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a2\[6\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_0\[1\]/C  dymamic_led_0/HC4511_0/SM_8S_1_i_0\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI1AQJM4\[0\]/S  dymamic_led_0/count_RNI1AQJM4\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a3\[6\]/C  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a3\[6\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_i_1\[6\]/A  dymamic_led_0/HC4511_0/SM_8S_1_i_i_1\[6\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI1AQJM4\[0\]/S  dymamic_led_0/count_RNI1AQJM4\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_0_0_o2\[5\]/A  dymamic_led_0/HC4511_0/SM_8S_1_0_0_o2\[5\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_0_0\[5\]/A  dymamic_led_0/HC4511_0/SM_8S_1_0_0\[5\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNIHP4S92_0\[1\]/S  dymamic_led_0/count_RNIHP4S92_0\[1\]/Y  dymamic_led_0/count_RNIQM47A2\[0\]/B  dymamic_led_0/count_RNIQM47A2\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNIHP4S92_0\[1\]/S  dymamic_led_0/count_RNIHP4S92_0\[1\]/Y  dymamic_led_0/count_RNIQM47A2\[0\]/B  dymamic_led_0/count_RNIQM47A2\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a3\[6\]/A  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a3\[6\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNIHP4S92_0\[1\]/S  dymamic_led_0/count_RNIHP4S92_0\[1\]/Y  dymamic_led_0/count_RNIQM47A2\[0\]/B  dymamic_led_0/count_RNIQM47A2\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a2\[6\]/C  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a2\[6\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNIHP4S92_0\[1\]/S  dymamic_led_0/count_RNIHP4S92_0\[1\]/Y  dymamic_led_0/count_RNIQM47A2\[0\]/B  dymamic_led_0/count_RNIQM47A2\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_0_0\[5\]/B  dymamic_led_0/HC4511_0/SM_8S_1_0_0\[5\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNIHP4S92_0\[1\]/S  dymamic_led_0/count_RNIHP4S92_0\[1\]/Y  dymamic_led_0/count_RNIQM47A2\[0\]/B  dymamic_led_0/count_RNIQM47A2\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_0_x2\[0\]/B  dymamic_led_0/HC4511_0/SM_8S_1_i_0_x2\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNIHP4S92_0\[1\]/S  dymamic_led_0/count_RNIHP4S92_0\[1\]/Y  dymamic_led_0/count_RNIQM47A2\[0\]/B  dymamic_led_0/count_RNIQM47A2\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_0_i_a3_0\[2\]/B  dymamic_led_0/HC4511_0/SM_8S_1_0_i_a3_0\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNIHP4S92_0\[1\]/S  dymamic_led_0/count_RNIHP4S92_0\[1\]/Y  dymamic_led_0/count_RNIQM47A2\[0\]/B  dymamic_led_0/count_RNIQM47A2\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_0_a3_0\[1\]/B  dymamic_led_0/HC4511_0/SM_8S_1_i_0_a3_0\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI1AQJM4\[0\]/S  dymamic_led_0/count_RNI1AQJM4\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_i_x2\[6\]/A  dymamic_led_0/HC4511_0/SM_8S_1_i_i_x2\[6\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_0_0\[5\]/C  dymamic_led_0/HC4511_0/SM_8S_1_0_0\[5\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNI5MT7\[1\]/S  dymamic_led_0/count_RNI5MT7\[1\]/Y  dymamic_led_0/count_RNIQM47A2\[0\]/A  dymamic_led_0/count_RNIQM47A2\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNI5MT7\[1\]/S  dymamic_led_0/count_RNI5MT7\[1\]/Y  dymamic_led_0/count_RNIQM47A2\[0\]/A  dymamic_led_0/count_RNIQM47A2\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a3_0\[4\]/C  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a3_0\[4\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNIMOAKP2\[1\]/S  dymamic_led_0/count_RNIMOAKP2\[1\]/Y  dymamic_led_0/count_RNIBPHJ35\[0\]/B  dymamic_led_0/count_RNIBPHJ35\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNIMOAKP2\[1\]/S  dymamic_led_0/count_RNIMOAKP2\[1\]/Y  dymamic_led_0/count_RNIBPHJ35\[0\]/B  dymamic_led_0/count_RNIBPHJ35\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_0_o2\[1\]/A  dymamic_led_0/HC4511_0/SM_8S_1_i_0_o2\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNIMOAKP2\[1\]/S  dymamic_led_0/count_RNIMOAKP2\[1\]/Y  dymamic_led_0/count_RNIBPHJ35\[0\]/B  dymamic_led_0/count_RNIBPHJ35\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_0_i_a3_0\[2\]/A  dymamic_led_0/HC4511_0/SM_8S_1_0_i_a3_0\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[1\]/CLK  dymamic_led_0/count\[1\]/Q  dymamic_led_0/count_RNIHP4S92\[1\]/S  dymamic_led_0/count_RNIHP4S92\[1\]/Y  dymamic_led_0/count_RNIBPHJ35\[0\]/A  dymamic_led_0/count_RNIBPHJ35\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[1\]/CLK  trattic_control_0/current_state\[1\]/Q  trattic_control_0/current_state_RNIVQ5D\[0\]/B  trattic_control_0/current_state_RNIVQ5D\[0\]/Y  Yellow2_pad/D  Yellow2_pad/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[1\]/CLK  trattic_control_0/current_state\[1\]/Q  trattic_control_0/current_state_RNIGVI6\[1\]/A  trattic_control_0/current_state_RNIGVI6\[1\]/Y  Red2_pad/D  Red2_pad/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNIRUL5P5\[0\]/S  dymamic_led_0/count_RNIRUL5P5\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNIRUL5P5\[0\]/S  dymamic_led_0/count_RNIRUL5P5\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a3_0\[4\]/A  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a3_0\[4\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNIRUL5P5\[0\]/S  dymamic_led_0/count_RNIRUL5P5\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a3\[6\]/B  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a3\[6\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNIRUL5P5\[0\]/S  dymamic_led_0/count_RNIRUL5P5\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a2\[6\]/B  dymamic_led_0/HC4511_0/SM_8S_1_i_i_a2\[6\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNIRUL5P5\[0\]/S  dymamic_led_0/count_RNIRUL5P5\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_0_x2\[0\]/A  dymamic_led_0/HC4511_0/SM_8S_1_i_0_x2\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNIRUL5P5\[0\]/S  dymamic_led_0/count_RNIRUL5P5\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_i_x2\[6\]/B  dymamic_led_0/HC4511_0/SM_8S_1_i_i_x2\[6\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNIRUL5P5\[0\]/S  dymamic_led_0/count_RNIRUL5P5\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_0_0_o2\[5\]/B  dymamic_led_0/HC4511_0/SM_8S_1_0_0_o2\[5\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNIRUL5P5\[0\]/S  dymamic_led_0/count_RNIRUL5P5\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_0_a3_0\[1\]/A  dymamic_led_0/HC4511_0/SM_8S_1_i_0_a3_0\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNIQM47A2\[0\]/S  dymamic_led_0/count_RNIQM47A2\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI9I46_0\[0\]/B  dymamic_led_0/count_RNI9I46_0\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI9I46_1\[0\]/A  dymamic_led_0/count_RNI9I46_1\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI9I46_2\[0\]/B  dymamic_led_0/count_RNI9I46_2\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI9I46\[0\]/B  dymamic_led_0/count_RNI9I46\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNIBPHJ35\[0\]/S  dymamic_led_0/count_RNIBPHJ35\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  BIN_to_BCD_0/un15_temp_1_CO2/A  BIN_to_BCD_0/un15_temp_1_CO2/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI9I46_0\[0\]/B  dymamic_led_0/count_RNI9I46_0\[0\]/Y  Sl_pad\[2\]/D  Sl_pad\[2\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI9I46_2\[0\]/B  dymamic_led_0/count_RNI9I46_2\[0\]/Y  Sl_pad\[0\]/D  Sl_pad\[0\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI9I46\[0\]/B  dymamic_led_0/count_RNI9I46\[0\]/Y  Sl_pad\[3\]/D  Sl_pad\[3\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNI9I46_1\[0\]/A  dymamic_led_0/count_RNI9I46_1\[0\]/Y  Sl_pad\[1\]/D  Sl_pad\[1\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  BIN_to_BCD_0/temp_7\[1\]/B  BIN_to_BCD_0/temp_7\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  BIN_to_BCD_0/temp_7\[1\]/B  BIN_to_BCD_0/temp_7\[1\]/Y  BIN_to_BCD_0/un32_temp_1_CO2/B  BIN_to_BCD_0/un32_temp_1_CO2/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  BIN_to_BCD_0/temp_7\[0\]/A  BIN_to_BCD_0/temp_7\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  BIN_to_BCD_0/temp_7\[0\]/A  BIN_to_BCD_0/temp_7\[0\]/Y  BIN_to_BCD_0/un32_temp_1_CO1/A  BIN_to_BCD_0/un32_temp_1_CO1/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  BIN_to_BCD_0/temp_7\[0\]/A  BIN_to_BCD_0/temp_7\[0\]/Y  BIN_to_BCD_0/temp_11\[1\]/C  BIN_to_BCD_0/temp_11\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  BIN_to_BCD_0/temp_7\[1\]/B  BIN_to_BCD_0/temp_7\[1\]/Y  BIN_to_BCD_0/temp_11\[2\]/A  BIN_to_BCD_0/temp_11\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT dymamic_led_0/count\[0\]/CLK  dymamic_led_0/count\[0\]/Q  dymamic_led_0/count_RNIBPHJ35\[0\]/S  dymamic_led_0/count_RNIBPHJ35\[0\]/Y  dymamic_led_0/HC4511_0/SM_8S_1_i_i_x2\[6\]/C  dymamic_led_0/HC4511_0/SM_8S_1_i_i_x2\[6\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  BIN_to_BCD_0/temp_15\[0\]/A  BIN_to_BCD_0/temp_15\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  BIN_to_BCD_0/temp_15\[0\]/A  BIN_to_BCD_0/temp_15\[0\]/Y  BIN_to_BCD_0/un64_temp_1_CO1/A  BIN_to_BCD_0/un64_temp_1_CO1/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  BIN_to_BCD_0/temp_15\[0\]/A  BIN_to_BCD_0/temp_15\[0\]/Y  BIN_to_BCD_0/temp_19\[1\]/C  BIN_to_BCD_0/temp_19\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  BIN_to_BCD_0/temp_15\[1\]/A  BIN_to_BCD_0/temp_15\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  BIN_to_BCD_0/temp_15\[1\]/A  BIN_to_BCD_0/temp_15\[1\]/Y  BIN_to_BCD_0/un64_temp_1_SUM3_0/A  BIN_to_BCD_0/un64_temp_1_SUM3_0/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  BIN_to_BCD_0/un15_temp_1_CO2/A  BIN_to_BCD_0/un15_temp_1_CO2/Y  BIN_to_BCD_0/temp_22\[5\]/C  BIN_to_BCD_0/temp_22\[5\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  BIN_to_BCD_0/un15_temp_1_CO2/A  BIN_to_BCD_0/un15_temp_1_CO2/Y  BIN_to_BCD_0/temp_7\[2\]/B  BIN_to_BCD_0/temp_7\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  BIN_to_BCD_0/un15_temp_1_CO2/A  BIN_to_BCD_0/un15_temp_1_CO2/Y  BIN_to_BCD_0/temp_22\[6\]/A  BIN_to_BCD_0/temp_22\[6\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  BIN_to_BCD_0/temp_15\[0\]/A  BIN_to_BCD_0/temp_15\[0\]/Y  BIN_to_BCD_0/temp_19\[1\]/C  BIN_to_BCD_0/temp_19\[1\]/Y  BIN_to_BCD_0/un92_temp_1_SUM3_0/A  BIN_to_BCD_0/un92_temp_1_SUM3_0/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  BIN_to_BCD_0/temp_7\[0\]/A  BIN_to_BCD_0/temp_7\[0\]/Y  BIN_to_BCD_0/temp_11\[1\]/C  BIN_to_BCD_0/temp_11\[1\]/Y  BIN_to_BCD_0/un48_temp_1_SUM3_0/A  BIN_to_BCD_0/un48_temp_1_SUM3_0/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  BIN_to_BCD_0/un15_temp_1_CO2/A  BIN_to_BCD_0/un15_temp_1_CO2/Y  BIN_to_BCD_0/temp_22\[6\]/A  BIN_to_BCD_0/temp_22\[6\]/Y  BIN_to_BCD_0/un104_temp_1_CO2/B  BIN_to_BCD_0/un104_temp_1_CO2/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  BIN_to_BCD_0/un15_temp_1_CO2/A  BIN_to_BCD_0/un15_temp_1_CO2/Y  BIN_to_BCD_0/temp_22\[5\]/C  BIN_to_BCD_0/temp_22\[5\]/Y  BIN_to_BCD_0/temp\[5\]/C  BIN_to_BCD_0/temp\[5\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  BIN_to_BCD_0/un15_temp_1_CO2/A  BIN_to_BCD_0/un15_temp_1_CO2/Y  BIN_to_BCD_0/temp_22\[5\]/C  BIN_to_BCD_0/temp_22\[5\]/Y  BIN_to_BCD_0/un104_temp_1_CO1/A  BIN_to_BCD_0/un104_temp_1_CO1/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  BIN_to_BCD_0/un15_temp_1_CO2/A  BIN_to_BCD_0/un15_temp_1_CO2/Y  BIN_to_BCD_0/temp_22\[6\]/A  BIN_to_BCD_0/temp_22\[6\]/Y  BIN_to_BCD_0/temp\[6\]/A  BIN_to_BCD_0/temp\[6\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  BIN_to_BCD_0/temp_15\[0\]/A  BIN_to_BCD_0/temp_15\[0\]/Y  BIN_to_BCD_0/temp_19\[1\]/C  BIN_to_BCD_0/temp_19\[1\]/Y  BIN_to_BCD_0/temp\[2\]/A  BIN_to_BCD_0/temp\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  BIN_to_BCD_0/un15_temp_1_CO2/A  BIN_to_BCD_0/un15_temp_1_CO2/Y  BIN_to_BCD_0/temp_7\[0\]/B  BIN_to_BCD_0/temp_7\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  BIN_to_BCD_0/un15_temp_1_CO2/A  BIN_to_BCD_0/un15_temp_1_CO2/Y  BIN_to_BCD_0/temp_22\[7\]/C  BIN_to_BCD_0/temp_22\[7\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  BIN_to_BCD_0/temp_15\[1\]/A  BIN_to_BCD_0/temp_15\[1\]/Y  BIN_to_BCD_0/temp_19\[2\]/A  BIN_to_BCD_0/temp_19\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  BIN_to_BCD_0/temp_15\[1\]/A  BIN_to_BCD_0/temp_15\[1\]/Y  BIN_to_BCD_0/temp_19\[2\]/A  BIN_to_BCD_0/temp_19\[2\]/Y  BIN_to_BCD_0/un92_temp_1_SUM3_0/C  BIN_to_BCD_0/un92_temp_1_SUM3_0/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  BIN_to_BCD_0/un15_temp_1_CO2/A  BIN_to_BCD_0/un15_temp_1_CO2/Y  BIN_to_BCD_0/temp_22\[7\]/C  BIN_to_BCD_0/temp_22\[7\]/Y  BIN_to_BCD_0/un104_temp_1_SUM3_0/B  BIN_to_BCD_0/un104_temp_1_SUM3_0/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  BIN_to_BCD_0/un15_temp_1_CO2/A  BIN_to_BCD_0/un15_temp_1_CO2/Y  BIN_to_BCD_0/temp_22\[7\]/C  BIN_to_BCD_0/temp_22\[7\]/Y  BIN_to_BCD_0/temp\[6\]/B  BIN_to_BCD_0/temp\[6\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  BIN_to_BCD_0/temp_15\[1\]/A  BIN_to_BCD_0/temp_15\[1\]/Y  BIN_to_BCD_0/temp_19\[2\]/A  BIN_to_BCD_0/temp_19\[2\]/Y  BIN_to_BCD_0/temp\[2\]/B  BIN_to_BCD_0/temp\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  BIN_to_BCD_0/un48_temp_1_CO1/B  BIN_to_BCD_0/un48_temp_1_CO1/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  BIN_to_BCD_0/un48_temp_1_CO1/B  BIN_to_BCD_0/un48_temp_1_CO1/Y  BIN_to_BCD_0/un48_temp_1_SUM3_0/B  BIN_to_BCD_0/un48_temp_1_SUM3_0/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  BIN_to_BCD_0/un15_temp_1_CO2/A  BIN_to_BCD_0/un15_temp_1_CO2/Y  BIN_to_BCD_0/temp_7\[2\]/B  BIN_to_BCD_0/temp_7\[2\]/Y  BIN_to_BCD_0/un32_temp_1_SUM3_0/B  BIN_to_BCD_0/un32_temp_1_SUM3_0/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  BIN_to_BCD_0/un48_temp_1_CO1/B  BIN_to_BCD_0/un48_temp_1_CO1/Y  BIN_to_BCD_0/un48_temp_1_SUM3_0/B  BIN_to_BCD_0/un48_temp_1_SUM3_0/Y  BIN_to_BCD_0/temp_22\[5\]/B  BIN_to_BCD_0/temp_22\[5\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  BIN_to_BCD_0/un48_temp_1_CO1/B  BIN_to_BCD_0/un48_temp_1_CO1/Y  BIN_to_BCD_0/un48_temp_1_SUM3_0/B  BIN_to_BCD_0/un48_temp_1_SUM3_0/Y  BIN_to_BCD_0/temp_15\[1\]/B  BIN_to_BCD_0/temp_15\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  BIN_to_BCD_0/un48_temp_1_CO1/B  BIN_to_BCD_0/un48_temp_1_CO1/Y  BIN_to_BCD_0/un48_temp_1_SUM3_0/B  BIN_to_BCD_0/un48_temp_1_SUM3_0/Y  BIN_to_BCD_0/temp_22\[7\]/B  BIN_to_BCD_0/temp_22\[7\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[5\]/CLK  timer_NS_0/Q_NS\[5\]/Q  BIN_to_BCD_0/un15_temp_1_CO2/A  BIN_to_BCD_0/un15_temp_1_CO2/Y  BIN_to_BCD_0/temp_7\[2\]/B  BIN_to_BCD_0/temp_7\[2\]/Y  BIN_to_BCD_0/temp_11\[2\]/B  BIN_to_BCD_0/temp_11\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  BIN_to_BCD_0/temp_15\[0\]/A  BIN_to_BCD_0/temp_15\[0\]/Y  BIN_to_BCD_0/temp_19\[1\]/C  BIN_to_BCD_0/temp_19\[1\]/Y  BIN_to_BCD_0/temp\[2\]/A  BIN_to_BCD_0/temp\[2\]/Y  dymamic_led_0/count_RNIHP4S92\[1\]/A  dymamic_led_0/count_RNIHP4S92\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  BIN_to_BCD_0/un48_temp_1_CO1/B  BIN_to_BCD_0/un48_temp_1_CO1/Y  BIN_to_BCD_0/temp_15\[2\]/S  BIN_to_BCD_0/temp_15\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  BIN_to_BCD_0/un48_temp_1_CO1/B  BIN_to_BCD_0/un48_temp_1_CO1/Y  BIN_to_BCD_0/temp_15\[2\]/S  BIN_to_BCD_0/temp_15\[2\]/Y  BIN_to_BCD_0/un64_temp_1_SUM3_0/C  BIN_to_BCD_0/un64_temp_1_SUM3_0/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[3\]/CLK  timer_NS_0/Q_NS\[3\]/Q  BIN_to_BCD_0/un48_temp_1_CO1/B  BIN_to_BCD_0/un48_temp_1_CO1/Y  BIN_to_BCD_0/temp_15\[2\]/S  BIN_to_BCD_0/temp_15\[2\]/Y  BIN_to_BCD_0/temp_19\[2\]/B  BIN_to_BCD_0/temp_19\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT trattic_control_0/current_state\[0\]/CLK  trattic_control_0/current_state\[0\]/Q  trattic_control_0/current_state_RNIVQ5D\[0\]/A  trattic_control_0/current_state_RNIVQ5D\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  BIN_to_BCD_1/temp\[0\]/A  BIN_to_BCD_1/temp\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  BIN_to_BCD_1/temp\[1\]/A  BIN_to_BCD_1/temp\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  BIN_to_BCD_1/un92_temp_1_CO1/A  BIN_to_BCD_1/un92_temp_1_CO1/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/temp_15\[0\]/A  BIN_to_BCD_1/temp_15\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  BIN_to_BCD_1/temp\[0\]/A  BIN_to_BCD_1/temp\[0\]/Y  dymamic_led_0/count_RNIJC01A2\[1\]/B  dymamic_led_0/count_RNIJC01A2\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/un48_temp_1_CO1/B  BIN_to_BCD_1/un48_temp_1_CO1/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/temp_15\[1\]/A  BIN_to_BCD_1/temp_15\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/temp_15\[0\]/A  BIN_to_BCD_1/temp_15\[0\]/Y  BIN_to_BCD_1/un64_temp_1_CO1/B  BIN_to_BCD_1/un64_temp_1_CO1/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/temp_15\[0\]/A  BIN_to_BCD_1/temp_15\[0\]/Y  BIN_to_BCD_1/temp_19\[1\]/C  BIN_to_BCD_1/temp_19\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  BIN_to_BCD_1/un92_temp_1_CO1/A  BIN_to_BCD_1/un92_temp_1_CO1/Y  BIN_to_BCD_1/un92_temp_1_SUM3_0/B  BIN_to_BCD_1/un92_temp_1_SUM3_0/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/un48_temp_1_CO1/B  BIN_to_BCD_1/un48_temp_1_CO1/Y  BIN_to_BCD_1/un48_temp_1_SUM3_0/B  BIN_to_BCD_1/un48_temp_1_SUM3_0/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/temp_15\[0\]/A  BIN_to_BCD_1/temp_15\[0\]/Y  BIN_to_BCD_1/temp_19\[1\]/C  BIN_to_BCD_1/temp_19\[1\]/Y  BIN_to_BCD_1/un92_temp_1_SUM3_0/A  BIN_to_BCD_1/un92_temp_1_SUM3_0/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/temp_15\[0\]/A  BIN_to_BCD_1/temp_15\[0\]/Y  BIN_to_BCD_1/un64_temp_1_CO1/B  BIN_to_BCD_1/un64_temp_1_CO1/Y  BIN_to_BCD_1/un64_temp_1_SUM3_0/B  BIN_to_BCD_1/un64_temp_1_SUM3_0/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/un48_temp_1_CO1/B  BIN_to_BCD_1/un48_temp_1_CO1/Y  BIN_to_BCD_1/un48_temp_1_SUM3_0/B  BIN_to_BCD_1/un48_temp_1_SUM3_0/Y  BIN_to_BCD_1/_l5.temp86lto2/B  BIN_to_BCD_1/_l5.temp86lto2/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/un48_temp_1_CO1/B  BIN_to_BCD_1/un48_temp_1_CO1/Y  BIN_to_BCD_1/un48_temp_1_SUM3_0/B  BIN_to_BCD_1/un48_temp_1_SUM3_0/Y  BIN_to_BCD_1/temp_22\[5\]/B  BIN_to_BCD_1/temp_22\[5\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/temp_15\[0\]/A  BIN_to_BCD_1/temp_15\[0\]/Y  BIN_to_BCD_1/temp_19\[1\]/C  BIN_to_BCD_1/temp_19\[1\]/Y  BIN_to_BCD_1/un92_temp_1_SUM3_0/A  BIN_to_BCD_1/un92_temp_1_SUM3_0/Y  BIN_to_BCD_1/temp\[1\]/B  BIN_to_BCD_1/temp\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/un48_temp_1_CO1/B  BIN_to_BCD_1/un48_temp_1_CO1/Y  BIN_to_BCD_1/un48_temp_1_SUM3_0/B  BIN_to_BCD_1/un48_temp_1_SUM3_0/Y  BIN_to_BCD_1/un76_temp_1_SUM1_0/C  BIN_to_BCD_1/un76_temp_1_SUM1_0/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/un48_temp_1_CO1/B  BIN_to_BCD_1/un48_temp_1_CO1/Y  BIN_to_BCD_1/un48_temp_1_SUM3_0/B  BIN_to_BCD_1/un48_temp_1_SUM3_0/Y  BIN_to_BCD_1/temp_22\[7\]/C  BIN_to_BCD_1/temp_22\[7\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/un48_temp_1_CO1/B  BIN_to_BCD_1/un48_temp_1_CO1/Y  BIN_to_BCD_1/un48_temp_1_SUM3_0/B  BIN_to_BCD_1/un48_temp_1_SUM3_0/Y  BIN_to_BCD_1/temp_15\[1\]/B  BIN_to_BCD_1/temp_15\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/temp_15\[0\]/A  BIN_to_BCD_1/temp_15\[0\]/Y  BIN_to_BCD_1/temp_19\[1\]/C  BIN_to_BCD_1/temp_19\[1\]/Y  BIN_to_BCD_1/un92_temp_1_SUM3_0/A  BIN_to_BCD_1/un92_temp_1_SUM3_0/Y  BIN_to_BCD_1/temp\[0\]/B  BIN_to_BCD_1/temp\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/temp_15\[0\]/A  BIN_to_BCD_1/temp_15\[0\]/Y  BIN_to_BCD_1/temp_19\[1\]/C  BIN_to_BCD_1/temp_19\[1\]/Y  BIN_to_BCD_1/temp\[2\]/A  BIN_to_BCD_1/temp\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/temp_15\[1\]/A  BIN_to_BCD_1/temp_15\[1\]/Y  BIN_to_BCD_1/temp_19\[2\]/A  BIN_to_BCD_1/temp_19\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/temp_15\[1\]/A  BIN_to_BCD_1/temp_15\[1\]/Y  BIN_to_BCD_1/temp_19\[2\]/A  BIN_to_BCD_1/temp_19\[2\]/Y  BIN_to_BCD_1/un92_temp_1_SUM3_0/C  BIN_to_BCD_1/un92_temp_1_SUM3_0/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/temp_15\[1\]/A  BIN_to_BCD_1/temp_15\[1\]/Y  BIN_to_BCD_1/un64_temp_1_SUM3_0/A  BIN_to_BCD_1/un64_temp_1_SUM3_0/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/temp_15\[1\]/A  BIN_to_BCD_1/temp_15\[1\]/Y  BIN_to_BCD_1/un64_temp_1_SUM3_0/A  BIN_to_BCD_1/un64_temp_1_SUM3_0/Y  BIN_to_BCD_1/un104_temp_1_CO2/B  BIN_to_BCD_1/un104_temp_1_CO2/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/temp_15\[1\]/A  BIN_to_BCD_1/temp_15\[1\]/Y  BIN_to_BCD_1/temp_19\[2\]/A  BIN_to_BCD_1/temp_19\[2\]/Y  BIN_to_BCD_1/un92_temp_1_SUM3_0/C  BIN_to_BCD_1/un92_temp_1_SUM3_0/Y  dymamic_led_0/count_RNIHP4S92_0\[1\]/B  dymamic_led_0/count_RNIHP4S92_0\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/temp_15\[0\]/A  BIN_to_BCD_1/temp_15\[0\]/Y  BIN_to_BCD_1/temp_19\[1\]/C  BIN_to_BCD_1/temp_19\[1\]/Y  BIN_to_BCD_1/temp\[2\]/A  BIN_to_BCD_1/temp\[2\]/Y  dymamic_led_0/count_RNIHP4S92\[1\]/B  dymamic_led_0/count_RNIHP4S92\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/temp_15\[1\]/A  BIN_to_BCD_1/temp_15\[1\]/Y  BIN_to_BCD_1/temp_19\[2\]/A  BIN_to_BCD_1/temp_19\[2\]/Y  BIN_to_BCD_1/temp\[2\]/B  BIN_to_BCD_1/temp\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  BIN_to_BCD_1/temp\[1\]/A  BIN_to_BCD_1/temp\[1\]/Y  dymamic_led_0/count_RNIJ56C03\[1\]/B  dymamic_led_0/count_RNIJ56C03\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/un48_temp_1_CO1/B  BIN_to_BCD_1/un48_temp_1_CO1/Y  BIN_to_BCD_1/temp_15\[2\]/S  BIN_to_BCD_1/temp_15\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[1\]/CLK  timer_EW/Q_NS\[1\]/Q  BIN_to_BCD_1/un92_temp_1_CO1/A  BIN_to_BCD_1/un92_temp_1_CO1/Y  BIN_to_BCD_1/temp\[2\]/S  BIN_to_BCD_1/temp\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[5\]/CLK  timer_EW/Q_NS\[5\]/Q  BIN_to_BCD_1/temp_7\[0\]/A  BIN_to_BCD_1/temp_7\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[5\]/CLK  timer_EW/Q_NS\[5\]/Q  BIN_to_BCD_1/temp_7\[0\]/A  BIN_to_BCD_1/temp_7\[0\]/Y  BIN_to_BCD_1/un32_temp_1_CO1/A  BIN_to_BCD_1/un32_temp_1_CO1/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[5\]/CLK  timer_EW/Q_NS\[5\]/Q  BIN_to_BCD_1/temp_7\[0\]/A  BIN_to_BCD_1/temp_7\[0\]/Y  BIN_to_BCD_1/temp_11\[1\]/C  BIN_to_BCD_1/temp_11\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[5\]/CLK  timer_EW/Q_NS\[5\]/Q  BIN_to_BCD_1/temp_7\[0\]/A  BIN_to_BCD_1/temp_7\[0\]/Y  BIN_to_BCD_1/temp_11\[1\]/C  BIN_to_BCD_1/temp_11\[1\]/Y  BIN_to_BCD_1/un48_temp_1_SUM3_0/A  BIN_to_BCD_1/un48_temp_1_SUM3_0/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[5\]/CLK  timer_EW/Q_NS\[5\]/Q  BIN_to_BCD_1/un15_temp_1_CO2/A  BIN_to_BCD_1/un15_temp_1_CO2/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/un48_temp_1_CO1/B  BIN_to_BCD_1/un48_temp_1_CO1/Y  BIN_to_BCD_1/temp_15\[2\]/S  BIN_to_BCD_1/temp_15\[2\]/Y  BIN_to_BCD_1/temp_19\[2\]/B  BIN_to_BCD_1/temp_19\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[3\]/CLK  timer_EW/Q_NS\[3\]/Q  BIN_to_BCD_1/un48_temp_1_CO1/B  BIN_to_BCD_1/un48_temp_1_CO1/Y  BIN_to_BCD_1/temp_15\[2\]/S  BIN_to_BCD_1/temp_15\[2\]/Y  BIN_to_BCD_1/un64_temp_1_SUM3_0/C  BIN_to_BCD_1/un64_temp_1_SUM3_0/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[5\]/CLK  timer_EW/Q_NS\[5\]/Q  BIN_to_BCD_1/un15_temp_1_CO2/A  BIN_to_BCD_1/un15_temp_1_CO2/Y  BIN_to_BCD_1/temp_7\[0\]/B  BIN_to_BCD_1/temp_7\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[5\]/CLK  timer_EW/Q_NS\[5\]/Q  BIN_to_BCD_1/un15_temp_1_CO2/A  BIN_to_BCD_1/un15_temp_1_CO2/Y  BIN_to_BCD_1/temp_22\[7\]/A  BIN_to_BCD_1/temp_22\[7\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[5\]/CLK  timer_EW/Q_NS\[5\]/Q  BIN_to_BCD_1/un15_temp_1_CO2/A  BIN_to_BCD_1/un15_temp_1_CO2/Y  BIN_to_BCD_1/temp_7\[2\]/B  BIN_to_BCD_1/temp_7\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[5\]/CLK  timer_EW/Q_NS\[5\]/Q  BIN_to_BCD_1/temp_7\[0\]/A  BIN_to_BCD_1/temp_7\[0\]/Y  BIN_to_BCD_1/temp_11\[1\]/C  BIN_to_BCD_1/temp_11\[1\]/Y  BIN_to_BCD_1/temp_15\[2\]/A  BIN_to_BCD_1/temp_15\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[5\]/CLK  timer_EW/Q_NS\[5\]/Q  BIN_to_BCD_1/temp_7\[1\]/B  BIN_to_BCD_1/temp_7\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[5\]/CLK  timer_EW/Q_NS\[5\]/Q  BIN_to_BCD_1/temp_7\[1\]/B  BIN_to_BCD_1/temp_7\[1\]/Y  BIN_to_BCD_1/un32_temp_1_CO2/B  BIN_to_BCD_1/un32_temp_1_CO2/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[5\]/CLK  timer_EW/Q_NS\[5\]/Q  BIN_to_BCD_1/temp_7\[1\]/B  BIN_to_BCD_1/temp_7\[1\]/Y  BIN_to_BCD_1/temp_22\[7\]/B  BIN_to_BCD_1/temp_22\[7\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[5\]/CLK  timer_EW/Q_NS\[5\]/Q  BIN_to_BCD_1/un15_temp_1_CO2/A  BIN_to_BCD_1/un15_temp_1_CO2/Y  BIN_to_BCD_1/_l5.temp86lto2/C  BIN_to_BCD_1/_l5.temp86lto2/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[5\]/CLK  timer_EW/Q_NS\[5\]/Q  BIN_to_BCD_1/temp_7\[1\]/B  BIN_to_BCD_1/temp_7\[1\]/Y  BIN_to_BCD_1/temp_11\[2\]/A  BIN_to_BCD_1/temp_11\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[5\]/CLK  timer_EW/Q_NS\[5\]/Q  BIN_to_BCD_1/temp_7\[1\]/B  BIN_to_BCD_1/temp_7\[1\]/Y  BIN_to_BCD_1/_l5.temp86lto2/A  BIN_to_BCD_1/_l5.temp86lto2/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[5\]/CLK  timer_EW/Q_NS\[5\]/Q  BIN_to_BCD_1/temp_7\[1\]/B  BIN_to_BCD_1/temp_7\[1\]/Y  BIN_to_BCD_1/un76_temp_1_SUM1_0/A  BIN_to_BCD_1/un76_temp_1_SUM1_0/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[2\]/CLK  timer_NS_0/Q_NS\[2\]/Q  BIN_to_BCD_0/temp_19\[0\]/A  BIN_to_BCD_0/temp_19\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[2\]/CLK  timer_NS_0/Q_NS\[2\]/Q  BIN_to_BCD_0/temp_19\[0\]/A  BIN_to_BCD_0/temp_19\[0\]/Y  BIN_to_BCD_0/un92_temp_1_CO1/A  BIN_to_BCD_0/un92_temp_1_CO1/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[2\]/CLK  timer_NS_0/Q_NS\[2\]/Q  BIN_to_BCD_0/temp_19\[0\]/A  BIN_to_BCD_0/temp_19\[0\]/Y  BIN_to_BCD_0/temp\[1\]/C  BIN_to_BCD_0/temp\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[2\]/CLK  timer_NS_0/Q_NS\[2\]/Q  BIN_to_BCD_0/temp_19\[1\]/A  BIN_to_BCD_0/temp_19\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[2\]/CLK  timer_NS_0/Q_NS\[2\]/Q  BIN_to_BCD_0/un64_temp_1_CO1/B  BIN_to_BCD_0/un64_temp_1_CO1/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[4\]/CLK  timer_NS_0/Q_NS\[4\]/Q  BIN_to_BCD_0/temp_11\[1\]/A  BIN_to_BCD_0/temp_11\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[4\]/CLK  timer_NS_0/Q_NS\[4\]/Q  BIN_to_BCD_0/temp_11\[0\]/A  BIN_to_BCD_0/temp_11\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[4\]/CLK  timer_NS_0/Q_NS\[4\]/Q  BIN_to_BCD_0/temp_11\[0\]/A  BIN_to_BCD_0/temp_11\[0\]/Y  BIN_to_BCD_0/un48_temp_1_CO1/A  BIN_to_BCD_0/un48_temp_1_CO1/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[4\]/CLK  timer_NS_0/Q_NS\[4\]/Q  BIN_to_BCD_0/un32_temp_1_CO1/B  BIN_to_BCD_0/un32_temp_1_CO1/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[7\]/CLK  timer_NS_0/Q_NS\[7\]/Q  BIN_to_BCD_0/temp_7\[2\]/A  BIN_to_BCD_0/temp_7\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[7\]/CLK  timer_NS_0/Q_NS\[7\]/Q  BIN_to_BCD_0/un15_temp_1_CO2/C  BIN_to_BCD_0/un15_temp_1_CO2/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[7\]/CLK  timer_NS_0/Q_NS\[7\]/Q  BIN_to_BCD_0/temp_7\[1\]/A  BIN_to_BCD_0/temp_7\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[7\]/CLK  timer_EW/Q_NS\[7\]/Q  BIN_to_BCD_1/temp_7\[2\]/A  BIN_to_BCD_1/temp_7\[2\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[7\]/CLK  timer_EW/Q_NS\[7\]/Q  BIN_to_BCD_1/un15_temp_1_CO2/C  BIN_to_BCD_1/un15_temp_1_CO2/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[7\]/CLK  timer_EW/Q_NS\[7\]/Q  BIN_to_BCD_1/temp_7\[1\]/A  BIN_to_BCD_1/temp_7\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[1\]/CLK  timer_NS_0/Q_NS\[1\]/Q  BIN_to_BCD_0/temp\[0\]/A  BIN_to_BCD_0/temp\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[1\]/CLK  timer_NS_0/Q_NS\[1\]/Q  BIN_to_BCD_0/temp\[1\]/A  BIN_to_BCD_0/temp\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[1\]/CLK  timer_NS_0/Q_NS\[1\]/Q  BIN_to_BCD_0/un92_temp_1_CO1/B  BIN_to_BCD_0/un92_temp_1_CO1/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[6\]/CLK  timer_NS_0/Q_NS\[6\]/Q  BIN_to_BCD_0/un15_temp_1_CO2/B  BIN_to_BCD_0/un15_temp_1_CO2/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[6\]/CLK  timer_NS_0/Q_NS\[6\]/Q  BIN_to_BCD_0/temp_7\[1\]/C  BIN_to_BCD_0/temp_7\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[2\]/CLK  timer_EW/Q_NS\[2\]/Q  BIN_to_BCD_1/temp_19\[1\]/A  BIN_to_BCD_1/temp_19\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[2\]/CLK  timer_EW/Q_NS\[2\]/Q  BIN_to_BCD_1/un64_temp_1_CO1/A  BIN_to_BCD_1/un64_temp_1_CO1/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[2\]/CLK  timer_EW/Q_NS\[2\]/Q  BIN_to_BCD_1/temp_19\[0\]/A  BIN_to_BCD_1/temp_19\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[0\]/CLK  timer_EW/Q_NS\[0\]/Q  dymamic_led_0/count_RNI5MT7\[1\]/B  dymamic_led_0/count_RNI5MT7\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[4\]/CLK  timer_EW/Q_NS\[4\]/Q  BIN_to_BCD_1/temp_11\[1\]/A  BIN_to_BCD_1/temp_11\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[4\]/CLK  timer_EW/Q_NS\[4\]/Q  BIN_to_BCD_1/un32_temp_1_CO1/B  BIN_to_BCD_1/un32_temp_1_CO1/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[4\]/CLK  timer_EW/Q_NS\[4\]/Q  BIN_to_BCD_1/temp_11\[0\]/A  BIN_to_BCD_1/temp_11\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_NS_0/Q_NS\[0\]/CLK  timer_NS_0/Q_NS\[0\]/Q  dymamic_led_0/count_RNI5MT7\[1\]/A  dymamic_led_0/count_RNI5MT7\[1\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[6\]/CLK  timer_EW/Q_NS\[6\]/Q  BIN_to_BCD_1/un15_temp_1_CO2/B  BIN_to_BCD_1/un15_temp_1_CO2/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT timer_EW/Q_NS\[6\]/CLK  timer_EW/Q_NS\[6\]/Q  BIN_to_BCD_1/temp_7\[1\]/C  BIN_to_BCD_1/temp_7\[1\]/Y  	(10.0:10.0:10.0) )
+
+  )
+)
+)

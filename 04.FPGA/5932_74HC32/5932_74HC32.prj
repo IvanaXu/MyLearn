@@ -1,0 +1,202 @@
+KEY LIBERO "9.1"
+KEY CAPTURE "9.1.0.18"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "74adee6d-e7ed-4ace-8903-32b7be5174dd"
+KEY HDLTechnology "VERILOG"
+KEY VendorTechnology_Family "ProASIC3"
+KEY VendorTechnology_Die "IQ2X1M0"
+KEY VendorTechnology_Package "vq100"
+KEY ProjectLocation "C:\Users\Administrator\Desktop\Êý×ÖÂß¼­ÊµÑé\END\5932\5932_74HC32"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "HC32::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\designer\impl1\HC32.adb,adb"
+STATE="utd"
+TIME="1384608526"
+SIZE="34816"
+ENDFILE
+VALUE "<project>\designer\impl1\HC32.pdb,pdb"
+STATE="utd"
+TIME="1384608521"
+SIZE="14336"
+ENDFILE
+VALUE "<project>\designer\impl1\HC32.stp,stp"
+STATE="utd"
+TIME="1384608521"
+SIZE="48037"
+ENDFILE
+VALUE "<project>\designer\impl1\HC32_ba.sdf,ba_sdf"
+STATE="utd"
+TIME="1384608512"
+SIZE="9524"
+ENDFILE
+VALUE "<project>\designer\impl1\HC32_ba.v,ba_hdl"
+STATE="utd"
+TIME="1384608512"
+SIZE="3386"
+ENDFILE
+VALUE "<project>\hdl\5932_74HC32.v,hdl"
+STATE="utd"
+TIME="1384608085"
+SIZE="209"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1384608529"
+SIZE="770"
+ENDFILE
+VALUE "<project>\stimulus\testbench32.v,tb_hdl"
+STATE="utd"
+TIME="1384608224"
+SIZE="196"
+ENDFILE
+VALUE "<project>\synthesis\HC32.edn,syn_edn"
+STATE="utd"
+TIME="1384608309"
+SIZE="8583"
+ENDFILE
+VALUE "<project>\synthesis\HC32.v,syn_hdl"
+STATE="utd"
+TIME="1384608343"
+SIZE="1346"
+ENDFILE
+VALUE "<project>\synthesis\HC32_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1384608309"
+SIZE="310"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "HC32::work"
+FILE "<project>\hdl\5932_74HC32.v,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\testbench32.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideDESIGNER(<project>\designer\impl1\HC32.adb,adb)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\HC32.edn,syn_edn)=StateSuccess
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST HC32
+VALUE "<project>\stimulus\testbench32.v,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=80ns
+Resolution=1ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=u1
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DumpVCD=false
+VCDFileName=power.vcd
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=D:/Actel/Libero_v9.1/Designer/lib/modelsim/precompiled/vlog/proasic3
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateViewDrawIni=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+GenerateHDLFromSchematic=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="Synplify AE"
+FUNCTION="Synthesis"
+TOOL="Synplify"
+LOCATION="D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+EndProfile
+NAME="ModelSim AE"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="D:\Actel\Libero_v9.1\Model\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+EndProfile
+NAME="WFL"
+FUNCTION="Stimulus"
+TOOL="WFL"
+LOCATION="syncad.exe"
+PARAM="-pwflite"
+BATCH=0
+EndProfile
+NAME="FlashPro"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="D:\Actel\Libero_v9.1\Designer\bin\FlashPro.exe"
+PARAM=""
+BATCH=0
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "HC32::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideDESIGNER(<project>\designer\impl1\HC32.adb,adb)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\HC32.edn,syn_edn)=StateSuccess
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+DESIGNFLOW:
+FILE:<project>\hdl\5932_74HC32.v,hdl
+FILE:<project>\stimulus\testbench32.v,tb_hdl
+ACTIVE_VIEW:2
+ENDLIST

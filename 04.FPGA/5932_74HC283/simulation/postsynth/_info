@@ -1,0 +1,37 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Actelprj\1128\5932_74HC283\simulation
+vHC283
+Z1 IeI:_GMF57Lf_BK8SA9Zi=1
+Z2 V1zAl;L>Y5OTc_c6_IlRX32
+Z3 dD:\Actelprj\1128\5932_74HC283\simulation
+Z4 w1385701591
+Z5 8D:/Actelprj/1128/5932_74HC283/synthesis/HC283.v
+Z6 FD:/Actelprj/1128/5932_74HC283/synthesis/HC283.v
+L0 5
+Z7 OW;L;6.6d;45
+r1
+31
+Z8 o-work postsynth -O0
+Z9 n@h@c283
+Z10 !s100 PQ=I=45edPU8jhNVeZ1DC1
+!s85 0
+!s101 -O0
+vtestbench
+!s100 Wl=hWKF>ON9nF=ge@d<7[2
+IS2OYeSZ:?hIcB[nM=A=`P3
+VhGfW:390DM[oDMzegDH9`2
+R3
+w1385700800
+8D:/Actelprj/1128/5932_74HC283/stimulus/testbench283.v
+FD:/Actelprj/1128/5932_74HC283/stimulus/testbench283.v
+L0 3
+R7
+r1
+!s85 0
+31
+!s101 -O0
+R8
+!s92 +incdir+D:/Actelprj/1128/5932_74HC283/stimulus -work postsynth -O0

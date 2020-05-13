@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="datasheet.xsl"?>
+<datasheet>
+  <header>XYF</header>
+  <project-settings>
+    <fam>ProASIC3</fam>
+    <die>A3P030</die>
+    <package>100 VQFP</package>
+    <hdl-type>Verilog</hdl-type>
+    <location>D:/Actelprj/1401/5932_extend_coder/component/work/XYF</location>
+    <state>SAVED</state>
+  </project-settings>
+  <site-map>
+  </site-map>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>HC148</core-exttype>
+    <core-location>hdl\5932_74HC148.v</core-location>
+    <core-name>HC148_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>HC148</core-exttype>
+    <core-location>hdl\5932_74HC148.v</core-location>
+    <core-name>HC148_1</core-name>
+  </core>
+  <memorysystem>
+    <title>Memory Map for XYF</title>
+    <description>The project does not contain any subsystems.</description>
+  </memorysystem>
+</datasheet>

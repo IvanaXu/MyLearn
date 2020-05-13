@@ -1,0 +1,37 @@
+Selecting top level module XYF
+@N: CG364 :"D:\Actelprj\1401\5932_sign_cmp\hdl\com_2c.v":3:7:3:12|Synthesizing module Com_2C
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1864:7:1864:9|Synthesizing module VCC
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":104:7:104:10|Synthesizing module AO1C
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1416:7:1416:11|Synthesizing module NOR3A
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":110:7:110:10|Synthesizing module AO1D
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":8:7:8:11|Synthesizing module AND2A
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":20:7:20:10|Synthesizing module AND3
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1470:7:1470:10|Synthesizing module OR2A
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1374:7:1374:12|Synthesizing module NAND3A
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1398:7:1398:11|Synthesizing module NOR2A
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1905:7:1905:11|Synthesizing module XNOR2
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":86:7:86:9|Synthesizing module AO1
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":122:7:122:10|Synthesizing module AOI1
+
+@N: CG364 :"D:\Actelprj\1401\5932_sign_cmp\smartgen\cmp_2\cmp_2.v":5:7:5:11|Synthesizing module cmp_2
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1163:7:1163:9|Synthesizing module GND
+
+@N: CG364 :"D:\Actelprj\1401\5932_sign_cmp\component\work\XYF\XYF.v":5:7:5:9|Synthesizing module XYF
+
+@W: CL168 :"D:\Actelprj\1401\5932_sign_cmp\component\work\XYF\XYF.v":40:8:40:10|Pruning instance GND - not in use ...
+
+@W: CL168 :"D:\Actelprj\1401\5932_sign_cmp\component\work\XYF\XYF.v":30:8:30:10|Pruning instance VCC - not in use ...
+

@@ -1,0 +1,28 @@
+----------------------------------------------------------------------
+Report for cell HC4511.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             CLKBUF         1       0.0        0.0
+                           DLN0P1C1         7       2.0       14.0
+                           DLN1P1C1         1       2.0        2.0
+                                GND         1       0.0        0.0
+                              INBUF         6       0.0        0.0
+                                INV         2       1.0        2.0
+                               NOR2         4       1.0        4.0
+                              NOR2A         4       1.0        4.0
+                               NOR3         2       1.0        2.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         3       1.0        3.0
+                               OAI1         3       1.0        3.0
+                               OR2B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                             OUTBUF         8       0.0        0.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                              XNOR2         1       1.0        1.0
+                               XOR2         1       1.0        1.0
+                            
+                         TOTAL             54                 45.0

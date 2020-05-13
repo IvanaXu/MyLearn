@@ -1,0 +1,376 @@
+#Build: Synplify Pro E-2010.09A-1, Build 006R, Oct  6 2010
+#install: D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1
+#OS:  6.1
+#Hostname: IDEAPAD
+
+#Implementation: synthesis
+
+#Sat Jan 11 16:19:33 2014
+
+$ Start of Compile
+#Sat Jan 11 16:19:33 2014
+
+Synopsys Verilog Compiler, version comp520rcp1, Build 028R, built Sep 23 2010
+@N|Running in 32-bit mode
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+
+@I::"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v"
+@I::"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vlog\hypermods.v"
+@I::"D:\Actelprj\1401\5932_ traf_ctl\hdl\BIN_TO_BCD.v"
+@I::"D:\Actelprj\1401\5932_ traf_ctl\hdl\5932_74HC4511.v"
+@I::"D:\Actelprj\1401\5932_ traf_ctl\hdl\5932_digi_disp.v"
+@I::"D:\Actelprj\1401\5932_ traf_ctl\hdl\timer_NS.v"
+@I::"D:\Actelprj\1401\5932_ traf_ctl\hdl\one_second_clk.v"
+@I::"D:\Actelprj\1401\5932_ traf_ctl\hdl\traffic_control.v"
+@I::"D:\Actelprj\1401\5932_ traf_ctl\component\work\XYF\XYF.v"
+Verilog syntax check successful!
+Selecting top level module XYF
+@N: CG364 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\BIN_TO_BCD.v":2:7:2:16|Synthesizing module BIN_to_BCD
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1864:7:1864:9|Synthesizing module VCC
+
+@N: CG364 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\5932_74HC4511.v":2:7:2:12|Synthesizing module HC4511
+
+@N: CG179 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\5932_74HC4511.v":13:19:13:23|Removing redundant assignment
+@W: CL118 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\5932_74HC4511.v":11:2:11:3|Latch generated from always block for signal SM_8S[7:0], probably caused by a missing assignment in an if or case stmt
+@N: CG364 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\5932_digi_disp.v":2:7:2:17|Synthesizing module dymamic_led
+
+@W: CG296 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\5932_digi_disp.v":24:8:24:18|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\5932_digi_disp.v":27:19:27:19|Referenced variable a is not in sensitivity list
+@W: CG290 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\5932_digi_disp.v":28:19:28:19|Referenced variable b is not in sensitivity list
+@W: CG290 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\5932_digi_disp.v":29:19:29:19|Referenced variable c is not in sensitivity list
+@W: CG290 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\5932_digi_disp.v":30:19:30:19|Referenced variable d is not in sensitivity list
+@W: CG133 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\5932_digi_disp.v":7:8:7:14|No assignment to Seg_reg
+@N: CG364 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\timer_NS.v":2:7:2:14|Synthesizing module timer_NS
+
+@N: CG364 :"D:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v":1163:7:1163:9|Synthesizing module GND
+
+@N: CG364 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\one_second_clk.v":2:7:2:19|Synthesizing module one_seond_clk
+
+@N: CG364 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\traffic_control.v":2:7:2:21|Synthesizing module trattic_control
+
+@N: CG364 :"D:\Actelprj\1401\5932_ traf_ctl\component\work\XYF\XYF.v":5:7:5:9|Synthesizing module XYF
+
+@W: CL168 :"D:\Actelprj\1401\5932_ traf_ctl\component\work\XYF\XYF.v":86:8:86:10|Pruning instance GND - not in use ...
+
+@W: CL168 :"D:\Actelprj\1401\5932_ traf_ctl\component\work\XYF\XYF.v":56:8:56:10|Pruning instance VCC - not in use ...
+
+@N: CL201 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\traffic_control.v":17:0:17:5|Trying to extract state machine for register current_state
+Extracted state machine for register current_state
+State machine has 4 reachable states with original encodings of:
+   0001
+   0010
+   0100
+   1000
+@W: CL157 :"D:\Actelprj\1401\5932_ traf_ctl\hdl\traffic_control.v":7:11:7:19|*Output State_cnt has undriven bits - a simulation mismatch is possible 
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Jan 11 16:19:34 2014
+
+###########################################################]
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+@W: MO111 :"d:\actelprj\1401\5932_ traf_ctl\hdl\traffic_control.v":7:11:7:19|tristate driver State_cnt_4 on net State_cnt_4 has its enable tied to GND (module trattic_control) 
+@W: MO111 :"d:\actelprj\1401\5932_ traf_ctl\hdl\traffic_control.v":7:11:7:19|tristate driver State_cnt_3 on net State_cnt_3 has its enable tied to GND (module trattic_control) 
+@W: MO111 :"d:\actelprj\1401\5932_ traf_ctl\hdl\traffic_control.v":7:11:7:19|tristate driver State_cnt_2 on net State_cnt_2 has its enable tied to GND (module trattic_control) 
+@W: MO111 :"d:\actelprj\1401\5932_ traf_ctl\hdl\traffic_control.v":7:11:7:19|tristate driver State_cnt_1 on net State_cnt_1 has its enable tied to GND (module trattic_control) 
+@W: MO111 :|tristate driver un1_trattic_control_0_t[3] on net un1_trattic_control_0[3] has its enable tied to GND (module XYF) 
+@W: MO111 :|tristate driver un1_trattic_control_0_t[2] on net un1_trattic_control_0[2] has its enable tied to GND (module XYF) 
+@W: MO111 :|tristate driver un1_trattic_control_0_t[1] on net un1_trattic_control_0[1] has its enable tied to GND (module XYF) 
+@W: MO111 :|tristate driver un1_trattic_control_0_t[0] on net un1_trattic_control_0[0] has its enable tied to GND (module XYF) 
+@W: MO171 :"d:\actelprj\1401\5932_ traf_ctl\hdl\5932_74hc4511.v":11:2:11:3|Sequential instance HC4511_0.SM_8S[7] has been reduced to a combinational gate by constant propagation 
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+@N: MO106 :"d:\actelprj\1401\5932_ traf_ctl\hdl\5932_74hc4511.v":11:2:11:3|Found ROM, 'SM_8S_1[6:0]', 16 words by 7 bits 
+@W: MO129 :"d:\actelprj\1401\5932_ traf_ctl\hdl\5932_74hc4511.v":11:2:11:3|Sequential instance dymamic_led_0.HC4511_0.SM_8S[0] has been reduced to a combinational gate by constant propagation
+@W: MO129 :"d:\actelprj\1401\5932_ traf_ctl\hdl\5932_74hc4511.v":11:2:11:3|Sequential instance dymamic_led_0.HC4511_0.SM_8S[1] has been reduced to a combinational gate by constant propagation
+@W: MO129 :"d:\actelprj\1401\5932_ traf_ctl\hdl\5932_74hc4511.v":11:2:11:3|Sequential instance dymamic_led_0.HC4511_0.SM_8S[2] has been reduced to a combinational gate by constant propagation
+@W: MO129 :"d:\actelprj\1401\5932_ traf_ctl\hdl\5932_74hc4511.v":11:2:11:3|Sequential instance dymamic_led_0.HC4511_0.SM_8S[3] has been reduced to a combinational gate by constant propagation
+@W: MO129 :"d:\actelprj\1401\5932_ traf_ctl\hdl\5932_74hc4511.v":11:2:11:3|Sequential instance dymamic_led_0.HC4511_0.SM_8S[4] has been reduced to a combinational gate by constant propagation
+@W: MO129 :"d:\actelprj\1401\5932_ traf_ctl\hdl\5932_74hc4511.v":11:2:11:3|Sequential instance dymamic_led_0.HC4511_0.SM_8S[5] has been reduced to a combinational gate by constant propagation
+@W: MO129 :"d:\actelprj\1401\5932_ traf_ctl\hdl\5932_74hc4511.v":11:2:11:3|Sequential instance dymamic_led_0.HC4511_0.SM_8S[6] has been reduced to a combinational gate by constant propagation
+@N:"d:\actelprj\1401\5932_ traf_ctl\hdl\timer_ns.v":11:0:11:5|Found counter in view:work.timer_NS_timer_NS(verilog) inst Q_NS[7:0]
+@N:"d:\actelprj\1401\5932_ traf_ctl\hdl\timer_ns.v":11:0:11:5|Found counter in view:work.timer_NS_timer_EW(verilog) inst Q_NS[7:0]
+@N:"d:\actelprj\1401\5932_ traf_ctl\hdl\one_second_clk.v":6:0:6:5|Found counter in view:work.one_seond_clk(verilog) inst Count[9:0]
+Encoding state machine work.trattic_control(verilog)-current_state[3:0]
+original code -> new code
+   0001 -> 00
+   0010 -> 01
+   0100 -> 10
+   1000 -> 11
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 56MB peak: 56MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 56MB peak: 57MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:01s; Memory used current: 56MB peak: 57MB)
+
+Finished preparing to map (Time elapsed 0h:00m:01s; Memory used current: 59MB peak: 60MB)
+
+@N: FP130 |Promoting Net Clk_c on CLKBUF  Clk_pad 
+Finished technology mapping (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 62MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 62MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 62MB)
+
+Writing Analyst data base D:\Actelprj\1401\5932_ traf_ctl\synthesis\XYF.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 62MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:02s; Memory used current: 61MB peak: 62MB)
+
+@W: MT420 |Found inferred clock XYF|Clk with period 10.00ns. A user-defined clock should be declared on object "p:Clk"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Jan 11 16:19:37 2014
+#
+
+
+Top view:               XYF
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.42, P = 1.30, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.556
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------
+XYF|Clk            100.0 MHz     105.9 MHz     10.000        9.444         0.556     inferred     Inferred_clkgroup_0
+=====================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks             |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+XYF|Clk   XYF|Clk  |  10.000      0.556  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: XYF|Clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                         Starting                                                Arrival          
+Instance                 Reference     Type     Pin     Net                      Time        Slack
+                         Clock                                                                    
+--------------------------------------------------------------------------------------------------
+timer_NS.Q_NS[2]         XYF|Clk       DFN1     Q       Q_NS_0[2]                0.550       0.556
+timer_NS.Q_NS[4]         XYF|Clk       DFN1     Q       Q_NS_0[4]                0.550       0.576
+one_seond_clk_0.Cout     XYF|Clk       DFN1     Q       one_seond_clk_0_Cout     0.550       0.702
+timer_NS.Q_NS[3]         XYF|Clk       DFN1     Q       Q_NS_0[3]                0.550       0.739
+timer_NS.Q_NS[5]         XYF|Clk       DFN1     Q       Q_NS_0[5]                0.550       0.791
+timer_EW.Q_NS[1]         XYF|Clk       DFN1     Q       Q_NS[1]                  0.550       1.046
+timer_EW.Q_NS[2]         XYF|Clk       DFN1     Q       Q_NS[2]                  0.550       1.179
+timer_NS.Q_NS[1]         XYF|Clk       DFN1     Q       Q_NS_0[1]                0.550       1.260
+timer_NS.Q_NS[0]         XYF|Clk       DFN1     Q       Q_NS_0[0]                0.550       1.321
+timer_EW.Q_NS[0]         XYF|Clk       DFN1     Q       Q_NS[0]                  0.550       1.375
+==================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                       Starting                                                 Required          
+Instance                               Reference     Type       Pin     Net                     Time         Slack
+                                       Clock                                                                      
+------------------------------------------------------------------------------------------------------------------
+timer_EW.Q_NS[1]                       XYF|Clk       DFN1       D       Q_NS_e1                 9.572        0.556
+timer_EW.Q_NS[6]                       XYF|Clk       DFN1       D       Q_NS_e6                 9.572        0.662
+timer_NS.Q_NS[6]                       XYF|Clk       DFN1       D       Q_NS_e6                 9.572        0.782
+timer_NS.Q_NS[1]                       XYF|Clk       DFN1       D       Q_NS_e1                 9.572        0.987
+trattic_control_0.current_state[1]     XYF|Clk       DFN1C1     D       current_state_ns[1]     9.572        1.046
+trattic_control_0.current_state[0]     XYF|Clk       DFN1C1     D       N_4_i_0                 9.598        1.148
+timer_NS.Q_NS[5]                       XYF|Clk       DFN1       D       Q_NS_e5                 9.572        1.296
+one_seond_clk_0.Count[9]               XYF|Clk       DFN1       D       Count_n9                9.598        1.870
+timer_EW.Q_NS[0]                       XYF|Clk       DFN1       D       N_8                     9.572        1.928
+timer_NS.Q_NS[0]                       XYF|Clk       DFN1       D       N_8                     9.572        1.928
+==================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.428
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.572
+
+    - Propagation time:                      9.015
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.556
+
+    Number of logic level(s):                8
+    Starting point:                          timer_NS.Q_NS[2] / Q
+    Ending point:                            timer_EW.Q_NS[1] / D
+    The start point is clocked by            XYF|Clk [rising] on pin CLK
+    The end   point is clocked by            XYF|Clk [rising] on pin CLK
+
+Instance / Net                                                 Pin      Pin               Arrival     No. of    
+Name                                                 Type      Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------
+timer_NS.Q_NS[2]                                     DFN1      Q        Out     0.550     0.550       -         
+Q_NS_0[2]                                            Net       -        -       1.140     -           7         
+timer_EW.Q_NS_e1_0_o2_a0_2                           OR2       B        In      -         1.690       -         
+timer_EW.Q_NS_e1_0_o2_a0_2                           OR2       Y        Out     0.483     2.173       -         
+Q_NS_e1_0_o2_a0_2                                    Net       -        -       0.602     -           3         
+timer_NS.Q_NS_RNIGHO01[7]                            NOR3A     C        In      -         2.775       -         
+timer_NS.Q_NS_RNIGHO01[7]                            NOR3A     Y        Out     0.535     3.310       -         
+Done_NS_0_a2_m6_e_4                                  Net       -        -       0.240     -           1         
+timer_NS.Q_NS_RNINSBU1[1]                            OR2B      A        In      -         3.550       -         
+timer_NS.Q_NS_RNINSBU1[1]                            OR2B      Y        Out     0.365     3.914       -         
+timer_NS_Done_NS                                     Net       -        -       0.884     -           4         
+trattic_control_0.current_state_s0_0_a3_RNIIKF52     NOR2      A        In      -         4.798       -         
+trattic_control_0.current_state_s0_0_a3_RNIIKF52     NOR2      Y        Out     0.379     5.177       -         
+Ld_i_0_0                                             Net       -        -       0.240     -           1         
+timer_EW.un1_Reset_1_i_i_a2                          NOR2      A        In      -         5.418       -         
+timer_EW.un1_Reset_1_i_i_a2                          NOR2      Y        Out     0.271     5.689       -         
+N_31                                                 Net       -        -       1.246     -           9         
+timer_EW.Q_NS_e6_0_a2_0_1                            NOR2B     B        In      -         6.935       -         
+timer_EW.Q_NS_e6_0_a2_0_1                            NOR2B     Y        Out     0.469     7.403       -         
+N_66_1                                               Net       -        -       0.288     -           2         
+timer_EW.Q_NS_RNO_2[1]                               OR3A      A        In      -         7.691       -         
+timer_EW.Q_NS_RNO_2[1]                               OR3A      Y        Out     0.346     8.038       -         
+N_52                                                 Net       -        -       0.240     -           1         
+timer_EW.Q_NS_RNO[1]                                 OR3C      C        In      -         8.278       -         
+timer_EW.Q_NS_RNO[1]                                 OR3C      Y        Out     0.497     8.775       -         
+Q_NS_e1                                              Net       -        -       0.240     -           1         
+timer_EW.Q_NS[1]                                     DFN1      D        In      -         9.015       -         
+================================================================================================================
+Total path delay (propagation time + setup) of 9.444 is 4.323(45.8%) logic and 5.120(54.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: A3P030_QFN68_-2
+Report for cell XYF.verilog
+  Core Cell usage:
+              cell count     area count*area
+               AO1     1      1.0        1.0
+              AO1B     7      1.0        7.0
+              AO1C     7      1.0        7.0
+              AOI1     2      1.0        2.0
+             AOI1B     3      1.0        3.0
+               AX1     5      1.0        5.0
+              AX1A     4      1.0        4.0
+              AX1B     1      1.0        1.0
+              AX1C     2      1.0        2.0
+              AX1D     2      1.0        2.0
+              AX1E     8      1.0        8.0
+              AXO7     2      1.0        2.0
+               GND     9      0.0        0.0
+               INV     2      1.0        2.0
+               MX2     7      1.0        7.0
+              MX2A     5      1.0        5.0
+              MX2B     5      1.0        5.0
+              MX2C    10      1.0       10.0
+              NOR2    13      1.0       13.0
+             NOR2A    12      1.0       12.0
+             NOR2B    18      1.0       18.0
+              NOR3     2      1.0        2.0
+             NOR3A     6      1.0        6.0
+             NOR3B     1      1.0        1.0
+             NOR3C     2      1.0        2.0
+               OA1     5      1.0        5.0
+              OA1A     9      1.0        9.0
+              OA1B     1      1.0        1.0
+              OA1C     8      1.0        8.0
+              OAI1     2      1.0        2.0
+               OR2    11      1.0       11.0
+              OR2A    14      1.0       14.0
+              OR2B     8      1.0        8.0
+               OR3     2      1.0        2.0
+              OR3A     4      1.0        4.0
+              OR3B     1      1.0        1.0
+              OR3C     3      1.0        3.0
+               VCC     9      0.0        0.0
+              XA1B     8      1.0        8.0
+             XNOR2    11      1.0       11.0
+              XOR2    14      1.0       14.0
+
+
+              DFN1    27      1.0       27.0
+            DFN1C1     4      1.0        4.0
+                   -----          ----------
+             TOTAL   277               259.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     1
+            OUTBUF    18
+                   -----
+             TOTAL    20
+
+
+Core Cells         : 259 of 768 (34%)
+IO Cells           : 20
+Mapper successful!
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Sat Jan 11 16:19:37 2014
+
+###########################################################]
