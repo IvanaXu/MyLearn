@@ -1,5 +1,0 @@
-Selecting top level module HC4511
-@N: CG364 :"D:\Actelprj\1128\5932_74HC4511\hdl\5932_74HC4511.v":2:7:2:12|Synthesizing module HC4511
-
-@N: CG179 :"D:\Actelprj\1128\5932_74HC4511\hdl\5932_74HC4511.v":13:19:13:23|Removing redundant assignment
-@W: CL118 :"D:\Actelprj\1128\5932_74HC4511\hdl\5932_74HC4511.v":11:2:11:3|Latch generated from always block for signal SM_8S[7:0], probably caused by a missing assignment in an if or case stmt
