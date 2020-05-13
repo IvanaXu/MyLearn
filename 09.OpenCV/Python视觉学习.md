@@ -125,7 +125,7 @@ img4 = cv.circle(img4, (600,150), 100, (0,0,255), 3)
 pts = np.array([[1520,620],[1020,830],[1400,920],[650,910]])
 img4 = cv.polylines(img4, [pts], True, (255,255,255), 2)
 ```
-<img src="./pict/view_img4.jpg" alt="img001" height="200" />
+<img src="./pict/view_img4-squashed.jpg" alt="img001" height="200" />
 
 * 颜色取反
 ``` python
