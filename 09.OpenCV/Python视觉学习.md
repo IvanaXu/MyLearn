@@ -36,6 +36,8 @@ from IPython.display import Image
 
 ![/](./pict/view.jpg)
 
+![/](./pict/yelp.jpg)
+
 <img src="./pict/view.jpg" alt="img001" height="200"/>
 
 <img src="./pict/yelp.jpg" alt="img001" height="200"/>
