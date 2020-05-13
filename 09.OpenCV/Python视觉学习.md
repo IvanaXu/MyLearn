@@ -34,8 +34,6 @@ from IPython.display import Image
 >
 > yelp.jpg
 
-![img001]()
-
 <img src="./pict/view.jpg" alt="img001" height="200"/>
 
 <img src="./pict/yelp.jpg" alt="img001" height="200"/>
