@@ -67,7 +67,7 @@ img.shape
 
 如下图：
 
-<img src="./pict/0dd7912397dda1448aa71c91b2b7d0a20cf48662.jpeg" alt="img001" height="200" />
+![/](./pict/0dd7912397dda1448aa71c91b2b7d0a20cf48662.jpeg)
 
 **常见颜色**
 
@@ -88,19 +88,22 @@ img.shape
 ``` python
 img0 = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 ```
-<img src="./pict/view_img0-squashed.jpg" alt="img001" height="200" />
+
+![/](./pict/view_img0-squashed.jpg)
 
 * 尺寸调整
 ``` python
 img1 = cv.resize(img, (200, 300))
 ```
-<img src="./pict/view_img1-squashed.jpg" alt="img001" height="200" />
+
+![/](./pict/view_img1-squashed.jpg)
 
 * 图片截取
 ``` python
 img2 = img[200:300, 200:800]
 ```
-<img src="./pict/view_img2-squashed.jpg" alt="img001" height="200" />
+
+![/](./pict/view_img2-squashed.jpg)
 
 * 置换图片
 ``` python
@@ -109,7 +112,8 @@ for i in range(400, 800):
     for j in range(400, 800):
         img3[i, j] = img0[i, j]
 ```
-<img src="./pict/view_img3-squashed.jpg" alt="img001" height="200" />
+
+![/](./pict/view_img3-squashed.jpg)
 
 * 元素绘制
 ``` python
@@ -121,14 +125,15 @@ pts = np.array([[1520,620],[1020,830],[1400,920],[650,910]])
 img4 = cv.polylines(img4, [pts], True, (255,255,255), 2)
 ```
 
-<img src="./pict/view_img4-squashed.jpg" alt="img001" height="200" />
+![/](./pict/view_img4-squashed.jpg)
 
 * 颜色取反
 ``` python
 img5 = img.copy()
 img5 = 255 - img5
 ```
-<img src="./pict/view_img5-squashed.jpg" alt="img001" height="200" />
+
+![/](./pict/view_img5-squashed.jpg)
 
 * 灰度二值处理
 ``` python
@@ -136,7 +141,8 @@ img6 = img0.copy()
 ret, im_fixed = cv.threshold(img6, 50, 255, cv.THRESH_BINARY)
 img6 = im_fixed.copy()
 ```
-<img src="./pict/view_img6-squashed.jpg" alt="img001" height="200" />
+
+![/](./pict/view_img6-squashed.jpg)
 
 * 灰度gamma处理
 ``` python
@@ -148,7 +154,8 @@ for i in range(rows):
     for j in range(cols):
         img7[i][j] = 3 * pow(img7[i][j], 0.8)
 ```
-<img src="./pict/view_img7-squashed.jpg" alt="img001" height="200" />
+
+![/](./pict/view_img7-squashed.jpg)
 
 * 图片轮廓
 ``` python
@@ -159,7 +166,8 @@ contours, hierarchy = cv.findContours(thresh, cv.RETR_EXTERNAL, cv.CHAIN_APPROX_
 imgA[:] = 255
 cv.drawContours(imgA, contours, -1, (0,0,255), 1)
 ```
-<img src="./pict/view_imgA-squashed.jpg" alt="img001" height="200" />
+
+![/](./pict/view_imgA-squashed.jpg)
 
 * 图片简单融合
 ``` python
@@ -167,14 +175,16 @@ img8_1 = img.copy()
 img8_2 = cv.imread(f"yelp{ftype}")
 img8_1 = cv.add(img8_1,img8_2)
 ```
-<img src="./pict/view_img8_1-squashed.jpg" alt="img001" height="200" />
+
+![/](./pict/view_img8_1-squashed.jpg)
 
 ``` python
 img8_1 = img.copy()
 img8_2 = cv.imread(f"yelp{ftype}")
 img8_2 = img8_1 + img8_2
 ```
-<img src="./pict/view_img8_2-squashed.jpg" alt="img001" height="200" />
+
+![/](./pict/view_img8_2-squashed.jpg)
 
 * 图片条件融合
 ``` python
@@ -182,14 +192,16 @@ img9_1 = img.copy()
 img9_2 = cv.imread(f"yelp{ftype}")
 img9_1 = img9_1 * 0.75 + img9_2 * 1.25
 ```
-<img src="./pict/view_img9_1-squashed.jpg" alt="img001" height="200" />
+
+![/](./pict/view_img9_1-squashed.jpg)
 
 ``` python
 img9_1 = img.copy()
 img9_2 = cv.imread(f"yelp{ftype}")
 img9_2 = cv.addWeighted(img9_1, 0.75, img9_2, 1.25, 0)
 ```
-<img src="./pict/view_img9_2-squashed.jpg" alt="img001" height="200" />
+
+![/](./pict/view_img9_2-squashed.jpg)
 
 * 图片颜色分割
 ``` python
@@ -198,15 +210,15 @@ imgCb, imgCg, imgCr = cv.split(imgC)
 ```
 #### 颜色B
 
-<img src="./pict/view_imgCb-squashed.jpg" alt="img001" height="200" />
+![/](./pict/view_imgCb-squashed.jpg)
 
 #### 颜色G
 
-<img src="./pict/view_imgCg-squashed.jpg" alt="img001" height="200" />
+![/](./pict/view_imgCg-squashed.jpg)
 
 #### 颜色R
 
-<img src="./pict/view_imgCr-squashed.jpg" alt="img001" height="200" />
+![/](./pict/view_imgCr-squashed.jpg)
 
 * 图片颜色融合
 ``` python
@@ -219,14 +231,16 @@ imgD2b, imgD2g, imgD2r = cv.split(imgD_2)
 # 取图2颜色G部分融合至图1
 imgD = cv.merge((imgD1b, imgD2g, imgD1r))
 ```
-<img src="./pict/view_imgD-squashed.jpg" alt="img001" height="200" />
+
+![/](./pict/view_imgD-squashed.jpg)
 
 * 图片翻转
 ``` python
 imgE = img.copy()
 imgE = cv.flip(imgE, 1)
 ```
-<img src="./pict/view_imgE-squashed.jpg" alt="img001" height="200" />
+
+![/](./pict/view_imgE-squashed.jpg)
 
 * 图片平移
 ``` python
@@ -236,7 +250,8 @@ rows, cols = imgF.shape[:2]
 M = np.float32([[1, 0, 300], [0, 1, 100]])
 imgF = cv.warpAffine(imgF, M, (cols, rows))
 ```
-<img src="./pict/view_imgF-squashed.jpg" alt="img001" height="200" />
+
+![/](./pict/view_imgF-squashed.jpg)
 
 * 图片旋转
 ``` python
@@ -246,7 +261,8 @@ rows, cols = imgG.shape[:2]
 M = cv.getRotationMatrix2D((cols/2, rows/2), 45, 0.5)
 imgG = cv.warpAffine(imgG, M, (cols, rows))
 ```
-<img src="./pict/view_imgG-squashed.jpg" alt="img001" height="200" />
+
+![/](./pict/view_imgG-squashed.jpg)
 
 * 图片平滑
 ``` python
@@ -254,34 +270,42 @@ imgG = cv.warpAffine(imgG, M, (cols, rows))
 imgH1 = img.copy()
 imgH1 = cv.blur(imgH1, (20, 20))
 ```
-<img src="./pict/view_imgH1-squashed.jpg" alt="img001" height="200" />
+
+![/](./pict/view_imgH1-squashed.jpg)
 
 ``` python
 # 方框滤波
 imgH2 = img.copy()
 imgH2 = cv.boxFilter(imgH2, -1, (20, 20), normalize=True)
 ```
-<img src="./pict/view_imgH2-squashed.jpg" alt="img001" height="200" />
+
+![/](./pict/view_imgH2-squashed.jpg)
 
 ``` python
 # 高斯滤波
 imgH3 = img.copy()
 imgH3 = cv.GaussianBlur(imgH3, (21, 21), 1)
 ```
-<img src="./pict/view_imgH3-squashed.jpg" alt="img001" height="200" />
+
+![/](./pict/view_imgH3-squashed.jpg)
 
 ``` python
 # 中值滤波
 imgH4 = img.copy()
 imgH4 = cv.medianBlur(imgH4, 21)
 ```
-<img src="./pict/view_imgH4-squashed.jpg" alt="img001" height="200" />
+
+![/](./pict/view_imgH4-squashed.jpg)
 
 ``` python
 # 双边滤波
 imgH5 = img.copy()
 imgH5 = cv.bilateralFilter(imgH5, 9, 75, 75) 
 ```
-<img src="./pict/view_imgH5-squashed.jpg" alt="img001" height="200" />
+
+![/](./pict/view_imgH5-squashed.jpg)
 
 **Nice！**
+
+
+
