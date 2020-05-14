@@ -34,10 +34,9 @@ from IPython.display import Image
 >
 > yelp.jpg
 
-<img src="./pict/view-squashed.jpg" alt="img001" height="200"/>
+![/](./pict/view-squashed.jpg)
 
-<img src="./pict/yelp-squashed.jpg" alt="img001" height="200"/>
-
+![/](./pict/yelp-squashed.jpg)
 
 * 图片读取
 
