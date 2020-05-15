@@ -267,12 +267,15 @@ endmodule
 
 
 
-2. 
+2. 仿真结果
 
-![img](file:////private/var/folders/0v/hmkn9lmd2ps454cq91qglcr80000gn/T/com.kingsoft.wpsoffice.mac/wps-ivan/ksohtml/wpsygIq5Q.jpg)
+![p1-1.png](./00.Source/p1-1.png)
 
+![p1-2.png](./00.Source/p1-2.png)
 
+![p1-3.png](./00.Source/p1-3.png)
 
+![p1-4.png](./00.Source/p1-4.png)
 
 
 
