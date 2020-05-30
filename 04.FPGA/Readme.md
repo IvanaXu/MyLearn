@@ -1029,7 +1029,249 @@ endmodule
 
 #### 四、基本门电路、组合电路和时序电路的程序烧录及验证
 
-1
+- 实验内容
+
+1. 新建一个工程文件，工程文件命名规则：***\*学号后4位_XX1_XX2_XX3\****，其中XX1为所选门电路型号，XX2为所选组合电路型号，XX3为所选时序电路型号。
+2. 从前面已经设计好的门电路文件（74HC00、74HC02、74HC04、74HC08、74HC32、74HC86实例文件（.v文件））选择一个文件导入，在SmartDesign窗口添加这个模块，完成输入输出端口连线。
+3. 从前面已经设计好的组合电路文件（74HC148、74HC138、74HC153、74HC85、74HC283实例文件（.v文件））选择一个文件导入，在上面SmartDesign窗口添加这个模块，完成输入输出端口连线。
+4. 从前面已经设计好的时序电路文件（74HC74、74HC112、74HC194、74HC161实例文件（.v文件））选择一个文件导入，在上面SmartDesign窗口添加这个模块，完成输入输出端口连线。
+5. 将上述设计综合，记录综合后的RTL视图。
+6. 设计适当的测试平台（可使用之前的测试平台内容），对上述设计进行综合后仿真，并记录仿真结果。
+7. 完成上述设计的布局布线（注意，布局布线时，应查看实验指导书图1-7，避免使用图1-7中已被定义的引脚），记录布局布线的引脚号与端口对应关系。
+8. 烧录。
+9. 实测。实测相应功能并记录结果
+
+
+
+```verilog
+// 5932_74HC00.v
+module HC00(A,B,Y);
+input [4:1]A,B;
+output [4:1]Y;
+assign Y=~(A&B);//74HC00 与非 数据流风格
+Endmodule
+```
+
+```verilog
+// 5932_74HC153.v
+module HC153(I1,I2,S1,S2,E1N,E2N,Y1,Y2);
+input[0:3]I1;input[0:3]I2;
+input S1,S2;
+input E1N,E2N;
+output Y1,Y2;
+reg Y1,Y2;
+
+always@(I1 or I2 or S1 or S2 or E1N or E2N)
+begin:local
+ if(E1N)
+  Y1=0;
+ else
+  begin
+   case({S1,S2})
+    0:Y1=I1[0];
+    1:Y1=I1[1];
+    2:Y1=I1[2];
+    3:Y1=I1[3];
+    default:Y1=1'bx;
+   endcase
+  end
+
+ if(E2N)
+  Y2=0;
+ else
+  begin
+   case({S1,S2})
+    0:Y2=I2[0];
+    1:Y2=I2[1];
+    2:Y2=I2[2];
+    3:Y2=I2[3];
+    default:Y2=1'bx;
+   endcase
+  end
+ end
+endmodule
+```
+
+```verilog
+// 5932_74HC194.v
+module HC194(MR,S,CP,DSR,DSL,D,Q);
+input MR,CP,DSR,DSL;
+input[1:0]S;input[0:3]D;
+output [0:3]Q;
+reg [0:3]QAUX;
+
+always@(negedge MR or posedge CP)
+ begin
+  if(!MR)QAUX=0;
+  else if(S==2'b00)QAUX<=QAUX;
+  else if(S==2'b01)QAUX={DSR,QAUX[1:3]};
+  else if(S==2'b10)QAUX={QAUX[0:2],DSL};
+  else if(S==2'b11)QAUX=D;
+ end
+assign Q=QAUX;
+endmodule
+```
+
+记录画布设计结果
+
+![p4-1.png](./00.Source/p4-1.png)
+
+记录综合后的RTL视图
+
+![p4-2.png](./00.Source/p4-2.png)
+
+```verilog
+记录测试平台代码。
+// testbench.v
+`timescale 1ns/1ns
+module testbench();
+
+reg[4:1]a,b;
+wire[4:1]y;
+reg[0:3]I1;reg[0:3]I2;
+reg S1,S2,E1N,E2N;
+wire Y1,Y2;
+reg MR,CP,DSR,DSL;
+reg[1:0]S;reg[0:3]D;
+wire[0:3]Q;
+
+initial
+repeat(20)
+ begin
+  a=4'b0000;b=4'b0001;
+  #10 b=b<<1;
+  #10 b=b<<1;
+  #10 b=b<<1;
+  a=4'b1111;b=4'b0001;
+  #10 b=b<<1;
+  #10 b=b<<1;
+  #10 b=b<<1;
+ end
+//74HC00
+
+initial
+ begin
+ I1=0;
+ repeat(20)
+  #20 I1=$random;
+ end
+
+initial
+ begin
+ I2=0;
+ repeat(20)
+  #20 I2=$random;
+ end
+
+initial
+ begin
+  S1=0;S2=0;
+  #20 S1=0;S2=1;
+  #100 S1=1;S2=0;
+  #100 S1=1;S2=1;
+  #100 S1=0;S2=0;
+  #100;
+ end
+
+initial
+ begin
+ E1N=1;E2N=1;
+ #20 E1N=0;E2N=0;
+ end
+//74HC153
+
+parameter clock_period=20;
+always#(clock_period/2)CP=~CP;
+
+initial
+ begin
+  D=0;DSR=0;DSL=0;CP=0;
+  repeat(20)
+   #20 begin D=$random;DSR=$random;DSL=$random;end
+ end
+
+initial
+ #400 $finish;
+
+initial
+ begin
+  MR=0;
+  #20 MR=1;
+ end
+
+initial
+ repeat(20)
+  begin
+  S=2'b00;
+  #20 S=2'b01;
+  #20 S=2'b10;
+  #20 S=2'b11;
+  #20;
+  end
+//74HC194
+XYF u1(.A(a),.B(b),.Y(y),.I1(I1),.I2(I2),.S1(S1),.S2(S2),.E1N(E1N),.E2N(E2N),.Y1(Y1),.Y2(Y2),.MR(MR),.S(S),.CP(CP),.DSR(DSR),.DSL(DSL),.D(D),.Q(Q));
+endmodule
+```
+
+- 实验结果
+
+
+记录综合后的仿真结果
+
+![p4-3.png](./00.Source/p4-3.png)
+
+![p4-4.png](./00.Source/p4-4.png)
+
+![p4-5.png](./00.Source/p4-5.png)
+
+记录布局布线的引脚号与端口的对应关系
+
+![p4-6.png](./00.Source/p4-6.png)
+
+![p4-7.png](./00.Source/p4-7.png)
+
+- 实测记录
+
+74HC00输入输出状态
+
+| 输入端 |      | 输出端Y |          |
+| ------ | ---- | ------- | -------- |
+| A      | B    | LED     | 逻辑状态 |
+| 0      | 0    | 亮      | 1        |
+| 0      | 1    | 亮      | 1        |
+| 1      | 0    | 亮      | 1        |
+| 1      | 1    | 亮      | 0        |
+
+74HC153输入输出状态
+
+| 选择输入 |      | 数据输入 |      |      |      | 输出使能输入 | 输出 |
+| -------- | ---- | -------- | ---- | ---- | ---- | ------------ | ---- |
+| S1       | S0   | 1I0      | 1I1  | 1I2  | 1I3  | 1E           | 1Y   |
+| X        | X    | X        | X    | X    | X    | 1            | 0    |
+| 0        | 0    | 0        | X    | X    | X    | 0            | 0    |
+| 0        | 0    | 1        | X    | X    | X    | 0            | 1    |
+| 1        | 0    | X        | 0    | X    | X    | 0            | 0    |
+| 1        | 0    | X        | 1    | X    | X    | 0            | 1    |
+| 0        | 1    | X        | X    | 0    | X    | 0            | 0    |
+| 0        | 1    | X        | X    | 1    | X    | 0            | 1    |
+| 1        | 1    | X        | X    | X    | 0    | 0            | 0    |
+| 1        | 1    | X        | X    | X    | 1    | 0            | 1    |
+
+74HC194输入输出状态
+
+| 输入 |      |      |      |      |      |      |      |   |       | 输出 |       |      |      |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----- | ----- | ----- | ----- | ---- | ---- |
+| MR   | 模式 |  | 串行 |  |      | 并行 |      |       |       |       |       |      |      |
+|| S1   | S0   | DSR  |DSL| CP | D0   | D1   | D2   | D3   | Q0n+1 | Q1n+1 | Q2n+1 | Q3n+1 |
+| 0    | X    | X    | X    | X    | X    | X    | X    | X     | X     | 0     | 0     | 0    | 0    |
+| 1    | 1    | 1    | X    | X    | ↑    | D0   | D1   | D2    | D3    | D0    | D1    | D2   | D3   |
+| 1    | 0    | 0    | X    | X    | ↑    | X    | X    | X     | X     | Q0n   | Q1n   | Q2n  | Q3n  |
+| 1    | 0    | 1    | 0    | X    | ↑    | X    | X    | X     | X     | 0     | Q0n   | Q1n  | Q2n  |
+| 1    | 0    | 1    | 1    | X    | ↑    | X    | X    | X     | X     | 1     | Q0n   | Q1n  | Q2n  |
+| 1    | 1    | 0    | X    | 0    | ↑    | X    | X    | X     | X     | Q1n   | Q2n   | Q3n  | 0    |
+| 1    | 1    | 0    | X    | 1    | ↑    | X    | X    | X     | X     | Q1n   | Q2n   | Q3n  | 1    |
+
+
 
 #### 五、数字逻辑综合设计仿真及验证
 
